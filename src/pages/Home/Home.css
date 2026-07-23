@@ -1,0 +1,35 @@
+.home {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  padding: 40px;
+}
+
+.logo {
+  font-size: 4rem;
+  font-weight: 700;
+
+  margin-bottom: 30px;
+}
+
+.tagline h2 {
+  font-size: 2rem;
+  font-weight: 600;
+
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  margin-top: 28px;
+
+  color: #b5b5b5;
+
+  font-size: 1.1rem;
+}
