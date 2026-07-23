@@ -1,0 +1,27 @@
+.hero {
+  margin-top: 90px;
+
+  margin-bottom: 90px;
+}
+
+.hero h1 {
+  font-size: clamp(3.4rem, 8vw, 6rem);
+
+  line-height: 1.02;
+
+  font-weight: 700;
+
+  letter-spacing: -0.05em;
+}
+
+.hero p {
+  margin-top: 36px;
+
+  max-width: 620px;
+
+  color: #9f9f9f;
+
+  font-size: 1.15rem;
+
+  line-height: 1.8;
+}

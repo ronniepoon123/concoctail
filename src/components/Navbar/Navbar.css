@@ -1,0 +1,31 @@
+.navbar {
+  padding: 36px 0;
+
+  display: flex;
+  justify-content: flex-start;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+
+  gap: 18px;
+}
+
+.brand h2 {
+  font-size: 1.45rem;
+
+  font-weight: 700;
+
+  letter-spacing: -0.02em;
+}
+
+.brand span {
+  color: #4d4d4d;
+}
+
+.brand p {
+  color: #8d8d8d;
+
+  font-size: 0.95rem;
+}
