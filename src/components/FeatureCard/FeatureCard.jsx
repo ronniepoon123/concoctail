@@ -1,6 +1,11 @@
 import "./FeatureCard.css";
 
-function FeatureCard({ title, image }) {
+function FeatureCard({
+  title,
+  description,
+  image,
+  route,
+}) {
   return (
     <article
       className="feature-card"
@@ -10,7 +15,13 @@ function FeatureCard({ title, image }) {
     >
       <div className="overlay">
 
-        <h2>{title}</h2>
+        <div className="card-content">
+
+          <h2>{title}</h2>
+
+          <p>{description}</p>
+
+        </div>
 
       </div>
     </article>
