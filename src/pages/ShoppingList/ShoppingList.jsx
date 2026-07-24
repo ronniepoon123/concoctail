@@ -1,126 +1,188 @@
 import { useEffect, useState } from "react";
-import "./ShoppingList.css";
 
 import Layout from "../../components/Layout/Layout";
 
+import cocktails from "../../data/cocktails";
+
+import "./ShoppingList.css";
+
 function ShoppingList() {
-  const [items, setItems] = useState([]);
-  const [newItem, setNewItem] = useState("");
+
+  const [shoppingList, setShoppingList] = useState([]);
 
   useEffect(() => {
-    const saved = localStorage.getItem("shoppingList");
 
-    if (saved) {
-      setItems(JSON.parse(saved));
-    }
+    const saved =
+      JSON.parse(
+        localStorage.getItem("shoppingList")
+      ) || [];
+
+    setShoppingList(saved);
+
   }, []);
 
-  useEffect(() => {
-    localStorage.setItem(
-      "shoppingList",
-      JSON.stringify(items)
-    );
-  }, [items]);
-
-  function addItem() {
-    if (!newItem.trim()) return;
-
-    setItems([
-      ...items,
-      {
-        id: Date.now(),
-        name: newItem,
-        bought: false,
-      },
-    ]);
-
-    setNewItem("");
-  }
-
   function toggleBought(id) {
-    setItems(
-      items.map((item) =>
-        item.id === id
-          ? {
-              ...item,
-              bought: !item.bought,
-            }
-          : item
-      )
+
+    const updated = shoppingList.map((item)=>
+
+      item.id === id
+
+        ? {
+
+            ...item,
+
+            bought: !item.bought,
+
+          }
+
+        : item
+
     );
+
+    setShoppingList(updated);
+
+    localStorage.setItem(
+
+      "shoppingList",
+
+      JSON.stringify(updated)
+
+    );
+
   }
 
   function removeItem(id) {
-    setItems(
-      items.filter((item) => item.id !== id)
+
+    const updated = shoppingList.filter(
+
+      (item)=>item.id !== id
+
     );
+
+    setShoppingList(updated);
+
+    localStorage.setItem(
+
+      "shoppingList",
+
+      JSON.stringify(updated)
+
+    );
+
   }
 
   return (
+
     <Layout
+
       title="Shopping List"
-      description="Keep track of ingredients you need to buy."
+
+      description="Ingredients you still need."
+
     >
-      <div className="shopping-input">
 
-        <input
-          type="text"
-          placeholder="Add ingredient..."
-          value={newItem}
-          onChange={(e) =>
-            setNewItem(e.target.value)
-          }
-        />
+      {shoppingList.length === 0 ? (
 
-        <button onClick={addItem}>
-          Add
-        </button>
+        <p>Your shopping list is empty.</p>
 
-      </div>
+      ) : (
 
-      <div className="shopping-list">
+        <div className="shopping-list">
 
-        {items.length === 0 && (
-          <p className="empty">
-            Your shopping list is empty.
-          </p>
-        )}
+          {shoppingList.map((item)=>{
 
-        {items.map((item) => (
-          <div
-            key={item.id}
-            className={`shopping-item ${
-              item.bought ? "bought" : ""
-            }`}
-          >
-            <label>
+            const usedIn = cocktails.filter(
 
-              <input
-                type="checkbox"
-                checked={item.bought}
-                onChange={() =>
-                  toggleBought(item.id)
-                }
-              />
+              (cocktail)=>
 
-              <span>{item.name}</span>
+                cocktail.ingredients.includes(
 
-            </label>
+                  item.name
 
-            <button
-              onClick={() =>
-                removeItem(item.id)
-              }
-            >
-              Remove
-            </button>
+                )
 
-          </div>
-        ))}
+            );
 
-      </div>
+            return (
+
+              <article
+
+                key={item.id}
+
+                className="shopping-card"
+
+              >
+
+                <div>
+
+                  <h3>{item.name}</h3>
+
+                  <small>
+
+                    Needed for:
+
+                  </small>
+
+                  <ul>
+
+                    {usedIn.map((cocktail)=>(
+
+                      <li key={cocktail.id}>
+
+                        {cocktail.name}
+
+                      </li>
+
+                    ))}
+
+                  </ul>
+
+                </div>
+
+                <div className="shopping-actions">
+
+                  <button
+
+                    onClick={()=>toggleBought(item.id)}
+
+                  >
+
+                    {item.bought
+
+                      ? "✓ Bought"
+
+                      : "Mark Bought"}
+
+                  </button>
+
+                  <button
+
+                    className="delete"
+
+                    onClick={()=>removeItem(item.id)}
+
+                  >
+
+                    Remove
+
+                  </button>
+
+                </div>
+
+              </article>
+
+            );
+
+          })}
+
+        </div>
+
+      )}
+
     </Layout>
+
   );
+
 }
 
 export default ShoppingList;

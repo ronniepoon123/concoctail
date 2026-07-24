@@ -1,0 +1,33 @@
+.ingredient-card{
+
+background:#18181b;
+
+padding:28px;
+
+border-radius:20px;
+
+margin-bottom:28px;
+
+}
+
+.ingredient-card h2{
+
+margin-bottom:18px;
+
+}
+
+.ingredient-card p{
+
+margin-bottom:12px;
+
+line-height:1.8;
+
+}
+
+.ingredient-card ul{
+
+padding-left:22px;
+
+line-height:2;
+
+}

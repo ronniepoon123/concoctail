@@ -8,6 +8,7 @@ const featureCards = [
     image: hero,
     route: "/my-bar",
   },
+
   {
     id: 2,
     title: "Spirit of Choice",
@@ -15,6 +16,7 @@ const featureCards = [
     image: hero,
     route: "/spirit-of-choice",
   },
+
   {
     id: 3,
     title: "Collections",
@@ -22,6 +24,7 @@ const featureCards = [
     image: hero,
     route: "/collections",
   },
+
   {
     id: 4,
     title: "Favourites",
@@ -29,6 +32,7 @@ const featureCards = [
     image: hero,
     route: "/favourites",
   },
+
   {
     id: 5,
     title: "Cocktail of the Day",
@@ -36,15 +40,25 @@ const featureCards = [
     image: hero,
     route: "/cocktail-of-the-day",
   },
+
   {
     id: 6,
+    title: "Surprise Me",
+    description: "Discover a random cocktail",
+    image: hero,
+    route: "/surprise",
+  },
+
+  {
+    id: 7,
     title: "Cocktail 101",
     description: "Learn the fundamentals",
     image: hero,
     route: "/cocktail-101",
   },
+
   {
-    id: 7,
+    id: 8,
     title: "Shopping List",
     description: "Never forget an ingredient",
     image: hero,

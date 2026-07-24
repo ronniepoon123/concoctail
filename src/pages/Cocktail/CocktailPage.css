@@ -1,0 +1,56 @@
+.cocktail-page {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cocktail-hero {
+  margin-bottom: 40px;
+}
+
+.cocktail-summary {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.pill {
+  background: #d7a447;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+.cocktail-details {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin: 24px 0 40px;
+  font-weight: 600;
+  color: #d7a447;
+}
+
+.cocktail-section {
+  margin-top: 32px;
+  background: #18181b;
+  padding: 28px;
+  border-radius: 20px;
+}
+
+.cocktail-section h2 {
+  margin-bottom: 18px;
+}
+
+.cocktail-section ul,
+.cocktail-section ol {
+  padding-left: 24px;
+  line-height: 2;
+}
+
+.cocktail-section li {
+  margin-bottom: 8px;
+}
+
+.cocktail-section p {
+  line-height: 1.8;
+}

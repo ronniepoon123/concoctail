@@ -1,0 +1,51 @@
+.collection-tabs{
+
+display:flex;
+
+gap:14px;
+
+flex-wrap:wrap;
+
+margin-bottom:26px;
+
+}
+
+.collection-tabs button{
+
+padding:12px 22px;
+
+border:none;
+
+background:#18181b;
+
+color:white;
+
+border-radius:999px;
+
+cursor:pointer;
+
+transition:.2s;
+
+}
+
+.collection-tabs button:hover{
+
+background:#2d2d31;
+
+}
+
+.collection-tabs button.active{
+
+background:#d7a447;
+
+}
+
+.collection-description{
+
+margin-bottom:34px;
+
+opacity:.75;
+
+font-size:1rem;
+
+}

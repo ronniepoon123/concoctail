@@ -1,0 +1,53 @@
+.spirits-grid{
+
+display:grid;
+
+grid-template-columns:
+
+repeat(auto-fit,minmax(320px,1fr));
+
+gap:28px;
+
+}
+
+.spirit-card{
+
+background:#18181b;
+
+padding:28px;
+
+border-radius:20px;
+
+}
+
+.spirit-card h2{
+
+margin-bottom:16px;
+
+}
+
+.spirit-card p{
+
+line-height:1.8;
+
+margin-bottom:20px;
+
+opacity:.8;
+
+}
+
+.spirit-card h4{
+
+margin-bottom:12px;
+
+color:#d7a447;
+
+}
+
+.spirit-card ul{
+
+padding-left:20px;
+
+line-height:2;
+
+}

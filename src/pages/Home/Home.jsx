@@ -2,7 +2,7 @@ import "./Home.css";
 
 import Navbar from "../../components/Navbar/Navbar";
 import Hero from "../../components/Hero/Hero";
-import SearchBar from "../../components/SearchBar/SearchBar";
+import SearchBar from "../../components/Searchbar/SearchBar";
 import FeatureGrid from "../../components/FeatureGrid/FeatureGrid";
 
 import featureCards from "../../data/featureCards";

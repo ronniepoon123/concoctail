@@ -1,30 +1,47 @@
+import { useMemo, useState } from "react";
+
 import Layout from "../../components/Layout/Layout";
+import CocktailGrid from "../../components/CocktailGrid/CocktailGrid";
+
+import cocktails from "../../data/cocktails";
+
 import "./SpiritOfChoice.css";
 
-
 function SpiritOfChoice() {
+  const [selectedSpirit, setSelectedSpirit] = useState("Gin");
+
+  const spirits = useMemo(() => {
+    return [...new Set(cocktails.map((c) => c.spirit))].sort();
+  }, []);
+
+  const filteredCocktails = useMemo(() => {
+    return cocktails.filter(
+      (cocktail) => cocktail.spirit === selectedSpirit
+    );
+  }, [selectedSpirit]);
+
   return (
     <Layout
       title="Spirit of Choice"
-      description="Choose a base spirit and discover cocktails you can make."
+      description="Browse cocktails by base spirit."
     >
-      <div className="spirit-grid">
-
-        <button>🥃 Whisky</button>
-
-        <button>🍸 Gin</button>
-
-        <button>🍹 Rum</button>
-
-        <button>🍶 Vodka</button>
-
-        <button>🌵 Tequila</button>
-
-        <button>🍊 Brandy</button>
-
-        <button>🍾 Liqueurs</button>
-
+      <div className="spirit-tabs">
+        {spirits.map((spirit) => (
+          <button
+            key={spirit}
+            className={
+              spirit === selectedSpirit
+                ? "active"
+                : ""
+            }
+            onClick={() => setSelectedSpirit(spirit)}
+          >
+            {spirit}
+          </button>
+        ))}
       </div>
+
+      <CocktailGrid cocktails={filteredCocktails} />
     </Layout>
   );
 }

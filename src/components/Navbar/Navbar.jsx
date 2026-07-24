@@ -1,12 +1,18 @@
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
+
 function Navbar() {
+
   return (
+
     <header className="navbar">
 
       <div className="brand">
 
-        <h2>Concoctail</h2>
+        <Link to="/" className="brand-link">
+          <h2>Concoctail</h2>
+        </Link>
 
         <span>|</span>
 
@@ -14,8 +20,21 @@ function Navbar() {
 
       </div>
 
+
+      <nav className="navbar-links">
+
+        <Link to="/shopping-list">
+          🛒 Shopping List
+        </Link>
+
+      </nav>
+
+
     </header>
+
   );
+
 }
+
 
 export default Navbar;

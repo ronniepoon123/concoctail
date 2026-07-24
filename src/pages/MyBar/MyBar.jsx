@@ -25,11 +25,31 @@ function MyBar() {
     }
   }, []);
 
-  // Save whenever bottles change
+  // Save bottles and automatically remove owned bottles
+  // from the Shopping List
   useEffect(() => {
     localStorage.setItem(
       "myBar",
       JSON.stringify(bottles)
+    );
+
+    const owned = bottles
+      .filter((bottle) => bottle.owned)
+      .map((bottle) => bottle.name.toLowerCase());
+
+    const shopping =
+      JSON.parse(
+        localStorage.getItem("shoppingList") || "[]"
+      );
+
+    const updatedShopping = shopping.filter(
+      (item) =>
+        !owned.includes(item.name.toLowerCase())
+    );
+
+    localStorage.setItem(
+      "shoppingList",
+      JSON.stringify(updatedShopping)
     );
   }, [bottles]);
 
@@ -118,7 +138,42 @@ function MyBar() {
     );
   }
 
-  // Group bottles by category
+  // Add missing ingredients directly to Shopping List
+  function addToShoppingList(missingIngredients) {
+    const saved =
+      JSON.parse(
+        localStorage.getItem("shoppingList")
+      ) || [];
+
+    const existing = saved.map((item) =>
+      item.name.toLowerCase()
+    );
+
+    const newItems = missingIngredients
+      .filter(
+        (ingredient) =>
+          !existing.includes(
+            ingredient.toLowerCase()
+          )
+      )
+      .map((ingredient) => ({
+        id: Date.now() + Math.random(),
+        name: ingredient,
+        bought: false,
+      }));
+
+    localStorage.setItem(
+      "shoppingList",
+      JSON.stringify([
+        ...saved,
+        ...newItems,
+      ])
+    );
+
+    alert("Added to Shopping List");
+  }
+
+  // Group bottles
   const spirits = bottles.filter(
     (bottle) => bottle.category === "Spirits"
   );
@@ -140,7 +195,8 @@ function MyBar() {
   );
 
   const sparkling = bottles.filter(
-    (bottle) => bottle.category === "Sparkling Wine"
+    (bottle) =>
+      bottle.category === "Sparkling Wine"
   );
 
   return (
@@ -207,6 +263,7 @@ function MyBar() {
               cocktail={match.cocktail}
               status={match.status}
               missing={match.missing}
+              onAddMissing={addToShoppingList}
             />
           ))}
         </section>
