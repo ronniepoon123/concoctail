@@ -1,0 +1,31 @@
+.build-btn {
+  margin-bottom: 40px;
+  padding: 16px 28px;
+  border: none;
+  border-radius: 14px;
+  background: #d7a447;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.build-btn:hover {
+  background: #bf9038;
+}
+
+.bottle-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 20px;
+}
+
+.matches {
+  margin-top: 60px;
+}
+
+.matches h2 {
+  margin-bottom: 24px;
+  font-size: 2rem;
+}

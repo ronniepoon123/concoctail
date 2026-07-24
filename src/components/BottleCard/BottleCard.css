@@ -1,0 +1,36 @@
+.bottle-card {
+  background: #1b1b20;
+  border-radius: 18px;
+  padding: 22px;
+}
+
+.bottle-header {
+  margin-bottom: 18px;
+}
+
+.bottle-header h3 {
+  margin-bottom: 6px;
+}
+
+.category {
+  color: #888;
+  font-size: .9rem;
+}
+
+.bottle-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.bottle-actions button {
+  flex: 1;
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.delete {
+  background: #5b2626;
+  color: white;
+}

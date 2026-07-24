@@ -39,3 +39,18 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+body {
+  background: #0b0b0d;
+
+  color: white;
+
+  font-family:
+    Inter,
+    system-ui,
+    sans-serif;
+}
+
+button {
+  font: inherit;
+}

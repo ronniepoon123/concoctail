@@ -1,0 +1,65 @@
+.bottle-search {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.bottle-search input {
+  width: 100%;
+  padding: 18px 22px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 16px;
+  background: #1b1b20;
+  color: white;
+  outline: none;
+}
+
+.bottle-search input::placeholder {
+  color: #888;
+}
+
+.search-results {
+  margin-top: 10px;
+  background: #1b1b20;
+  border-radius: 16px;
+  border: 1px solid #2c2c30;
+  overflow: hidden;
+}
+
+.search-results button {
+  width: 100%;
+  border: none;
+  background: transparent;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.search-results button:hover:not(:disabled) {
+  background: #28282e;
+}
+
+.search-results button:disabled {
+  opacity: .55;
+  cursor: default;
+}
+
+.ingredient-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ingredient-info small {
+  color: #888;
+  margin-top: 3px;
+}
+
+.owned-tag {
+  color: #62d48d;
+  font-weight: 600;
+}

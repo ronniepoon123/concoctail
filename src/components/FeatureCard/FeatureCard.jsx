@@ -1,4 +1,5 @@
 import "./FeatureCard.css";
+import { Link } from "react-router-dom";
 
 function FeatureCard({
   title,
@@ -7,7 +8,8 @@ function FeatureCard({
   route,
 }) {
   return (
-    <article
+    <Link
+      to={route}
       className="feature-card"
       style={{
         backgroundImage: `url(${image})`,
@@ -24,7 +26,8 @@ function FeatureCard({
         </div>
 
       </div>
-    </article>
+
+    </Link>
   );
 }
 
