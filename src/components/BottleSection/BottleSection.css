@@ -1,0 +1,33 @@
+.bottle-section{
+margin-bottom:48px;
+}
+
+.section-title{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+margin-bottom:22px;
+
+font-size:1.6rem;
+
+font-weight:700;
+
+}
+
+.section-title span{
+
+background:#2a2a2f;
+
+padding:6px 14px;
+
+border-radius:30px;
+
+font-size:.9rem;
+
+color:#bbb;
+
+}

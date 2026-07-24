@@ -3,7 +3,7 @@ import "./MyBar.css";
 
 import Layout from "../../components/Layout/Layout";
 import BottleSearch from "../../components/BottleSearch/BottleSearch";
-import BottleCard from "../../components/BottleCard/BottleCard";
+import BottleSection from "../../components/BottleSection/BottleSection";
 import CocktailMatch from "../../components/CocktailMatch/CocktailMatch";
 
 import defaultBottles from "../../data/bottles";
@@ -72,30 +72,30 @@ function MyBar() {
     setMatches(results);
   }, [bottles]);
 
-function addBottle(ingredient) {
-  const exists = bottles.some(
-    (bottle) =>
-      bottle.name.toLowerCase() ===
-      ingredient.name.toLowerCase()
-  );
+  function addBottle(ingredient) {
+    const exists = bottles.some(
+      (bottle) =>
+        bottle.name.toLowerCase() ===
+        ingredient.name.toLowerCase()
+    );
 
-  if (exists) {
+    if (exists) {
+      setSearch("");
+      return;
+    }
+
+    setBottles([
+      ...bottles,
+      {
+        id: Date.now(),
+        name: ingredient.name,
+        category: ingredient.category,
+        owned: true,
+      },
+    ]);
+
     setSearch("");
-    return;
   }
-
-  setBottles([
-    ...bottles,
-    {
-      id: Date.now(),
-      name: ingredient.name,
-      category: ingredient.category,
-      owned: true,
-    },
-  ]);
-
-  setSearch("");
-}
 
   function toggleOwned(id) {
     setBottles(
@@ -118,6 +118,31 @@ function addBottle(ingredient) {
     );
   }
 
+  // Group bottles by category
+  const spirits = bottles.filter(
+    (bottle) => bottle.category === "Spirits"
+  );
+
+  const liqueurs = bottles.filter(
+    (bottle) => bottle.category === "Liqueurs"
+  );
+
+  const fortified = bottles.filter(
+    (bottle) => bottle.category === "Fortified Wine"
+  );
+
+  const mixers = bottles.filter(
+    (bottle) => bottle.category === "Mixers"
+  );
+
+  const bitters = bottles.filter(
+    (bottle) => bottle.category === "Bitters"
+  );
+
+  const sparkling = bottles.filter(
+    (bottle) => bottle.category === "Sparkling Wine"
+  );
+
   return (
     <Layout
       title="My Bar"
@@ -130,16 +155,47 @@ function addBottle(ingredient) {
         onAddBottle={addBottle}
       />
 
-      <div className="bottle-grid">
-        {bottles.map((bottle) => (
-          <BottleCard
-            key={bottle.id}
-            bottle={bottle}
-            onToggle={toggleOwned}
-            onDelete={removeBottle}
-          />
-        ))}
-      </div>
+      <BottleSection
+        title="🥃 Spirits"
+        bottles={spirits}
+        onToggle={toggleOwned}
+        onDelete={removeBottle}
+      />
+
+      <BottleSection
+        title="🍷 Liqueurs"
+        bottles={liqueurs}
+        onToggle={toggleOwned}
+        onDelete={removeBottle}
+      />
+
+      <BottleSection
+        title="🍾 Fortified Wine"
+        bottles={fortified}
+        onToggle={toggleOwned}
+        onDelete={removeBottle}
+      />
+
+      <BottleSection
+        title="🍋 Mixers"
+        bottles={mixers}
+        onToggle={toggleOwned}
+        onDelete={removeBottle}
+      />
+
+      <BottleSection
+        title="🌿 Bitters"
+        bottles={bitters}
+        onToggle={toggleOwned}
+        onDelete={removeBottle}
+      />
+
+      <BottleSection
+        title="🥂 Sparkling Wine"
+        bottles={sparkling}
+        onToggle={toggleOwned}
+        onDelete={removeBottle}
+      />
 
       {matches.length > 0 && (
         <section className="matches">
