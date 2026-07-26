@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import Layout from "../../components/Layout/Layout";
 
 import {
-  getCocktailBySlug,
+  getCocktailById,
 } from "../../services/cocktailService";
 
 import { addIngredientsToShoppingList } from "../../utils/shoppingList";
@@ -12,20 +12,21 @@ import { addIngredientsToShoppingList } from "../../utils/shoppingList";
 import "./CocktailPage.css";
 
 function CocktailPage() {
-  const { slug } = useParams();
+  const { id } = useParams();
 
   const [cocktail, setCocktail] = useState(null);
 
   useEffect(() => {
     async function loadCocktail() {
       const result =
-        await getCocktailBySlug(slug);
+        await getCocktailById(id);
+        console.log(result);
 
       setCocktail(result);
     }
 
     loadCocktail();
-  }, [slug]);
+  }, [id]);
 
   if (!cocktail) {
     return (

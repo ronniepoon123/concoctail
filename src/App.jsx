@@ -1,9 +1,15 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Spirits from "./pages/Learn/Spirits";
+
 import Home from "./pages/Home/Home";
 import MyBar from "./pages/MyBar/MyBar";
+
 import CocktailPage from "./pages/Cocktail/CocktailPage";
 import IngredientPage from "./pages/Ingredient/IngredientPage";
+
+import SpiritResults from "./pages/SpiritResults/SpiritResults";
+import IngredientResults from "./pages/IngredientResults/IngredientResults";
+
+import Spirits from "./pages/Learn/Spirits";
 import Collections from "./pages/Collections/Collections";
 import Favourites from "./pages/Favourites/Favourites";
 import CocktailDay from "./pages/CocktailDay/CocktailDay";
@@ -11,7 +17,6 @@ import Cocktail101 from "./pages/Cocktail101/Cocktail101";
 import ShoppingList from "./pages/ShoppingList/ShoppingList";
 import SpiritOfChoice from "./pages/SpiritOfChoice/SpiritOfChoice";
 import Surprise from "./pages/Surprise/Surprise";
-
 
 function App() {
 
@@ -21,63 +26,122 @@ function App() {
 
       <Routes>
 
+        {/* ===========================================
+            HOME
+        =========================================== */}
+
         <Route
           path="/"
           element={<Home />}
         />
+
+        {/* ===========================================
+            MY BAR
+        =========================================== */}
 
         <Route
           path="/my-bar"
           element={<MyBar />}
         />
 
+        {/* ===========================================
+            COCKTAIL
+        =========================================== */}
+
         <Route
-          path="/cocktail/:slug"
-          element={<CocktailPage />}
-        />
+  path="/cocktail/:id"
+  element={<CocktailPage />}
+/>
+
+        {/* ===========================================
+            INGREDIENT
+        =========================================== */}
 
         <Route
           path="/ingredient/:slug"
           element={<IngredientPage />}
         />
 
+        {/* ===========================================
+            INTELLIGENT SEARCH PAGES
+        =========================================== */}
+
+        <Route
+          path="/spirit/:spirit"
+          element={<SpiritResults />}
+        />
+
+        <Route
+          path="/ingredient-search/:ingredient"
+          element={<IngredientResults />}
+        />
+
+        {/* ===========================================
+            SHOPPING LIST
+        =========================================== */}
+
         <Route
           path="/shopping-list"
           element={<ShoppingList />}
         />
 
-<Route
+        {/* ===========================================
+            LEARN
+        =========================================== */}
 
-  path="/learn/spirits"
+        <Route
+          path="/learn/spirits"
+          element={<Spirits />}
+        />
 
-  element={<Spirits />}
-
-/>
+        {/* ===========================================
+            COLLECTIONS
+        =========================================== */}
 
         <Route
           path="/collections"
           element={<Collections />}
         />
 
+        {/* ===========================================
+            FAVOURITES
+        =========================================== */}
+
         <Route
           path="/favourites"
           element={<Favourites />}
         />
+
+        {/* ===========================================
+            COCKTAIL OF THE DAY
+        =========================================== */}
 
         <Route
           path="/cocktail-of-the-day"
           element={<CocktailDay />}
         />
 
+        {/* ===========================================
+            SURPRISE
+        =========================================== */}
+
         <Route
           path="/surprise"
           element={<Surprise />}
         />
 
+        {/* ===========================================
+            SPIRIT OF CHOICE
+        =========================================== */}
+
         <Route
           path="/spirit-of-choice"
           element={<SpiritOfChoice />}
         />
+
+        {/* ===========================================
+            COCKTAIL 101
+        =========================================== */}
 
         <Route
           path="/cocktail-101"
@@ -91,6 +155,5 @@ function App() {
   );
 
 }
-
 
 export default App;

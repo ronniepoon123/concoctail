@@ -1,17 +1,24 @@
 export default function mapCocktail(drink) {
+
   if (!drink) return null;
 
   const ingredients = [];
 
   for (let i = 1; i <= 15; i++) {
-    const ingredient = drink[`strIngredient${i}`];
+
+    const ingredient =
+      drink[`strIngredient${i}`];
 
     if (ingredient) {
+
       ingredients.push(ingredient);
+
     }
+
   }
 
   return {
+
     id: drink.idDrink,
 
     name: drink.strDrink,
@@ -39,5 +46,7 @@ export default function mapCocktail(drink) {
           .split(". ")
           .filter(Boolean)
       : [],
+
   };
+
 }

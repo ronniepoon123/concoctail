@@ -1,35 +1,143 @@
-.search-wrapper{
+/* ===========================================
+   SEARCH WRAPPER
+=========================================== */
 
-position:relative;
+.search-wrapper {
 
-width:100%;
+  position: relative;
 
-}
+  width: 100%;
 
-.search-wrapper input{
+  max-width: 760px;
 
-width:100%;
-
-padding:20px 24px;
-
-border:none;
-
-border-radius:18px;
-
-background:#18181b;
-
-color:white;
-
-font-size:1rem;
-
-outline:none;
-
-transition:.2s;
+  margin: 0 auto;
 
 }
 
-.search-wrapper input:focus{
+/* ===========================================
+   SEARCH INPUT
+=========================================== */
 
-box-shadow:0 0 0 2px #d7a447;
+.search-wrapper input {
+
+  width: 100%;
+
+  height: 60px;
+
+  padding: 0 24px 0 60px;
+
+  border: none;
+
+  border-radius: 999px;
+
+  background: #18181b;
+
+  color: white;
+
+  font-size: 1rem;
+
+  outline: none;
+
+  transition: .25s;
+
+}
+
+.search-wrapper input::placeholder {
+
+  color: #8b8b8b;
+
+}
+
+.search-wrapper input:focus {
+
+  box-shadow: 0 0 0 2px #d7a447;
+
+}
+
+/* ===========================================
+   SEARCH ICON
+=========================================== */
+
+.search-icon {
+
+  position: absolute;
+
+  left: 18px;
+
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  width: 32px;
+
+  height: 32px;
+
+  border: none;
+
+  background: transparent;
+
+  cursor: pointer;
+
+  font-size: 1.1rem;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  color: #8b8b8b;
+
+  transition: .2s;
+
+  z-index: 5;
+
+}
+
+.search-icon:hover {
+
+  color: white;
+
+}
+
+/* ===========================================
+   DROPDOWN
+=========================================== */
+
+.search-dropdown {
+
+  position: absolute;
+
+  top: calc(100% + 10px);
+
+  left: 0;
+
+  width: 100%;
+
+  background: #18181b;
+
+  border-radius: 18px;
+
+  overflow: hidden;
+
+  box-shadow: 0 12px 32px rgba(0,0,0,.45);
+
+  z-index: 50;
+
+}
+
+/* ===========================================
+   MOBILE
+=========================================== */
+
+@media (max-width:768px) {
+
+  .search-wrapper input {
+
+    height: 56px;
+
+    font-size: .95rem;
+
+  }
 
 }

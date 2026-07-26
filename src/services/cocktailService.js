@@ -1,48 +1,288 @@
-import axios from "axios";
+const API = "http://localhost:3001/api";
 
-const API =
-  "https://www.thecocktaildb.com/api/json/v1/1";
-
+/* ===========================================
+   RANDOM COCKTAIL
+=========================================== */
 
 export async function getRandomCocktail() {
 
-  const response = await axios.get(
-    `${API}/random.php`
+  const response = await fetch(
+    `${API}/random`
   );
 
-  return response.data.drinks[0];
+  if (!response.ok) {
+
+    throw new Error(
+      "Failed to fetch random cocktail"
+    );
+
+  }
+
+  return await response.json();
 
 }
 
+/* ===========================================
+   COCKTAIL BY NAME
+=========================================== */
 
-export async function getCocktailBySlug(slug) {
+export async function getCocktailByName(
+  name
+) {
 
-  const response = await axios.get(
-    `${API}/search.php?s=${slug}`
+  const response = await fetch(
+
+    `${API}/cocktail/${encodeURIComponent(
+      name
+    )}`
+
   );
 
-  return response.data.drinks?.[0] || null;
+  if (!response.ok) {
+
+    throw new Error(
+      "Failed to fetch cocktail"
+    );
+
+  }
+
+  return await response.json();
 
 }
 
+/* ===========================================
+   COCKTAIL BY ID
+=========================================== */
 
-export async function searchCocktails(query) {
+export async function getCocktailById(
+  id
+) {
 
-  const response = await axios.get(
-    `${API}/search.php?s=${query}`
+  const response = await fetch(
+    `${API}/cocktail/id/${id}`
   );
 
-  return response.data.drinks || [];
+  if (!response.ok) {
+
+    throw new Error(
+      "Failed to fetch cocktail"
+    );
+
+  }
+
+  return await response.json();
 
 }
 
+/* ===========================================
+   INTELLIGENT SEARCH
+=========================================== */
 
-export async function getCocktailsBySpirit(spirit) {
+export async function searchCocktails(
+  query
+) {
 
-  const response = await axios.get(
-    `${API}/filter.php?i=${spirit}`
+  if (!query.trim()) {
+
+    return {
+
+      cocktails: [],
+      spirits: [],
+      ingredients: [],
+
+    };
+
+  }
+
+  const response = await fetch(
+
+    `${API}/search?q=${encodeURIComponent(
+      query
+    )}`
+
   );
 
-  return response.data.drinks || [];
+  if (!response.ok) {
+
+    throw new Error(
+      "Search failed"
+    );
+
+  }
+
+  return await response.json();
+
+}
+
+/* ===========================================
+   INGREDIENT
+=========================================== */
+
+export async function getCocktailsByIngredient(
+  ingredient
+) {
+
+  const response = await fetch(
+
+    `${API}/ingredient/${encodeURIComponent(
+      ingredient
+    )}`
+
+  );
+
+  if (!response.ok) {
+
+    throw new Error(
+      "Ingredient search failed"
+    );
+
+  }
+
+  return await response.json();
+
+}
+
+/* ===========================================
+   SPIRIT
+=========================================== */
+
+export async function getCocktailsBySpirit(
+  spirit
+) {
+
+  const response = await fetch(
+
+    `${API}/base-spirit/${encodeURIComponent(
+      spirit
+    )}`
+
+  );
+
+  if (!response.ok) {
+
+    throw new Error(
+      "Failed to fetch cocktails"
+
+    );
+
+  }
+
+  return await response.json();
+
+}
+
+/* ===========================================
+   CATEGORY
+=========================================== */
+
+export async function getCocktailsByCategory(
+  category
+) {
+
+  const response = await fetch(
+
+    `${API}/category/${encodeURIComponent(
+      category
+    )}`
+
+  );
+
+  if (!response.ok) {
+
+    throw new Error(
+      "Failed to fetch category"
+    );
+
+  }
+
+  return await response.json();
+
+}
+
+/* ===========================================
+   CATEGORY LIST
+=========================================== */
+
+export async function getCategories() {
+
+  const response = await fetch(
+    `${API}/categories`
+  );
+
+  if (!response.ok) {
+
+    throw new Error(
+      "Failed to fetch categories"
+    );
+
+  }
+
+  return await response.json();
+
+}
+
+/* ===========================================
+   GLASSES
+=========================================== */
+
+export async function getGlasses() {
+
+  const response = await fetch(
+    `${API}/glasses`
+  );
+
+  if (!response.ok) {
+
+    throw new Error(
+      "Failed to fetch glasses"
+    );
+
+  }
+
+  return await response.json();
+
+}
+
+/* ===========================================
+   LATEST
+=========================================== */
+
+export async function getLatestCocktails() {
+
+  const response = await fetch(
+    `${API}/latest`
+  );
+
+  if (!response.ok) {
+
+    throw new Error(
+      "Failed to fetch latest cocktails"
+    );
+
+  }
+
+  return await response.json();
+
+}
+
+/* ===========================================
+   POPULAR
+=========================================== */
+
+export async function getPopularCocktails() {
+
+  const response = await fetch(
+    `${API}/popular`
+  );
+
+  if (!response.ok) {
+
+    throw new Error(
+      "Failed to fetch popular cocktails"
+    );
+
+  }
+
+  return await response.json();
 
 }

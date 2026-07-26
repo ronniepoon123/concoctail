@@ -1,51 +1,146 @@
-.collection-tabs{
+/* ===========================================
+   PAGE
+=========================================== */
 
-display:flex;
+.collection-page {
 
-gap:14px;
+  display: flex;
 
-flex-wrap:wrap;
+  flex-direction: column;
 
-margin-bottom:26px;
-
-}
-
-.collection-tabs button{
-
-padding:12px 22px;
-
-border:none;
-
-background:#18181b;
-
-color:white;
-
-border-radius:999px;
-
-cursor:pointer;
-
-transition:.2s;
+  gap: 56px;
 
 }
 
-.collection-tabs button:hover{
+/* ===========================================
+   SECTION
+=========================================== */
 
-background:#2d2d31;
+.collection-section {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 20px;
 
 }
 
-.collection-tabs button.active{
+.collection-section h2 {
 
-background:#d7a447;
+  font-size: 2rem;
+
+  color: #d7a447;
+
+  margin: 0;
 
 }
 
-.collection-description{
+/* ===========================================
+   GRID
+=========================================== */
 
-margin-bottom:34px;
+.collection-grid {
 
-opacity:.75;
+  display: grid;
 
-font-size:1rem;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(180px, 1fr)
+  );
+
+  gap: 24px;
+
+}
+
+/* ===========================================
+   CARD
+=========================================== */
+
+.collection-card {
+
+  background: #18181b;
+
+  border-radius: 20px;
+
+  overflow: hidden;
+
+  text-decoration: none;
+
+  color: white;
+
+  transition: .25s;
+
+  display: flex;
+
+  flex-direction: column;
+
+}
+
+.collection-card:hover {
+
+  transform: translateY(-6px);
+
+  box-shadow: 0 12px 28px rgba(0,0,0,.35);
+
+}
+
+.collection-card img {
+
+  width: 100%;
+
+  aspect-ratio: 1 / 1;
+
+  object-fit: cover;
+
+}
+
+.collection-card h3 {
+
+  margin: 16px;
+
+  font-size: 1rem;
+
+  font-weight: 600;
+
+  line-height: 1.4;
+
+}
+
+/* ===========================================
+   RESPONSIVE
+=========================================== */
+
+@media (max-width: 900px) {
+
+  .collection-grid {
+
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(160px, 1fr)
+    );
+
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .collection-section h2 {
+
+    font-size: 1.6rem;
+
+  }
+
+  .collection-grid {
+
+    grid-template-columns: repeat(
+      2,
+      1fr
+    );
+
+    gap: 18px;
+
+  }
 
 }

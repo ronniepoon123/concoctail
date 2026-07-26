@@ -1,95 +1,93 @@
-import { useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 
 import Layout from "../../components/Layout/Layout";
-import CocktailGrid from "../../components/CocktailGrid/CocktailGrid";
 
-import cocktails from "../../data/cocktails";
-import collections from "../../data/collections";
+import {
+  getCategories,
+  getCocktailsByCategory,
+} from "../../services/cocktailService";
 
 import "./Collections.css";
 
 function Collections() {
+  const [sections, setSections] = useState([]);
+  const [loading, setLoading] = useState(true);
 
-  const [selected, setSelected] = useState(
-    collections[0]
-  );
+  useEffect(() => {
+    async function loadCollections() {
+      try {
+        const categories = await getCategories();
 
-  const filteredCocktails = useMemo(() => {
+        const firstSix = categories.slice(0, 6);
 
-    return cocktails.filter(
+        const data = await Promise.all(
+          firstSix.map(async (category) => {
+            const cocktails =
+              await getCocktailsByCategory(
+                category.strCategory
+              );
 
-      cocktail =>
+            return {
+              title: category.strCategory,
+              cocktails,
+            };
+          })
+        );
 
-        cocktail.category === selected.category
+        setSections(data);
+      } catch (error) {
+        console.error(error);
+      } finally {
+        setLoading(false);
+      }
+    }
 
+    loadCollections();
+  }, []);
+
+  if (loading) {
+    return (
+      <Layout
+        title="Collections"
+        description="Loading collections..."
+      />
     );
-
-  }, [selected]);
+  }
 
   return (
-
     <Layout
-
       title="Collections"
-
-      description="Browse curated cocktail collections."
-
+      description="Browse cocktails by category."
     >
+      {sections.map((section) => (
+        <section
+          key={section.title}
+          className="collection-section"
+        >
+          <h2>{section.title}</h2>
 
-      <div className="collection-tabs">
+          <div className="collection-grid">
+            {section.cocktails.map((cocktail) => (
+              <a
+                key={cocktail.idDrink}
+                className="collection-card"
+                href={`/cocktail/${cocktail.strDrink
+                  .toLowerCase()
+                  .replace(/\s+/g, "-")}`}
+              >
+                <img
+                  src={cocktail.strDrinkThumb}
+                  alt={cocktail.strDrink}
+                />
 
-        {
-
-          collections.map(collection => (
-
-            <button
-
-              key={collection.id}
-
-              className={
-
-                selected.id === collection.id
-
-                  ? "active"
-
-                  : ""
-
-              }
-
-              onClick={() =>
-
-                setSelected(collection)
-
-              }
-
-            >
-
-              {collection.name}
-
-            </button>
-
-          ))
-
-        }
-
-      </div>
-
-      <p className="collection-description">
-
-        {selected.description}
-
-      </p>
-
-      <CocktailGrid
-
-        cocktails={filteredCocktails}
-
-      />
-
+                <h3>{cocktail.strDrink}</h3>
+              </a>
+            ))}
+          </div>
+        </section>
+      ))}
     </Layout>
-
   );
-
 }
 
 export default Collections;

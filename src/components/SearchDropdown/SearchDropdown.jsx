@@ -1,36 +1,193 @@
 import "./SearchDropdown.css";
 
 function SearchDropdown({
+
+  loading,
+
   results,
+
   onSelect,
+
 }) {
-  if (results.length === 0) return null;
+
+  if (loading) {
+
+    return (
+
+      <div className="search-dropdown">
+
+        <div className="search-status">
+
+          Searching...
+
+        </div>
+
+      </div>
+
+    );
+
+  }
+
+  if (!results.length) {
+
+    return null;
+
+  }
 
   return (
+
     <div className="search-dropdown">
 
-      {results.map((item) => (
+      {results.map((item, index) => {
 
-        <button
-          key={`${item.type}-${item.name}`}
-          className="search-result"
-          onClick={() => onSelect(item)}
-        >
+        /* ==========================
+           SECTION HEADER
+        ========================== */
 
-          <div>
+        if (item.type === "header") {
 
-            <strong>{item.name}</strong>
+          return (
 
-            <small>{item.type}</small>
+            <div
 
-          </div>
+              key={`header-${index}`}
 
-        </button>
+              className="search-section"
 
-      ))}
+            >
+
+              {item.title}
+
+            </div>
+
+          );
+
+        }
+
+        /* ==========================
+           COCKTAIL
+        ========================== */
+
+        if (item.type === "cocktail") {
+
+          return (
+
+            <button
+
+              key={item.id}
+
+              className="search-item"
+
+              onClick={() =>
+                onSelect(item)
+              }
+
+            >
+
+              <img
+
+                src={item.image}
+
+                alt={item.name}
+
+              />
+
+              <span>
+
+                {item.name}
+
+              </span>
+
+            </button>
+
+          );
+
+        }
+
+        /* ==========================
+           SPIRIT
+        ========================== */
+
+        if (item.type === "spirit") {
+
+          return (
+
+            <button
+
+              key={`spirit-${item.name}`}
+
+              className="search-item"
+
+              onClick={() =>
+                onSelect(item)
+              }
+
+            >
+
+              <span className="search-icon-small">
+
+                🥃
+
+              </span>
+
+              <span>
+
+                {item.name}
+
+              </span>
+
+            </button>
+
+          );
+
+        }
+
+        /* ==========================
+           INGREDIENT
+        ========================== */
+
+        if (item.type === "ingredient") {
+
+          return (
+
+            <button
+
+              key={`ingredient-${item.name}`}
+
+              className="search-item"
+
+              onClick={() =>
+                onSelect(item)
+              }
+
+            >
+
+              <span className="search-icon-small">
+
+                🍋
+
+              </span>
+
+              <span>
+
+                {item.name}
+
+              </span>
+
+            </button>
+
+          );
+
+        }
+
+        return null;
+
+      })}
 
     </div>
+
   );
+
 }
 
 export default SearchDropdown;

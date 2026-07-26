@@ -1,0 +1,5368 @@
+[
+  {
+    "id": "Q16323131",
+    "name": "100 Pipers",
+    "description": "blended Scotch whisky",
+    "parent": "blended whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q4553387",
+    "name": "1792 Ridgemont Reserve",
+    "description": "Kentucky straight Bourbon whiskey produced by the Barton 1792 Distillery in Bardstown, KY",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q4553723",
+    "name": "1800 Tequila",
+    "description": "alcoholic drink",
+    "parent": "tequila",
+    "aliases": []
+  },
+  {
+    "id": "Q55385779",
+    "name": "2 Gingers",
+    "description": "blended whiskey",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q12626348",
+    "name": "2 Rooz",
+    "description": "Australian vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q4646812",
+    "name": "A'bunadh",
+    "description": "Scottish malt whisky",
+    "parent": "single malt whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q10216",
+    "name": "Abricotine",
+    "description": "apricot brandy",
+    "parent": "fruit brandy",
+    "aliases": [
+      "Crème d'Abricot",
+      "Eau-de-vie d’abricot du Valais"
+    ]
+  },
+  {
+    "id": "Q170210",
+    "name": "absinthe",
+    "description": "alcoholic drink",
+    "parent": "flavored liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q28195115",
+    "name": "Absolut Citron",
+    "description": "",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q332378",
+    "name": "Absolut Vodka",
+    "description": "Swedish brand of vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q4669884",
+    "name": "Absolwent",
+    "description": "Polish vodka brand",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q97293200",
+    "name": "Acerum",
+    "description": "maple brandy",
+    "parent": "eau-de-vie",
+    "aliases": []
+  },
+  {
+    "id": "Q397926",
+    "name": "aguardiente",
+    "description": "generic term for distilled alcoholic beverages that contain between 29% and 60% alcohol by volume, especially in the context of the Hispanosphere",
+    "parent": "liquor",
+    "aliases": [
+      "firewater",
+      "aguardente",
+      "burning water",
+      "fiery water"
+    ]
+  },
+  {
+    "id": "Q2829131",
+    "name": "Akpeteshie",
+    "description": "national spirit of Ghana",
+    "parent": "liquor",
+    "aliases": [
+      "Ogogoro"
+    ]
+  },
+  {
+    "id": "Q2648121",
+    "name": "Allasch",
+    "description": "",
+    "parent": "kümmel",
+    "aliases": []
+  },
+  {
+    "id": "Q2840496",
+    "name": "Altore",
+    "description": "Scottish whiskey",
+    "parent": "blended malt whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q11444867",
+    "name": "Amami kokutō shōchū",
+    "description": "",
+    "parent": "shōchū",
+    "aliases": [
+      "Amami brown sugar shōchū",
+      "brown sugar shōchū",
+      "kokutō shōchū"
+    ]
+  },
+  {
+    "id": "Q694536",
+    "name": "American whiskey",
+    "description": "Whiskey produced in the United States",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q97730739",
+    "name": "Amoy Kaoliang wine",
+    "description": "",
+    "parent": "Kaoliang wine",
+    "aliases": [
+      "Phoenix Kaoliang wine",
+      "Xiamen Kaoliang wine"
+    ]
+  },
+  {
+    "id": "Q131064065",
+    "name": "Ampersand Vodka & Watermelon",
+    "description": "Brand of vodka and Watermelon distilled in NSW, Australia.",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q11957763",
+    "name": "Amundsen",
+    "description": "brand of Cognac",
+    "parent": "cognac",
+    "aliases": []
+  },
+  {
+    "id": "Q12605615",
+    "name": "Andong soju",
+    "description": "A traditional type of soju from Andong, Korea",
+    "parent": "soju",
+    "aliases": []
+  },
+  {
+    "id": "Q83113635",
+    "name": "anesone",
+    "description": "anise-flavored liqueur",
+    "parent": "anise liqueur",
+    "aliases": []
+  },
+  {
+    "id": "Q549301",
+    "name": "anise drink",
+    "description": "anise flavored alcoholic drink",
+    "parent": "flavored liquor",
+    "aliases": [
+      "anise-flavoured spirit",
+      "anise-flavoured spirit drink",
+      "aniseed-flavoured spirit",
+      "aniseed-flavoured spirit drink"
+    ]
+  },
+  {
+    "id": "Q104178995",
+    "name": "anise liqueur",
+    "description": "",
+    "parent": "herbal liqueur",
+    "aliases": []
+  },
+  {
+    "id": "Q139018190",
+    "name": "Anisetta Meletti",
+    "description": "",
+    "parent": "anisette",
+    "aliases": []
+  },
+  {
+    "id": "Q548940",
+    "name": "anisette",
+    "description": "anise-flavored liqueur",
+    "parent": "anise liqueur",
+    "aliases": [
+      "anis"
+    ]
+  },
+  {
+    "id": "Q31193096",
+    "name": "Ankara",
+    "description": "whisky",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q8273377",
+    "name": "anyżówka",
+    "description": "anise-flavoured vodka",
+    "parent": "anise drink",
+    "aliases": []
+  },
+  {
+    "id": "Q11283886",
+    "name": "apple brandy",
+    "description": "Brandy",
+    "parent": "brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q2533555",
+    "name": "applejack",
+    "description": "alcoholic beverage",
+    "parent": "cider spirit",
+    "aliases": [
+      "apple brandy"
+    ]
+  },
+  {
+    "id": "Q68193067",
+    "name": "apricot liqueur",
+    "description": "",
+    "parent": "liqueur",
+    "aliases": []
+  },
+  {
+    "id": "Q730143",
+    "name": "apricot schnappes",
+    "description": "alcoholic Beverage",
+    "parent": "fruit brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q2511275",
+    "name": "Aqua vitae",
+    "description": "concentrated aqueous solution of ethanol",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q4783712",
+    "name": "Aragh Sagi",
+    "description": "Iranian moonshine",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q330880",
+    "name": "Arak",
+    "description": "Middle Eastern distilled spirit",
+    "parent": "flavored liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q4784246",
+    "name": "Araqi",
+    "description": "date-liquor distilled illegally in Sudan",
+    "parent": "fruit brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q685705",
+    "name": "Ararat",
+    "description": "Armenian brandy produced by the Yerevan Brandy Company",
+    "parent": "brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q16833607",
+    "name": "Arette",
+    "description": "brand of tequila",
+    "parent": "tequila",
+    "aliases": []
+  },
+  {
+    "id": "Q503252",
+    "name": "Armagnac",
+    "description": "style of brandy produced in France",
+    "parent": "aguardiente",
+    "aliases": []
+  },
+  {
+    "id": "Q2060750",
+    "name": "Armorik",
+    "description": "Armorik Single Malt Breton Whisky",
+    "parent": "single malt whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q8204793",
+    "name": "Aromas de Montserrat",
+    "description": "liquor from Spain",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q1458114",
+    "name": "arrack",
+    "description": "distilled alcoholic drink typically produced in South and Southeast Asia",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q16836115",
+    "name": "Avion tequila",
+    "description": "Alcohol produced in Mexico",
+    "parent": "tequila",
+    "aliases": []
+  },
+  {
+    "id": "Q136746370",
+    "name": "Avola rum",
+    "description": "type of rum produced in Avola, Italy",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q1389479",
+    "name": "Bacanora",
+    "description": "liquor",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q2085885",
+    "name": "Bacardi 151",
+    "description": "discontinued brand of highly alcoholic rum",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q26877493",
+    "name": "Bacardi Carta Blanca",
+    "description": "",
+    "parent": "white rum",
+    "aliases": []
+  },
+  {
+    "id": "Q2369060",
+    "name": "Bacardi Superior",
+    "description": "white rum brand",
+    "parent": "white rum",
+    "aliases": []
+  },
+  {
+    "id": "Q4839951",
+    "name": "bacon vodka",
+    "description": "alcoholic Drink",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q629266",
+    "name": "baijiu",
+    "description": "Chinese liquor distilled from sorghum, rice, wheat, barley, millet, or Job's tears; name means literally “white alcohol”",
+    "parent": "shaojiu",
+    "aliases": []
+  },
+  {
+    "id": "Q124340009",
+    "name": "Balegemse jenever",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q687397",
+    "name": "Ballantine's",
+    "description": "brand of blended Scotch whiskey produced by Pernod Ricard in Dumbarton, Scotland, UK",
+    "parent": "blended whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q380650",
+    "name": "Barack",
+    "description": "Hungarian brandy",
+    "parent": "apricot schnappes",
+    "aliases": []
+  },
+  {
+    "id": "Q4867178",
+    "name": "Basil Hayden's",
+    "description": "American Bourbon whiskey",
+    "parent": "bourbon whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q406157",
+    "name": "bäsk",
+    "description": "Swedish style spiced liquor",
+    "parent": "liqueur",
+    "aliases": [
+      "bäsk brännvin"
+    ]
+  },
+  {
+    "id": "Q4869096",
+    "name": "Bathtub gin",
+    "description": "style of homemade spirit",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q42575486",
+    "name": "Batralzem",
+    "description": "vermouth-based liquor from the South Eifel region of Rhineland-Palatinate, Germany",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q1763924",
+    "name": "Beefeater Gin",
+    "description": "brand of gin",
+    "parent": "gin",
+    "aliases": [
+      "Beefeater"
+    ]
+  },
+  {
+    "id": "Q4879910",
+    "name": "Beenleigh Rum",
+    "description": "Rum, distilled beverage",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q1814533",
+    "name": "Beers Vlierke",
+    "description": "",
+    "parent": "berry jenever",
+    "aliases": []
+  },
+  {
+    "id": "Q4881084",
+    "name": "Beija Cachaça",
+    "description": "",
+    "parent": "cachaça",
+    "aliases": []
+  },
+  {
+    "id": "Q815258",
+    "name": "Belaya Rus",
+    "description": "vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q4883072",
+    "name": "Bell's whisky",
+    "description": "blended whisky",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q108758007",
+    "name": "Bellard",
+    "description": "former distillery that produced liquors, wines, cognacs and gins",
+    "parent": "cognac",
+    "aliases": []
+  },
+  {
+    "id": "Q55647652",
+    "name": "Beluga Vodka",
+    "description": "brand of Russian vodka",
+    "parent": "vodka",
+    "aliases": [
+      "Beluga",
+      "Beluga Noble Vodka",
+      "Beluga the Noble Vodka"
+    ]
+  },
+  {
+    "id": "Q816263",
+    "name": "Belvedere",
+    "description": "luxury brand of Polish vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q498750",
+    "name": "Bénédictine",
+    "description": "herbal liqueur produced in France",
+    "parent": "liquor",
+    "aliases": [
+      "Benedictine"
+    ]
+  },
+  {
+    "id": "Q4894260",
+    "name": "Bernheim Original",
+    "description": "American whiskey brand",
+    "parent": "wheat whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q2727944",
+    "name": "berry jenever",
+    "description": "jenever infused with berries",
+    "parent": "liquor",
+    "aliases": [
+      "berry genever"
+    ]
+  },
+  {
+    "id": "Q857770",
+    "name": "Bierbrand",
+    "description": "type of liquor",
+    "parent": "liquor",
+    "aliases": [
+      "eau-de-vie de bière"
+    ]
+  },
+  {
+    "id": "Q12627962",
+    "name": "Biska",
+    "description": "Spirits made from herbs",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q4920219",
+    "name": "Black & White",
+    "description": "Scotch whisky brand",
+    "parent": "blended Scotch whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q4920404",
+    "name": "Black Bottle",
+    "description": "",
+    "parent": "blended Scotch whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q104858633",
+    "name": "blackberry brandy",
+    "description": "",
+    "parent": "fruit brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q139715545",
+    "name": "blended Irish whiskey",
+    "description": "",
+    "parent": "Irish whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q944887",
+    "name": "blended malt whisky",
+    "description": "blend of different single malt whiskies from different distilleries",
+    "parent": "malt whisky",
+    "aliases": [
+      "blended malt",
+      "pure malt",
+      "vatted malt"
+    ]
+  },
+  {
+    "id": "Q134967564",
+    "name": "blended Scotch whisky",
+    "description": "product of blending different types of Scotch whiskys",
+    "parent": "blended whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q883744",
+    "name": "blended whiskey",
+    "description": "product of blending different types of whiskys",
+    "parent": "whisky",
+    "aliases": [
+      "blended whisky"
+    ]
+  },
+  {
+    "id": "Q23134124",
+    "name": "Blue Diamond Vodka",
+    "description": "Estonian vodka brand",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q4938088",
+    "name": "Bohemian-style absinth",
+    "description": "Czech style of wormwood bitters related to absinthe",
+    "parent": "absinthe",
+    "aliases": [
+      "Czech-style absinth"
+    ]
+  },
+  {
+    "id": "Q891834",
+    "name": "Bombay Sapphire",
+    "description": "trademark",
+    "parent": "gin",
+    "aliases": [
+      "Bombay Gin",
+      "Bombay Sapphire gin",
+      "Bombay Spirits Company"
+    ]
+  },
+  {
+    "id": "Q891985",
+    "name": "Bommerlunder",
+    "description": "trademark",
+    "parent": "wine spirit",
+    "aliases": []
+  },
+  {
+    "id": "Q4943861",
+    "name": "Booth's Gin",
+    "description": "brand of London dry gin",
+    "parent": "dry gin",
+    "aliases": []
+  },
+  {
+    "id": "Q56683130",
+    "name": "Borgoe",
+    "description": "rum of Suriname",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q4949080",
+    "name": "Bottled in bond",
+    "description": "American whiskeys (or other spirits) produced to a set of specifications",
+    "parent": "American whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q429372",
+    "name": "Boukha",
+    "description": "distilled beverage",
+    "parent": "fruit brandy",
+    "aliases": [
+      "Tunisia"
+    ]
+  },
+  {
+    "id": "Q543127",
+    "name": "bourbon whiskey",
+    "description": "type of American whiskey, a barrel-aged distilled spirit made primarily from corn",
+    "parent": "American whiskey",
+    "aliases": [
+      "bourbon",
+      "whiskey bourbon"
+    ]
+  },
+  {
+    "id": "Q146470",
+    "name": "brandy",
+    "description": "spirit produced by distilling wine",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q2537880",
+    "name": "Brandy de Jerez",
+    "description": "Spanish brandy brand line",
+    "parent": "brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q510461",
+    "name": "brännvin",
+    "description": "distilled beverage",
+    "parent": "grain spirit",
+    "aliases": []
+  },
+  {
+    "id": "Q909415",
+    "name": "Brennivín",
+    "description": "Icelandic liquor",
+    "parent": "kümmel",
+    "aliases": [
+      "Brennivin"
+    ]
+  },
+  {
+    "id": "Q4973538",
+    "name": "Broker's Gin",
+    "description": "brand of premium small batch gin",
+    "parent": "dry gin",
+    "aliases": [
+      "Broker’s London Dry Gin"
+    ]
+  },
+  {
+    "id": "Q3645270",
+    "name": "Brombeergeist",
+    "description": "German blackberry distilled drink",
+    "parent": "Geist",
+    "aliases": []
+  },
+  {
+    "id": "Q20713240",
+    "name": "Buckwheat whisky",
+    "description": "type of distilled alcoholic beverage",
+    "parent": "grain whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q131382344",
+    "name": "bug juice",
+    "description": "inferior whiskey or other strong liquor",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q3646942",
+    "name": "Bundaberg Rum",
+    "description": "Rum, distilled beverage",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q19839936",
+    "name": "Byejoe",
+    "description": "Brand of baijiu",
+    "parent": "baijiu",
+    "aliases": []
+  },
+  {
+    "id": "Q5015222",
+    "name": "Cabana Cachaça",
+    "description": "brand of Brazilian-made cachaça",
+    "parent": "cachaça",
+    "aliases": []
+  },
+  {
+    "id": "Q5015440",
+    "name": "Cabin Still",
+    "description": "American Bourbon whiskey brand",
+    "parent": "bourbon whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q744729",
+    "name": "cachaça",
+    "description": "distilled alcoholic beverage",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q2817428",
+    "name": "Cachaça 51",
+    "description": "Brazilian cachaça brand",
+    "parent": "cachaça",
+    "aliases": [
+      "Caninha 51",
+      "Pinga 51",
+      "Pirassununga 51"
+    ]
+  },
+  {
+    "id": "Q118220895",
+    "name": "Cachaça de jambu",
+    "description": "",
+    "parent": "cachaça",
+    "aliases": []
+  },
+  {
+    "id": "Q5015936",
+    "name": "Cachaça Sapucaia",
+    "description": "Brazilian Cachaça Brand",
+    "parent": "cachaça",
+    "aliases": []
+  },
+  {
+    "id": "Q113143770",
+    "name": "Cachaça Yaguara",
+    "description": "Brazilian-produced cachaca brand",
+    "parent": "cachaça",
+    "aliases": [
+      "Yaguara Cachaca"
+    ]
+  },
+  {
+    "id": "Q57401946",
+    "name": "Cacique",
+    "description": "Costa Rican traditional liqueur trademark",
+    "parent": "aguardiente",
+    "aliases": [
+      "Cacique Guaro"
+    ]
+  },
+  {
+    "id": "Q88300037",
+    "name": "California brandy",
+    "description": "brandy from California",
+    "parent": "brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q3268",
+    "name": "Calvados",
+    "description": "French apple brandy",
+    "parent": "eau-de-vie",
+    "aliases": [
+      "Calvados (drink)"
+    ]
+  },
+  {
+    "id": "Q628737",
+    "name": "Campbeltown single malt whisky",
+    "description": "single malt Scotch whiskies distilled in the burgh of Campbeltown",
+    "parent": "single malt Scotch",
+    "aliases": [
+      "Campbeltown",
+      "Campbeltown Scotch",
+      "Campbeltown single malt Scotch",
+      "Campbeltown Single Malts",
+      "Campbeltown whisky"
+    ]
+  },
+  {
+    "id": "Q1032091",
+    "name": "Canadian Club",
+    "description": "brand of whisky from Canada",
+    "parent": "rye whiskey",
+    "aliases": [
+      "CC"
+    ]
+  },
+  {
+    "id": "Q536976",
+    "name": "Canadian whisky",
+    "description": "type of whisky produced in Canada",
+    "parent": "grain whisky",
+    "aliases": [
+      "Canadian Whisky"
+    ]
+  },
+  {
+    "id": "Q51913",
+    "name": "Caol Ila Distillery",
+    "description": "Scotch whisky distillery on Islay, Argyll and Bute, Scotland, United Kingdom",
+    "parent": "Scotch whisky",
+    "aliases": [
+      "Caol Ila",
+      "Caol Ìle",
+      "Ruadhphort"
+    ]
+  },
+  {
+    "id": "Q1035122",
+    "name": "Captain Morgan",
+    "description": "brand of rum",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q140459891",
+    "name": "Category:Suntory Gin Sui",
+    "description": "",
+    "parent": "gin",
+    "aliases": []
+  },
+  {
+    "id": "Q27943369",
+    "name": "Cazalla",
+    "description": "alcoholic beverage derived from aniseed distillation",
+    "parent": "anise drink",
+    "aliases": []
+  },
+  {
+    "id": "Q1539760",
+    "name": "chacha",
+    "description": "type of alcoholic beverage",
+    "parent": "pomace brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q16219738",
+    "name": "Chamisul",
+    "description": "South Korean soju brand",
+    "parent": "liquor",
+    "aliases": [
+      "Chamiseul"
+    ]
+  },
+  {
+    "id": "Q13122755",
+    "name": "Chang'aa",
+    "description": "alcoholic beverage",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q4817829",
+    "name": "Changaa",
+    "description": "distilled alcoholic beverage",
+    "parent": "moonshine",
+    "aliases": []
+  },
+  {
+    "id": "Q17854404",
+    "name": "cherry eau de vie",
+    "description": "beverage",
+    "parent": "eau-de-vie",
+    "aliases": []
+  },
+  {
+    "id": "Q6076842",
+    "name": "Chilean pisco",
+    "description": "grape brandy produced in Chile",
+    "parent": "pisco",
+    "aliases": []
+  },
+  {
+    "id": "Q5766574",
+    "name": "Chinchón",
+    "description": "anise-based spirit",
+    "parent": "anise drink",
+    "aliases": [
+      "Anís de Chinchón"
+    ]
+  },
+  {
+    "id": "Q3674999",
+    "name": "Chinggis vodka",
+    "description": "brand of vodka from Mongolia",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q120746727",
+    "name": "Chita",
+    "description": "whiskey",
+    "parent": "Japanese whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q3495663",
+    "name": "Chopin Vodka",
+    "description": "single-ingredient vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q17031311",
+    "name": "Chu Yeh Ching Chiew",
+    "description": "alcoholic beverage originated from Shanxi, China",
+    "parent": "liquor",
+    "aliases": [
+      "Zhuyeqing"
+    ]
+  },
+  {
+    "id": "Q12618812",
+    "name": "Chumchurum",
+    "description": "Brand of soju products produced by Lotte Chilsung Beverage",
+    "parent": "soju",
+    "aliases": [
+      "Cheoeumcheoleom"
+    ]
+  },
+  {
+    "id": "Q91309693",
+    "name": "cider spirit",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q1150860",
+    "name": "Cîroc",
+    "description": "brand of French alcoholic beverages",
+    "parent": "vodka",
+    "aliases": [
+      "Ciroc",
+      "Cîroc Vodka"
+    ]
+  },
+  {
+    "id": "Q2975159",
+    "name": "Clairin",
+    "description": "Distilled spirit made from cane sugar produced in Haiti",
+    "parent": "liquor",
+    "aliases": [
+      "Kleren",
+      "Klerin"
+    ]
+  },
+  {
+    "id": "Q131152331",
+    "name": "Clan MacGregor",
+    "description": "scotch whisky",
+    "parent": "blended whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q5139842",
+    "name": "Coconut brandy",
+    "description": "distilled spirit",
+    "parent": "fruit brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q2981378",
+    "name": "Cocoroco(Boutrón)",
+    "description": "alcoholic beverage from Bolivia",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q4227483",
+    "name": "cocuy",
+    "description": "liquor distilled from the fermented juices of the head, body or leaves of Agave cocui produced artisanally in the Venezuelan regions of Falcón and Lara",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q284",
+    "name": "cognac",
+    "description": "alcoholic beverage; variety of brandy",
+    "parent": "eau-de-vie",
+    "aliases": [
+      "french brandy"
+    ]
+  },
+  {
+    "id": "Q55385755",
+    "name": "Connemara",
+    "description": "peated single malt whiskey",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q5170775",
+    "name": "Cork Dry Gin",
+    "description": "Irish gin",
+    "parent": "dry gin",
+    "aliases": []
+  },
+  {
+    "id": "Q1350656",
+    "name": "corn whiskey",
+    "description": "American liquor",
+    "parent": "grain whisky",
+    "aliases": [
+      "Corn Squeezin’s"
+    ]
+  },
+  {
+    "id": "Q5173817",
+    "name": "Corzo",
+    "description": "brand of tequila",
+    "parent": "tequila",
+    "aliases": []
+  },
+  {
+    "id": "Q23878025",
+    "name": "Couprie",
+    "description": "",
+    "parent": "cognac",
+    "aliases": []
+  },
+  {
+    "id": "Q5180431",
+    "name": "Cracovia vodka",
+    "description": "brand of Polish vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q2261762",
+    "name": "Cream Genever",
+    "description": "",
+    "parent": "jenever",
+    "aliases": []
+  },
+  {
+    "id": "Q5186112",
+    "name": "Cristal",
+    "description": "distilled beverage",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q113799362",
+    "name": "Croithlí",
+    "description": "single distillery Irish whiskey",
+    "parent": "whisky",
+    "aliases": [
+      "Crolly"
+    ]
+  },
+  {
+    "id": "Q26883692",
+    "name": "Crystal Head Vodka",
+    "description": "Vodka packaged in a skull-shaped glass bottle",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q90043270",
+    "name": "Cuban rum",
+    "description": "Cuban rums",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q137920443",
+    "name": "currant jenever",
+    "description": "jenever infused with blackcurrants",
+    "parent": "liquor",
+    "aliases": [
+      "currant genever",
+      "red genever",
+      "red jenever"
+    ]
+  },
+  {
+    "id": "Q116059542",
+    "name": "cut brandy",
+    "description": "liquor made of brandy, neutral grain spirit and water",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q3007961",
+    "name": "Cutty Sark",
+    "description": "whisky",
+    "parent": "blended Scotch whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q12307077",
+    "name": "Dalwhinnie single malt whisky",
+    "description": "",
+    "parent": "whisky",
+    "aliases": [
+      "dalwhinnie"
+    ]
+  },
+  {
+    "id": "Q3012619",
+    "name": "damassine",
+    "description": "eau de vie produced in the Swiss Jura from Damascus prunes",
+    "parent": "fruit brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q26869771",
+    "name": "dark rum",
+    "description": "",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q48977591",
+    "name": "Deep Eddy Vodka",
+    "description": "",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q20987393",
+    "name": "Desi daru",
+    "description": "liquor made in rural parts of the Indian subcontinent",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q3076217",
+    "name": "Dewar's",
+    "description": "Scotch whisky brand",
+    "parent": "blended Scotch whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q48968776",
+    "name": "Dictador",
+    "description": "brand of rum from Colombia",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q9207544",
+    "name": "Dimple",
+    "description": "Scotch whiskey",
+    "parent": "blended Scotch whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q2068494",
+    "name": "divin",
+    "description": "moldavian eau-de-vie",
+    "parent": "wine spirit",
+    "aliases": []
+  },
+  {
+    "id": "Q35026670",
+    "name": "Don Papa Rum",
+    "description": "Aged rum",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q3038727",
+    "name": "Dragon Bleu",
+    "description": "French brand of vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q62076228",
+    "name": "dry gin",
+    "description": "alcoholic beverage",
+    "parent": "gin",
+    "aliases": []
+  },
+  {
+    "id": "Q5311104",
+    "name": "Dubra",
+    "description": "brand of vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q1968074",
+    "name": "Dutch brandy",
+    "description": "liquor",
+    "parent": "liquor",
+    "aliases": [
+      "vieux"
+    ]
+  },
+  {
+    "id": "Q5326758",
+    "name": "Early Times",
+    "description": "Kentucky whiskey produced by the Brown-Forman Corporation",
+    "parent": "American whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q2166541",
+    "name": "eau-de-vie",
+    "description": "french for \"water of life\": fruit brandy obtained by distillation",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q125252953",
+    "name": "Eau-de-vie de poire du Valais",
+    "description": "",
+    "parent": "eau-de-vie",
+    "aliases": []
+  },
+  {
+    "id": "Q5351194",
+    "name": "El Dorado Rum",
+    "description": "",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q1415477",
+    "name": "El Jimador Reposado Tequila",
+    "description": "",
+    "parent": "tequila",
+    "aliases": []
+  },
+  {
+    "id": "Q134289632",
+    "name": "El-Bart",
+    "description": "brand of London dry gin",
+    "parent": "dry gin",
+    "aliases": [
+      "El-Bart Dry Gin",
+      "El-Bart Gin"
+    ]
+  },
+  {
+    "id": "Q5360905",
+    "name": "Elijah Craig",
+    "description": "bourbon whiskey",
+    "parent": "bourbon whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q63928872",
+    "name": "Empress 1908 Gin",
+    "description": "gin",
+    "parent": "gin",
+    "aliases": []
+  },
+  {
+    "id": "Q135419180",
+    "name": "English single malt",
+    "description": "single malt whisky produced in England",
+    "parent": "single malt whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q5378686",
+    "name": "English whisky",
+    "description": "English whisky is a liquor made from cereal grains, malt and water.This includes malt whisky and grain whisky that is distilled in England",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q3056190",
+    "name": "Erguotou",
+    "description": "Chinese liquor generated from second distillation",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q1354879",
+    "name": "Eristoff",
+    "description": "brand of Vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q17012457",
+    "name": "Espolon",
+    "description": "Tequila brand",
+    "parent": "tequila",
+    "aliases": []
+  },
+  {
+    "id": "Q4038378",
+    "name": "Evan Williams",
+    "description": "Kentucky straight bourbon whiskey",
+    "parent": "bourbon whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q11137549",
+    "name": "Fen Chiew",
+    "description": "baijiu produced by Fenjiu Group, Fenyang, Shanxi",
+    "parent": "baijiu",
+    "aliases": [
+      "Fen Jiu"
+    ]
+  },
+  {
+    "id": "Q911777",
+    "name": "Fenny",
+    "description": "distilled beverage",
+    "parent": "fruit brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q5447883",
+    "name": "Fighting Cock bourbon",
+    "description": "brand of Kentucky straight bourbon whiskey",
+    "parent": "bourbon whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q3072558",
+    "name": "Fine",
+    "description": "Type of brandy",
+    "parent": "wine spirit",
+    "aliases": []
+  },
+  {
+    "id": "Q19606890",
+    "name": "Fine et marc du Bugey",
+    "description": "",
+    "parent": "Fine",
+    "aliases": []
+  },
+  {
+    "id": "Q1034035",
+    "name": "Finlandia Vodka",
+    "description": "Finnish brand of vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q5450876",
+    "name": "Finnish whisky",
+    "description": "",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q5451712",
+    "name": "Fireball Cinnamon Whisky",
+    "description": "cinnamon-flavoured whisky-based liqueur",
+    "parent": "whisky",
+    "aliases": [
+      "Fireball Whisky"
+    ]
+  },
+  {
+    "id": "Q94148482",
+    "name": "firewater",
+    "description": "type of alcohol",
+    "parent": "moonshine",
+    "aliases": []
+  },
+  {
+    "id": "Q5458202",
+    "name": "flavored liquor",
+    "description": "liquor with added flavoring and, in some cases, a small amount of added sugar",
+    "parent": "flavored alcoholic beverage",
+    "aliases": [
+      "infused liquor"
+    ]
+  },
+  {
+    "id": "Q5458524",
+    "name": "Fleischmann's vodka",
+    "description": "gin, and whiskey",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q782215",
+    "name": "Floc de Gascogne",
+    "description": "sweet apéritif made from a blend of grape juice and Armagnac",
+    "parent": "Armagnac",
+    "aliases": []
+  },
+  {
+    "id": "Q1429240",
+    "name": "Flor de Caña",
+    "description": "Nicaraguan brand of rum",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q1439975",
+    "name": "Four Roses",
+    "description": "trademark",
+    "parent": "Kentucky Straight Bourbon Whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q5493527",
+    "name": "Frapin",
+    "description": "cognac producer",
+    "parent": "cognac",
+    "aliases": []
+  },
+  {
+    "id": "Q90409172",
+    "name": "French rum",
+    "description": "French rums",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q222216",
+    "name": "fruit brandy",
+    "description": "distilled beverage",
+    "parent": "liquor",
+    "aliases": [
+      "fruit spirit"
+    ]
+  },
+  {
+    "id": "Q13638226",
+    "name": "Fruit Genever",
+    "description": "",
+    "parent": "grain spirit",
+    "aliases": []
+  },
+  {
+    "id": "Q2235019",
+    "name": "Frysk Hynder",
+    "description": "Dutch single malt whiskey",
+    "parent": "single malt whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q11571233",
+    "name": "Gaesoju",
+    "description": "Korean rice tonic made of dog meat",
+    "parent": "dog meat",
+    "aliases": [
+      "Gae-soju",
+      "Musulju"
+    ]
+  },
+  {
+    "id": "Q1331962",
+    "name": "Galliano",
+    "description": "Italian sweet herbal liqueur produced since 1896",
+    "parent": "anise liqueur",
+    "aliases": []
+  },
+  {
+    "id": "Q25628934",
+    "name": "Geist",
+    "description": "maceration of unfermented fruit or other raw materials in neutral spirits, followed by distillation",
+    "parent": "liquor",
+    "aliases": [
+      "geist"
+    ]
+  },
+  {
+    "id": "Q1254524",
+    "name": "gentian",
+    "description": "distilled alcoholic beverage made with the gentian flower",
+    "parent": "liquor",
+    "aliases": [
+      "Gentian schnapps",
+      "Gentian spirit"
+    ]
+  },
+  {
+    "id": "Q5533715",
+    "name": "Gentleman Jack",
+    "description": "brand of Jack Daniel's whiskey",
+    "parent": "Tennessee whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q5545052",
+    "name": "George T. Stagg",
+    "description": "bourbon whiskey distributed by Buffalo Trace Distillery",
+    "parent": "bourbon whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q5562570",
+    "name": "Gilpin's Westmorland Extra Dry Gin",
+    "description": "",
+    "parent": "dry gin",
+    "aliases": []
+  },
+  {
+    "id": "Q959362",
+    "name": "gin",
+    "description": "distilled alcoholic drink",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q11924232",
+    "name": "Gin Xoriguer",
+    "description": "",
+    "parent": "gin",
+    "aliases": []
+  },
+  {
+    "id": "Q18075016",
+    "name": "Glen Talloch",
+    "description": "whiskey brand",
+    "parent": "blended Scotch whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q3772705",
+    "name": "gocce imperiale",
+    "description": "",
+    "parent": "anise drink",
+    "aliases": []
+  },
+  {
+    "id": "Q12839824",
+    "name": "Gold Baku",
+    "description": "alcoholic cognac or brandy drink produced in Azerbaijan",
+    "parent": "cognac",
+    "aliases": []
+  },
+  {
+    "id": "Q26879670",
+    "name": "gold rum",
+    "description": "",
+    "parent": "rum",
+    "aliases": [
+      "amber rum"
+    ]
+  },
+  {
+    "id": "Q5578884",
+    "name": "Gold Symphony Vodka",
+    "description": "Brand of Russian vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q104866204",
+    "name": "Gold tequila",
+    "description": "",
+    "parent": "liqueur",
+    "aliases": []
+  },
+  {
+    "id": "Q1031545",
+    "name": "Gönc Apricot Pálinka",
+    "description": "alcoholic drink",
+    "parent": "Pálinka",
+    "aliases": []
+  },
+  {
+    "id": "Q2587685",
+    "name": "Gorbatschow",
+    "description": "German vodka brand",
+    "parent": "vodka",
+    "aliases": [
+      "Wodka Gorbatschow"
+    ]
+  },
+  {
+    "id": "Q1538163",
+    "name": "Gordon's London Dry Gin",
+    "description": "alcohol brand",
+    "parent": "dry gin",
+    "aliases": [
+      "Alexander Gordon & Co.",
+      "Gordon's Gin"
+    ]
+  },
+  {
+    "id": "Q24000322",
+    "name": "gosori liquor",
+    "description": "Korean liquor",
+    "parent": "liquor",
+    "aliases": [
+      "Gosori Sul"
+    ]
+  },
+  {
+    "id": "Q1479546",
+    "name": "grain spirit",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q1007164",
+    "name": "grain whisky",
+    "description": "type of alcoholic beverage",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q11293638",
+    "name": "Grand Old Parr",
+    "description": "blended Scotch Whisky",
+    "parent": "blended whiskey",
+    "aliases": [
+      "Old Parr"
+    ]
+  },
+  {
+    "id": "Q4039669",
+    "name": "Grant's",
+    "description": "scotch whisky",
+    "parent": "Scotch whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q3604688",
+    "name": "grape brandy",
+    "description": "",
+    "parent": "fruit brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q693078",
+    "name": "grappa",
+    "description": "Italian alcoholic beverage",
+    "parent": "pomace brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q5603215",
+    "name": "Green Spot",
+    "description": "single pot still Irish whiskey",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q111385100",
+    "name": "Greenall's Gin",
+    "description": "Gin brand and distillery",
+    "parent": "gin",
+    "aliases": [
+      "G&J Distillers",
+      "G&J Greenall’s"
+    ]
+  },
+  {
+    "id": "Q55385688",
+    "name": "Greenore",
+    "description": "ingle grain whiskey",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q1753595",
+    "name": "Grey Goose",
+    "description": "brand of vodka distilled in Cognac, France from French wheat",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q5610120",
+    "name": "Grogue",
+    "description": "Cape Verdean alcoholic beverage",
+    "parent": "liquor",
+    "aliases": [
+      "grogo"
+    ]
+  },
+  {
+    "id": "Q10509060",
+    "name": "Grozdova",
+    "description": "Type of fruit brandy",
+    "parent": "brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q5614179",
+    "name": "guaro",
+    "description": "liquor made in many places in Latin America",
+    "parent": "aguardiente",
+    "aliases": [
+      "soft vodka"
+    ]
+  },
+  {
+    "id": "Q11111511",
+    "name": "Guilin Sanhua Jiu",
+    "description": "liquor",
+    "parent": "baijiu",
+    "aliases": []
+  },
+  {
+    "id": "Q97850369",
+    "name": "Guizhou Xijiu",
+    "description": "baijiu",
+    "parent": "jiangxiang",
+    "aliases": [
+      "Xijiu"
+    ]
+  },
+  {
+    "id": "Q5639068",
+    "name": "Haig",
+    "description": "brand of whisky",
+    "parent": "Scotch whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q18338810",
+    "name": "Hakushu",
+    "description": "whiskey",
+    "parent": "Japanese whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q5647008",
+    "name": "Hancock's President's Reserve",
+    "description": "",
+    "parent": "bourbon whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q5648533",
+    "name": "Hankey Bannister",
+    "description": "scotch whisky",
+    "parent": "blended Scotch whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q4463347",
+    "name": "Hasseltse jenever",
+    "description": "",
+    "parent": "jenever",
+    "aliases": []
+  },
+  {
+    "id": "Q1411852",
+    "name": "Havana Club",
+    "description": "brand of rum",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q5694667",
+    "name": "Heaven Hill Kentucky Whiskey",
+    "description": "",
+    "parent": "blended whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q1601688",
+    "name": "Helbing Kümmel",
+    "description": "trademark",
+    "parent": "kümmel",
+    "aliases": []
+  },
+  {
+    "id": "Q5713678",
+    "name": "Hendrick's Gin",
+    "description": "Scottish gin brand",
+    "parent": "gin",
+    "aliases": []
+  },
+  {
+    "id": "Q18338797",
+    "name": "Hi Nikka",
+    "description": "",
+    "parent": "blended whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q5750772",
+    "name": "Hibiki",
+    "description": "Japanese blended whisky",
+    "parent": "blended whiskey",
+    "aliases": [
+      "Hibiki Harmony Whisky"
+    ]
+  },
+  {
+    "id": "Q360329",
+    "name": "Hierbas",
+    "description": "drink",
+    "parent": "anise drink",
+    "aliases": []
+  },
+  {
+    "id": "Q694451",
+    "name": "Hierbas Ibicencas",
+    "description": "aniseed-flavoured spirit",
+    "parent": "anise drink",
+    "aliases": []
+  },
+  {
+    "id": "Q10523938",
+    "name": "Highland queen",
+    "description": "",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q957181",
+    "name": "Highland single malt whisky",
+    "description": "official region of Scotch whisky production",
+    "parent": "single malt Scotch",
+    "aliases": [
+      "Highland Distillers",
+      "Highland Scotch",
+      "Highland single malt Scotch",
+      "Highland whisky",
+      "list of Highland Single Malts"
+    ]
+  },
+  {
+    "id": "Q10532317",
+    "name": "Highland whisky",
+    "description": "",
+    "parent": "Scotch whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q5761904",
+    "name": "Hill's Absinth",
+    "description": "Czech brand of wormwood bitters related to absinthe",
+    "parent": "absinthe",
+    "aliases": []
+  },
+  {
+    "id": "Q1619031",
+    "name": "Himbeergeist",
+    "description": "distilled beverage",
+    "parent": "Geist",
+    "aliases": []
+  },
+  {
+    "id": "Q2919495",
+    "name": "Horilka",
+    "description": "Ukrainian alcoholic beverage",
+    "parent": "vodka",
+    "aliases": [
+      "Pertsivka"
+    ]
+  },
+  {
+    "id": "Q11223740",
+    "name": "I.W. Harper",
+    "description": "",
+    "parent": "bourbon whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q3791653",
+    "name": "Iceberg Vodka",
+    "description": "",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q11258949",
+    "name": "Iichiko",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q11429632",
+    "name": "Iki shōchū",
+    "description": "",
+    "parent": "shōchū",
+    "aliases": []
+  },
+  {
+    "id": "Q86732278",
+    "name": "IMUGE.",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q137427341",
+    "name": "Indri",
+    "description": "Indian single malt whisky",
+    "parent": "single malt whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q28209858",
+    "name": "Insamju",
+    "description": "alcoholic beverage made of ginseng",
+    "parent": "flavored liquor",
+    "aliases": [
+      "ginseng liquor",
+      "ginseng wine",
+      "Insam-ju"
+    ]
+  },
+  {
+    "id": "Q909747",
+    "name": "Irish whiskey",
+    "description": "popular spirit made on the island of Ireland",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q1098152",
+    "name": "Island single malt whisky",
+    "description": "unofficial region of Scotch whisky production",
+    "parent": "single malt Scotch",
+    "aliases": [
+      "Island Scotch",
+      "Island single malt Scotch",
+      "Island Single Malts",
+      "Island whisky"
+    ]
+  },
+  {
+    "id": "Q902887",
+    "name": "Islay single malt whisky",
+    "description": "official region of Scotch whisky production",
+    "parent": "single malt Scotch",
+    "aliases": [
+      "Islay Scotch",
+      "Islay single malt Scotch",
+      "Islay whisky"
+    ]
+  },
+  {
+    "id": "Q3643740",
+    "name": "Italian brandy",
+    "description": "",
+    "parent": "brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q6104382",
+    "name": "J.T.S. Brown",
+    "description": "Kentucky bourbon whiskey",
+    "parent": "bourbon whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q31186302",
+    "name": "Jabukovača",
+    "description": "alcohol spirit made of apples",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q10541623",
+    "name": "Jägarbrännvin",
+    "description": "Swedish brand of brandy",
+    "parent": "brännvin",
+    "aliases": []
+  },
+  {
+    "id": "Q5196664",
+    "name": "Jaloviina",
+    "description": "Finnish brand of cut brandy",
+    "parent": "cut brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q10305048",
+    "name": "Jamel",
+    "description": "Brandy of Indústria Missiato de Bebidas",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q901367",
+    "name": "Japanese whisky",
+    "description": "type of distilled liquor produced in Japan",
+    "parent": "whisky",
+    "aliases": [
+      "Japanese whiskey"
+    ]
+  },
+  {
+    "id": "Q16995345",
+    "name": "Jefferson's Bourbon",
+    "description": "Brand of Bourbon Whiskey",
+    "parent": "bourbon whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q80680",
+    "name": "jenever",
+    "description": "French, Dutch and Belgian liquor",
+    "parent": "liquor",
+    "aliases": [
+      "Dutch gin",
+      "genever",
+      "Holland gin"
+    ]
+  },
+  {
+    "id": "Q6180454",
+    "name": "Jeppson's Malört",
+    "description": "brand of bäsk brännvin liqueur",
+    "parent": "bäsk",
+    "aliases": [
+      "Jeppson's Malort",
+      "Malort",
+      "Malört"
+    ]
+  },
+  {
+    "id": "Q97695730",
+    "name": "jiangxiang",
+    "description": "type of baijiu",
+    "parent": "baijiu",
+    "aliases": []
+  },
+  {
+    "id": "Q96384447",
+    "name": "Jiangxiaobai",
+    "description": "Chinese liquor brand",
+    "parent": "Kaoliang wine",
+    "aliases": []
+  },
+  {
+    "id": "Q502268",
+    "name": "Johnnie Walker",
+    "description": "brand of Scotch whisky owned by Diageo that originated in Kilmarnock, Ayrshire, Scotland",
+    "parent": "Scotch whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q6266619",
+    "name": "Johnny Drum Bourbon",
+    "description": "",
+    "parent": "bourbon whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q1399467",
+    "name": "Jose Cuervo",
+    "description": "brand of tequila that was founded in 1795 by Don Jose Antonio de Cuervo",
+    "parent": "tequila",
+    "aliases": [
+      "Tequila Jose Cuervo"
+    ]
+  },
+  {
+    "id": "Q22683408",
+    "name": "Kaesong liquor",
+    "description": "",
+    "parent": "brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q1721531",
+    "name": "Kaiser-Kümmel",
+    "description": "",
+    "parent": "kümmel",
+    "aliases": []
+  },
+  {
+    "id": "Q906494",
+    "name": "Kaoliang wine",
+    "description": "strong distilled liquor of Chinese origin made from fermented sorghum",
+    "parent": "baijiu",
+    "aliases": [
+      "Baijiu",
+      "Gaoliang chiew",
+      "Gaoliang jiu",
+      "Gaoliang liquor",
+      "Gaoliang wine",
+      "Kaoliang chiew",
+      "Kaoliang jiu",
+      "Kaoliang liquor",
+      "Sorghum liquor",
+      "Sorghum wine"
+    ]
+  },
+  {
+    "id": "Q42901501",
+    "name": "Karhuviina",
+    "description": "Finnish distilled beverage sold 1933–1934",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q22126368",
+    "name": "Karuizawa 1960",
+    "description": "",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q139715552",
+    "name": "Kentucky Straight Bourbon Whiskey",
+    "description": "",
+    "parent": "bourbon whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q969947",
+    "name": "Khlibnyi Dar",
+    "description": "Ukrainian vodka",
+    "parent": "vodka",
+    "aliases": [
+      "Bread Gift",
+      "Hlebny Dar",
+      "Hlebnyi Dar",
+      "Hlibny Dar",
+      "Khlebny Dar"
+    ]
+  },
+  {
+    "id": "Q378239",
+    "name": "Killyloch",
+    "description": "malt whisky",
+    "parent": "malt whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q65045484",
+    "name": "Kinmen Kaoliang liquor",
+    "description": "",
+    "parent": "Kaoliang wine",
+    "aliases": []
+  },
+  {
+    "id": "Q30922538",
+    "name": "Kirin Oak Master",
+    "description": "",
+    "parent": "blended whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q279034",
+    "name": "kirsch",
+    "description": "Fruit brandy made of morello cherries",
+    "parent": "fruit brandy",
+    "aliases": [
+      "Kirschwasser"
+    ]
+  },
+  {
+    "id": "Q4220357",
+    "name": "Kizlyarka",
+    "description": "Grape vodka made in Kizlyar, Dagestan, Russia",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q10546701",
+    "name": "Knob Creek",
+    "description": "Kentucky straight bourbon whiskey produced by Beam Suntory at the Jim Beam distillery in Clermont, KY",
+    "parent": "Kentucky Straight Bourbon Whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q6428589",
+    "name": "Komovica",
+    "description": "alcoholic beverage, rakia made of grape pomace",
+    "parent": "pomace brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q582877",
+    "name": "Korn",
+    "description": "German colorless distilled beverage",
+    "parent": "grain spirit",
+    "aliases": [
+      "Doppelkorn",
+      "Kornbrand"
+    ]
+  },
+  {
+    "id": "Q22236232",
+    "name": "Kors Vodka",
+    "description": "Good",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q749996",
+    "name": "Koskenkorva Viina",
+    "description": "Finnish barley spirit drink",
+    "parent": "grain spirit",
+    "aliases": [
+      "Koskenkorva",
+      "Koskenkorvan viina",
+      "Koskenkorvan Viina",
+      "Kossu"
+    ]
+  },
+  {
+    "id": "Q3199361",
+    "name": "Koutoukou",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q17102143",
+    "name": "Kraken Rum",
+    "description": "black rum",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q10549528",
+    "name": "Kronsup",
+    "description": "type of liquor",
+    "parent": "brännvin",
+    "aliases": []
+  },
+  {
+    "id": "Q97207647",
+    "name": "kumashōchū",
+    "description": "",
+    "parent": "shōchū",
+    "aliases": []
+  },
+  {
+    "id": "Q6443850",
+    "name": "Kumi Kumi",
+    "description": "illegal liquor brewed in Kenya",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q1142021",
+    "name": "kümmel",
+    "description": "sweet liqueur flavored with caraway, cumin, and fennel seeds",
+    "parent": "flavored liquor",
+    "aliases": [
+      "caraway-flavoured spirit drink"
+    ]
+  },
+  {
+    "id": "Q25461355",
+    "name": "Kyrö Napue Gin",
+    "description": "Finnish rye gin produced by the Kyrö Distillery",
+    "parent": "gin",
+    "aliases": [
+      "Napue"
+    ]
+  },
+  {
+    "id": "Q17628929",
+    "name": "La Hechicera",
+    "description": "",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q116290577",
+    "name": "Label 5",
+    "description": "scotch whisky brand",
+    "parent": "blended Scotch whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q96278979",
+    "name": "Lagavulin 16 years whisky",
+    "description": "Lagavulin 16 years single malt scotch whisky",
+    "parent": "Islay single malt whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q3216660",
+    "name": "Lambig",
+    "description": "Brandy from Breton, France",
+    "parent": "eau-de-vie",
+    "aliases": [
+      "Fine Bretagne",
+      "gwinardant"
+    ]
+  },
+  {
+    "id": "Q11053051",
+    "name": "Lao baijiu",
+    "description": "",
+    "parent": "baijiu",
+    "aliases": []
+  },
+  {
+    "id": "Q1805687",
+    "name": "lao khao",
+    "description": "Thai distilled spirit",
+    "parent": "liquor",
+    "aliases": [
+      "sura khao"
+    ]
+  },
+  {
+    "id": "Q2920743",
+    "name": "Lao-Lao",
+    "description": "Laotian rice whisky produced in Laos",
+    "parent": "grain spirit",
+    "aliases": []
+  },
+  {
+    "id": "Q17005920",
+    "name": "Leblon Cachaça",
+    "description": "Brazilian cachaça brand",
+    "parent": "cachaça",
+    "aliases": []
+  },
+  {
+    "id": "Q104243574",
+    "name": "lees spirit",
+    "description": "",
+    "parent": "liquor",
+    "aliases": [
+      "Hefebrand"
+    ]
+  },
+  {
+    "id": "Q11875337",
+    "name": "Leijona Viina",
+    "description": "Finnish distilled beverage",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q1815137",
+    "name": "lemon brandy",
+    "description": "",
+    "parent": "brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q3445339",
+    "name": "Lemon Genever",
+    "description": "",
+    "parent": "Fruit Genever",
+    "aliases": []
+  },
+  {
+    "id": "Q1826690",
+    "name": "Linie Aquavit",
+    "description": "",
+    "parent": "Norwegian akvavit",
+    "aliases": []
+  },
+  {
+    "id": "Q6684814",
+    "name": "Lotoko",
+    "description": "home-distilled alcoholic drink in the Democratic Republic of the Congo",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q3263322",
+    "name": "Louis XIII de Rémy Martin",
+    "description": "type of cognac made by Rémy Martin",
+    "parent": "cognac",
+    "aliases": [
+      "Louis XIII de Remy Martin"
+    ]
+  },
+  {
+    "id": "Q674855",
+    "name": "Lowland single malt whisky",
+    "description": "region of Scotch whisky production",
+    "parent": "single malt Scotch",
+    "aliases": [
+      "Lowland Scotch",
+      "Lowland single malt Scotch",
+      "Lowland Single Malts",
+      "Lowland whisky"
+    ]
+  },
+  {
+    "id": "Q4354009",
+    "name": "Luksusowa vodka",
+    "description": "brand of Vodka from Poland",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q16947413",
+    "name": "Lunazul",
+    "description": "blue agave tequila produced by Tierra de Agaves",
+    "parent": "tequila",
+    "aliases": []
+  },
+  {
+    "id": "Q86660958",
+    "name": "Mahia",
+    "description": "Moroccan alcoholic beverage distilled from dates or figs",
+    "parent": "fruit brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q104439402",
+    "name": "Maker's Mark",
+    "description": "bourbon whisky",
+    "parent": "bourbon whiskey",
+    "aliases": [
+      "Maker's Mark Bourbon Whisky"
+    ]
+  },
+  {
+    "id": "Q6744642",
+    "name": "malt whisky",
+    "description": "Distilled spirit from Scotland (a/k/a \"Scotch\"—unlike other 'whiskey')",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q6746137",
+    "name": "ManX spirit",
+    "description": "clear spirit by Kella Distillers",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q1070974",
+    "name": "Maotai",
+    "description": "a style of baijiu",
+    "parent": "baijiu",
+    "aliases": [
+      "Moutai"
+    ]
+  },
+  {
+    "id": "Q525397",
+    "name": "marc",
+    "description": "",
+    "parent": "pomace brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q71423468",
+    "name": "Marc des Côtes du Rhône",
+    "description": "",
+    "parent": "Côtes du Rhône AOC",
+    "aliases": []
+  },
+  {
+    "id": "Q2314099",
+    "name": "Mariënburg Rum",
+    "description": "rum from Suriname",
+    "parent": "rum",
+    "aliases": [
+      "Marienburg rum"
+    ]
+  },
+  {
+    "id": "Q22236238",
+    "name": "Mariette",
+    "description": "vodka, alcohol",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q1898165",
+    "name": "Marillenschnaps",
+    "description": "Austrian brandy made from apricots",
+    "parent": "fruit brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q65086603",
+    "name": "Masons Gin",
+    "description": "company based in North Yorkshire, England",
+    "parent": "gin",
+    "aliases": [
+      "Masons Of Yorkshire"
+    ]
+  },
+  {
+    "id": "Q569332",
+    "name": "Mastika",
+    "description": "Liqueur seasoned with mastic",
+    "parent": "flavored liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q109265828",
+    "name": "Mayfair Gin",
+    "description": "",
+    "parent": "dry gin",
+    "aliases": [
+      "Mayfair London Dry Gin"
+    ]
+  },
+  {
+    "id": "Q16997481",
+    "name": "McDowell's No.1",
+    "description": "Brand of Indian Spirits",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q22236239",
+    "name": "McDowell's No.1 Celebration",
+    "description": "Indian rum brand",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q3304608",
+    "name": "Mei Kuei Lu Chiew",
+    "description": "Chinese alcoholic beverage with rose aroma",
+    "parent": "liquor",
+    "aliases": [
+      "Mei Kuei Lu Chinese Cooking Wine",
+      "Mei Kuei Lu Wine",
+      "Mei kwei lu chew",
+      "meigui lu jiu"
+    ]
+  },
+  {
+    "id": "Q4926273",
+    "name": "Mekhong",
+    "description": "Thai liquor",
+    "parent": "liquor",
+    "aliases": [
+      "Mekong"
+    ]
+  },
+  {
+    "id": "Q753068",
+    "name": "Metaxa",
+    "description": "Greek liqueur based on brandy",
+    "parent": "brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q1926107",
+    "name": "Meukow",
+    "description": "",
+    "parent": "cognac",
+    "aliases": []
+  },
+  {
+    "id": "Q85785118",
+    "name": "Mexican whisky",
+    "description": "",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q726413",
+    "name": "mezcal",
+    "description": "distilled alcoholic beverage",
+    "parent": "liquor",
+    "aliases": [
+      "mescal"
+    ]
+  },
+  {
+    "id": "Q40529750",
+    "name": "Milagro Tequila",
+    "description": "brand of tequila created in 1997 by Danny Schneeweiss and Moy Guindi",
+    "parent": "tequila",
+    "aliases": []
+  },
+  {
+    "id": "Q1156882",
+    "name": "Minttu",
+    "description": "Finnish peppermint distilled beverage",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q1937916",
+    "name": "Mirabelle plum brandy",
+    "description": "",
+    "parent": "fruit brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q3859376",
+    "name": "mistrà",
+    "description": "",
+    "parent": "anise drink",
+    "aliases": []
+  },
+  {
+    "id": "Q21030926",
+    "name": "Monkey Shoulder",
+    "description": "scotch whisky",
+    "parent": "blended malt whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q917046",
+    "name": "moonshine",
+    "description": "high-proof distilled spirit, generally produced illicitly",
+    "parent": "liquor",
+    "aliases": [
+      "mountain dew",
+      "Tennessee white whiskey",
+      "white lightning",
+      "hooch"
+    ]
+  },
+  {
+    "id": "Q1949371",
+    "name": "Moskovskaya vodka",
+    "description": "Brand of Russian vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q1259448",
+    "name": "Mount Gay Rum",
+    "description": "Rum produced by Mount Gay Distilleries Ltd. of Barbados",
+    "parent": "liquor",
+    "aliases": [
+      "Mount Gay"
+    ]
+  },
+  {
+    "id": "Q4260489",
+    "name": "Munbaeju",
+    "description": "Munbaeju liquor",
+    "parent": "liquor",
+    "aliases": [
+      "문배주"
+    ]
+  },
+  {
+    "id": "Q123053236",
+    "name": "Myeoncheon Dugyeonju",
+    "description": "Dugyeonju liquor of Myeoncheon",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q12666280",
+    "name": "Naminė",
+    "description": "type of vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q104841092",
+    "name": "Nardini",
+    "description": "grappa",
+    "parent": "grappa",
+    "aliases": []
+  },
+  {
+    "id": "Q139072950",
+    "name": "Nega Fulô",
+    "description": "Discontinued Brazilian cachaça brand",
+    "parent": "cachaça",
+    "aliases": []
+  },
+  {
+    "id": "Q65090509",
+    "name": "Negrita",
+    "description": "French rum brand",
+    "parent": "French rum",
+    "aliases": [
+      "Rhum Negrita"
+    ]
+  },
+  {
+    "id": "Q125250371",
+    "name": "New world whisky",
+    "description": "whisky produced in non-traditional countries",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q18700945",
+    "name": "Nikka All Malt",
+    "description": "",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q18339182",
+    "name": "Nikka Black",
+    "description": "",
+    "parent": "blended whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q22129990",
+    "name": "Nikka Coffey Grain",
+    "description": "",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q22127157",
+    "name": "Nikka from the Barrel",
+    "description": "",
+    "parent": "blended whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q22124417",
+    "name": "Nikka Miyagikyo",
+    "description": "",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q18337234",
+    "name": "Nikka Taketsuru",
+    "description": "",
+    "parent": "blended malt whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q96279008",
+    "name": "Nikka Whiskey",
+    "description": "Nikka 12 years pure malt Japanese Whiskey",
+    "parent": "blended whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q22127818",
+    "name": "Nikka Whisky Gold & Gold",
+    "description": "",
+    "parent": "blended whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q24903447",
+    "name": "Nikka Yoichi",
+    "description": "",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q17118809",
+    "name": "Nikolai",
+    "description": "brand of vodka on the market in the United States",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q1029030",
+    "name": "Noble brandy",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q138569499",
+    "name": "Noosh Gin",
+    "description": "Canadian craft gin brand produced by Noosh Spirits Corporation",
+    "parent": "gin",
+    "aliases": [
+      "Noosh"
+    ]
+  },
+  {
+    "id": "Q138327663",
+    "name": "noray costa brava gin",
+    "description": "The first craft gin from Costa Brava, Spain",
+    "parent": "gin",
+    "aliases": []
+  },
+  {
+    "id": "Q12717295",
+    "name": "Norwegian akvavit",
+    "description": "",
+    "parent": "liquor",
+    "aliases": [
+      "Norwegian aquavit"
+    ]
+  },
+  {
+    "id": "Q124340057",
+    "name": "O'de Flander",
+    "description": "",
+    "parent": "jenever",
+    "aliases": []
+  },
+  {
+    "id": "Q11133630",
+    "name": "ojén",
+    "description": "",
+    "parent": "anise drink",
+    "aliases": []
+  },
+  {
+    "id": "Q7083990",
+    "name": "Old Fitzgerald",
+    "description": "brand of wheated bourbon",
+    "parent": "bourbon whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q762996",
+    "name": "Old Monk",
+    "description": "alcoholic drink",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q6049703",
+    "name": "Old Smuggler",
+    "description": "blended scotch whisky",
+    "parent": "blended Scotch whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q7085064",
+    "name": "Old St Andrews",
+    "description": "brand of Scotch whisky",
+    "parent": "blended Scotch whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q7085234",
+    "name": "Old Tom Gin",
+    "description": "18th century gin recipe",
+    "parent": "gin",
+    "aliases": []
+  },
+  {
+    "id": "Q10341571",
+    "name": "Orloff",
+    "description": "",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q771786",
+    "name": "orujo",
+    "description": "liquor obtained from the distillation of marc, the solid remains left after pressing of the grape",
+    "parent": "pomace brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q337687",
+    "name": "ouzo",
+    "description": "anis drink",
+    "parent": "flavored liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q12882400",
+    "name": "Ouzo Barbayanni",
+    "description": "Greek brand of ouzo",
+    "parent": "ouzo",
+    "aliases": []
+  },
+  {
+    "id": "Q27670206",
+    "name": "overproof rum",
+    "description": "",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q7123810",
+    "name": "Padlamanggan",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q7127116",
+    "name": "Pálenka",
+    "description": "distilled alcohol",
+    "parent": "fruit brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q782901",
+    "name": "Pálinka",
+    "description": "Hungarian fruit brandy",
+    "parent": "fruit brandy",
+    "aliases": [
+      "Palinka"
+    ]
+  },
+  {
+    "id": "Q11802565",
+    "name": "Pan Tadeusz",
+    "description": "brand of vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q16976",
+    "name": "pastis",
+    "description": "anise-flavored liqueur and aperitif from France",
+    "parent": "anise drink",
+    "aliases": [
+      "pastaga"
+    ]
+  },
+  {
+    "id": "Q2056269",
+    "name": "Pastis 51",
+    "description": "",
+    "parent": "pastis",
+    "aliases": []
+  },
+  {
+    "id": "Q2915604",
+    "name": "Patrón",
+    "description": "brand of tequila products by the Patrón Spirits Company",
+    "parent": "tequila",
+    "aliases": [
+      "Patron",
+      "Patrón Tequila",
+      "Tequila Patrón"
+    ]
+  },
+  {
+    "id": "Q11994912",
+    "name": "Paul Giraud & Fils",
+    "description": "French cognac",
+    "parent": "cognac",
+    "aliases": []
+  },
+  {
+    "id": "Q16259546",
+    "name": "Paul John",
+    "description": "brand of Indian whisky",
+    "parent": "single malt whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q104857567",
+    "name": "peach brandy",
+    "description": "type of brandy made from peaches",
+    "parent": "fruit brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q16966402",
+    "name": "Pearl vodka",
+    "description": "",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q61859567",
+    "name": "Pecaya parish cocuy",
+    "description": "type of cocuy",
+    "parent": "cocuy",
+    "aliases": []
+  },
+  {
+    "id": "Q3142679",
+    "name": "Peket",
+    "description": "Genever from Wallonia",
+    "parent": "jenever",
+    "aliases": [
+      "Pékèt",
+      "Pèkèt",
+      "Péquet"
+    ]
+  },
+  {
+    "id": "Q7162487",
+    "name": "Pendleton Whisky",
+    "description": "brand of blended Canadian whisky",
+    "parent": "blended whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q15627482",
+    "name": "Pernod",
+    "description": "",
+    "parent": "anise drink",
+    "aliases": []
+  },
+  {
+    "id": "Q91308789",
+    "name": "perry spirit",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q6076844",
+    "name": "Peruvian Pisco",
+    "description": "grape brandy produced in Peru",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q2095068",
+    "name": "Pillkaller",
+    "description": "liquor from Dobrovolsk, Kaliningrad Oblast, Russia",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q7196252",
+    "name": "Pinky Vodka",
+    "description": "Swedish blended vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q7196323",
+    "name": "Pinnacle vodka",
+    "description": "brand of vodka owned by Beam Suntory",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q388502",
+    "name": "pisco",
+    "description": "Spirit produced by distilling fermented grape juice",
+    "parent": "wine spirit",
+    "aliases": []
+  },
+  {
+    "id": "Q12639820",
+    "name": "Playy",
+    "description": "alcoholic beverage made in Austria",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q7205807",
+    "name": "Plymouth Gin",
+    "description": "type of gin",
+    "parent": "gin",
+    "aliases": []
+  },
+  {
+    "id": "Q1315113",
+    "name": "poitín",
+    "description": "distilled beverage",
+    "parent": "grain spirit",
+    "aliases": [
+      "poitin",
+      "poteen"
+    ]
+  },
+  {
+    "id": "Q7209033",
+    "name": "Polar Ice",
+    "description": "Canadian vodka brand",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q3394101",
+    "name": "Poliakov",
+    "description": "French brand of vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q7225924",
+    "name": "Polonaise",
+    "description": "Polish brand of vodka",
+    "parent": "drink",
+    "aliases": []
+  },
+  {
+    "id": "Q19844149",
+    "name": "Polugar",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q91301321",
+    "name": "pomace brandy",
+    "description": "liquor distilled from pomace that is left over from winemaking",
+    "parent": "liquor",
+    "aliases": [
+      "grape marc",
+      "grape marc spirit"
+    ]
+  },
+  {
+    "id": "Q7229458",
+    "name": "Popov",
+    "description": "American brand of vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q1777126",
+    "name": "Pott (rum)",
+    "description": "brand of rum spirits",
+    "parent": "rum",
+    "aliases": [
+      "H. H. Pott Nfgr. Vertriebsgesellschaft mbH Rumhandelshaus"
+    ]
+  },
+  {
+    "id": "Q7236952",
+    "name": "Pox",
+    "description": "ceremonial drink common among the Maya, especially those in Chamula",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q20252669",
+    "name": "Pöytäviina",
+    "description": "discontinued Finnish liquor",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q57743420",
+    "name": "Proper No. Twelve",
+    "description": "Irish whiskey founded by Conor McGregor",
+    "parent": "Irish whiskey",
+    "aliases": [
+      "Proper 12",
+      "Proper No 12",
+      "Proper No Twelve",
+      "Proper No. 12",
+      "Proper Number 12",
+      "Proper Number Twelve",
+      "Proper Twelve",
+      "Proper Whiskey",
+      "Proper Whisky"
+    ]
+  },
+  {
+    "id": "Q1726904",
+    "name": "Puschkin Vodka",
+    "description": "",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q2453497",
+    "name": "Putinka",
+    "description": "Russian brand of vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q101111211",
+    "name": "Q101111211",
+    "description": "",
+    "parent": "grain spirit",
+    "aliases": []
+  },
+  {
+    "id": "Q1014773",
+    "name": "Q1014773",
+    "description": "",
+    "parent": "grape brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q10364321",
+    "name": "Q10364321",
+    "description": "",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q10426599",
+    "name": "Q10426599",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q10442569",
+    "name": "Q10442569",
+    "description": "",
+    "parent": "brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q10524418",
+    "name": "Q10524418",
+    "description": "",
+    "parent": "brännvin",
+    "aliases": []
+  },
+  {
+    "id": "Q10542564",
+    "name": "Q10542564",
+    "description": "",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q10544625",
+    "name": "Q10544625",
+    "description": "",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q10571697",
+    "name": "Q10571697",
+    "description": "",
+    "parent": "Norwegian akvavit",
+    "aliases": []
+  },
+  {
+    "id": "Q10575298",
+    "name": "Q10575298",
+    "description": "",
+    "parent": "brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q10600273",
+    "name": "Q10600273",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q10670046",
+    "name": "Q10670046",
+    "description": "",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q10672406",
+    "name": "Q10672406",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q10683843",
+    "name": "Q10683843",
+    "description": "",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q10850220",
+    "name": "Q10850220",
+    "description": "",
+    "parent": "anise drink",
+    "aliases": []
+  },
+  {
+    "id": "Q109311163",
+    "name": "Q109311163",
+    "description": "",
+    "parent": "cider spirit",
+    "aliases": []
+  },
+  {
+    "id": "Q109313948",
+    "name": "Q109313948",
+    "description": "",
+    "parent": "pastis",
+    "aliases": []
+  },
+  {
+    "id": "Q110977375",
+    "name": "Q110977375",
+    "description": "",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q11270523",
+    "name": "Q11270523",
+    "description": "",
+    "parent": "shōchū",
+    "aliases": []
+  },
+  {
+    "id": "Q11305846",
+    "name": "Q11305846",
+    "description": "",
+    "parent": "shōchū",
+    "aliases": []
+  },
+  {
+    "id": "Q11433019",
+    "name": "Q11433019",
+    "description": "",
+    "parent": "Q114353925",
+    "aliases": []
+  },
+  {
+    "id": "Q114353925",
+    "name": "Q114353925",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q11456003",
+    "name": "Q11456003",
+    "description": "",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q11464483",
+    "name": "Q11464483",
+    "description": "",
+    "parent": "sweet potato shōchū",
+    "aliases": []
+  },
+  {
+    "id": "Q11539277",
+    "name": "Q11539277",
+    "description": "",
+    "parent": "sweet potato shōchū",
+    "aliases": []
+  },
+  {
+    "id": "Q11564135",
+    "name": "Q11564135",
+    "description": "",
+    "parent": "shōchū",
+    "aliases": []
+  },
+  {
+    "id": "Q11580733",
+    "name": "Q11580733",
+    "description": "",
+    "parent": "Q114353925",
+    "aliases": []
+  },
+  {
+    "id": "Q11605387",
+    "name": "Q11605387",
+    "description": "",
+    "parent": "shōchū",
+    "aliases": []
+  },
+  {
+    "id": "Q116166049",
+    "name": "Q116166049",
+    "description": "",
+    "parent": "sweet potato shōchū",
+    "aliases": []
+  },
+  {
+    "id": "Q11672025",
+    "name": "Q11672025",
+    "description": "",
+    "parent": "moonshine",
+    "aliases": []
+  },
+  {
+    "id": "Q11673843",
+    "name": "Q11673843",
+    "description": "",
+    "parent": "sweet potato shōchū",
+    "aliases": []
+  },
+  {
+    "id": "Q116740893",
+    "name": "Q116740893",
+    "description": "",
+    "parent": "gin",
+    "aliases": []
+  },
+  {
+    "id": "Q11775275",
+    "name": "Q11775275",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q11855593",
+    "name": "Q11855593",
+    "description": "",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q11963483",
+    "name": "Q11963483",
+    "description": "",
+    "parent": "cognac",
+    "aliases": []
+  },
+  {
+    "id": "Q12022183",
+    "name": "Q12022183",
+    "description": "",
+    "parent": "fruit brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q124883521",
+    "name": "Q124883521",
+    "description": "",
+    "parent": "pastis",
+    "aliases": []
+  },
+  {
+    "id": "Q125562574",
+    "name": "Q125562574",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q12625660",
+    "name": "Q12625660",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q126435981",
+    "name": "Q126435981",
+    "description": "",
+    "parent": "ouzo",
+    "aliases": []
+  },
+  {
+    "id": "Q12773163",
+    "name": "Q12773163",
+    "description": "",
+    "parent": "fruit brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q1295179",
+    "name": "Q1295179",
+    "description": "",
+    "parent": "Pálinka",
+    "aliases": []
+  },
+  {
+    "id": "Q130374578",
+    "name": "Q130374578",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q131679131",
+    "name": "Q131679131",
+    "description": "",
+    "parent": "Brandy de Jerez",
+    "aliases": []
+  },
+  {
+    "id": "Q134269564",
+    "name": "Q134269564",
+    "description": "",
+    "parent": "wine spirit",
+    "aliases": []
+  },
+  {
+    "id": "Q134452844",
+    "name": "Q134452844",
+    "description": "",
+    "parent": "brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q135207479",
+    "name": "Q135207479",
+    "description": "",
+    "parent": "shaojiu",
+    "aliases": []
+  },
+  {
+    "id": "Q135646306",
+    "name": "Q135646306",
+    "description": "",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q136647933",
+    "name": "Q136647933",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q136746258",
+    "name": "Q136746258",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q136746355",
+    "name": "Q136746355",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q1375289",
+    "name": "Q1375289",
+    "description": "brandy",
+    "parent": "brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q138503069",
+    "name": "Q138503069",
+    "description": "",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q1402554",
+    "name": "Q1402554",
+    "description": "Brand of Russian vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q1583755",
+    "name": "Q1583755",
+    "description": "trademark",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q16323140",
+    "name": "Q16323140",
+    "description": "",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q16388503",
+    "name": "Q16388503",
+    "description": "",
+    "parent": "brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q16544917",
+    "name": "Q16544917",
+    "description": "",
+    "parent": "anisette",
+    "aliases": []
+  },
+  {
+    "id": "Q16761200",
+    "name": "Q16761200",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q17194918",
+    "name": "Q17194918",
+    "description": "",
+    "parent": "cognac",
+    "aliases": []
+  },
+  {
+    "id": "Q1734639",
+    "name": "Q1734639",
+    "description": "potato vodka",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q17353753",
+    "name": "Q17353753",
+    "description": "",
+    "parent": "Korn",
+    "aliases": []
+  },
+  {
+    "id": "Q17776112",
+    "name": "Q17776112",
+    "description": "",
+    "parent": "Norwegian akvavit",
+    "aliases": []
+  },
+  {
+    "id": "Q1783407",
+    "name": "Q1783407",
+    "description": "",
+    "parent": "anyżówka",
+    "aliases": []
+  },
+  {
+    "id": "Q1786912",
+    "name": "Q1786912",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q18277319",
+    "name": "Q18277319",
+    "description": "",
+    "parent": "aguardiente",
+    "aliases": []
+  },
+  {
+    "id": "Q1852701",
+    "name": "Q1852701",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q1892862",
+    "name": "Q1892862",
+    "description": "",
+    "parent": "marc",
+    "aliases": []
+  },
+  {
+    "id": "Q1933006",
+    "name": "Q1933006",
+    "description": "",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q19705097",
+    "name": "Q19705097",
+    "description": "",
+    "parent": "Rakia",
+    "aliases": []
+  },
+  {
+    "id": "Q19714644",
+    "name": "Q19714644",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q20549588",
+    "name": "Q20549588",
+    "description": "",
+    "parent": "aguardiente",
+    "aliases": []
+  },
+  {
+    "id": "Q2119845",
+    "name": "Q2119845",
+    "description": "",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q21409337",
+    "name": "Q21409337",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q21657597",
+    "name": "Q21657597",
+    "description": "",
+    "parent": "brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q21710543",
+    "name": "Q21710543",
+    "description": "",
+    "parent": "soju",
+    "aliases": []
+  },
+  {
+    "id": "Q223669",
+    "name": "Q223669",
+    "description": "alcoholic beverage",
+    "parent": "gin",
+    "aliases": []
+  },
+  {
+    "id": "Q22683954",
+    "name": "Q22683954",
+    "description": "",
+    "parent": "fruit brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q2424905",
+    "name": "Q2424905",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q24638187",
+    "name": "Q24638187",
+    "description": "",
+    "parent": "soju",
+    "aliases": []
+  },
+  {
+    "id": "Q25416186",
+    "name": "Q25416186",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q25631476",
+    "name": "Q25631476",
+    "description": "",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q28496249",
+    "name": "Q28496249",
+    "description": "",
+    "parent": "marc",
+    "aliases": []
+  },
+  {
+    "id": "Q2883999",
+    "name": "Q2883999",
+    "description": "",
+    "parent": "aguardiente",
+    "aliases": []
+  },
+  {
+    "id": "Q2984051",
+    "name": "Q2984051",
+    "description": "",
+    "parent": "jenever",
+    "aliases": []
+  },
+  {
+    "id": "Q3249406",
+    "name": "Q3249406",
+    "description": "",
+    "parent": "grain spirit",
+    "aliases": []
+  },
+  {
+    "id": "Q3368479",
+    "name": "Q3368479",
+    "description": "",
+    "parent": "pastis",
+    "aliases": []
+  },
+  {
+    "id": "Q3397680",
+    "name": "Q3397680",
+    "description": "",
+    "parent": "anise drink",
+    "aliases": []
+  },
+  {
+    "id": "Q3429765",
+    "name": "Q3429765",
+    "description": "",
+    "parent": "Rhum Agricole",
+    "aliases": []
+  },
+  {
+    "id": "Q3429770",
+    "name": "Q3429770",
+    "description": "Rum distillery in Martinique, France",
+    "parent": "Rhum Agricole",
+    "aliases": []
+  },
+  {
+    "id": "Q3429772",
+    "name": "Q3429772",
+    "description": "",
+    "parent": "Rhum Agricole",
+    "aliases": []
+  },
+  {
+    "id": "Q3429778",
+    "name": "Q3429778",
+    "description": "",
+    "parent": "Rhum Agricole",
+    "aliases": []
+  },
+  {
+    "id": "Q3429781",
+    "name": "Q3429781",
+    "description": "",
+    "parent": "Rhum Agricole",
+    "aliases": []
+  },
+  {
+    "id": "Q3429783",
+    "name": "Q3429783",
+    "description": "",
+    "parent": "Rhum from Guadeloupe",
+    "aliases": []
+  },
+  {
+    "id": "Q3429784",
+    "name": "Q3429784",
+    "description": "",
+    "parent": "Rhum Agricole",
+    "aliases": []
+  },
+  {
+    "id": "Q3429790",
+    "name": "Q3429790",
+    "description": "",
+    "parent": "Rhum Agricole",
+    "aliases": []
+  },
+  {
+    "id": "Q3429804",
+    "name": "Q3429804",
+    "description": "",
+    "parent": "Rhum Agricole",
+    "aliases": []
+  },
+  {
+    "id": "Q3429806",
+    "name": "Q3429806",
+    "description": "",
+    "parent": "Rhum Agricole",
+    "aliases": []
+  },
+  {
+    "id": "Q3429807",
+    "name": "Q3429807",
+    "description": "type of rum",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q3745566",
+    "name": "Q3745566",
+    "description": "",
+    "parent": "pomace brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q38276699",
+    "name": "Q38276699",
+    "description": "",
+    "parent": "Q114353925",
+    "aliases": []
+  },
+  {
+    "id": "Q3940538",
+    "name": "Q3940538",
+    "description": "",
+    "parent": "Sambuca",
+    "aliases": []
+  },
+  {
+    "id": "Q4008832",
+    "name": "Q4008832",
+    "description": "",
+    "parent": "mistrà",
+    "aliases": []
+  },
+  {
+    "id": "Q4083104",
+    "name": "Q4083104",
+    "description": "",
+    "parent": "brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q428621",
+    "name": "Q428621",
+    "description": "",
+    "parent": "Pálinka",
+    "aliases": []
+  },
+  {
+    "id": "Q42867100",
+    "name": "Q42867100",
+    "description": "",
+    "parent": "cider spirit",
+    "aliases": []
+  },
+  {
+    "id": "Q42867103",
+    "name": "Q42867103",
+    "description": "",
+    "parent": "cider spirit",
+    "aliases": []
+  },
+  {
+    "id": "Q43013869",
+    "name": "Q43013869",
+    "description": "AOC",
+    "parent": "rhum from Martinique",
+    "aliases": []
+  },
+  {
+    "id": "Q43014351",
+    "name": "Q43014351",
+    "description": "",
+    "parent": "cognac",
+    "aliases": []
+  },
+  {
+    "id": "Q43014359",
+    "name": "Q43014359",
+    "description": "",
+    "parent": "cognac",
+    "aliases": []
+  },
+  {
+    "id": "Q43021688",
+    "name": "Q43021688",
+    "description": "",
+    "parent": "cognac",
+    "aliases": []
+  },
+  {
+    "id": "Q43021692",
+    "name": "Q43021692",
+    "description": "",
+    "parent": "cognac",
+    "aliases": []
+  },
+  {
+    "id": "Q43021695",
+    "name": "Q43021695",
+    "description": "",
+    "parent": "cognac",
+    "aliases": []
+  },
+  {
+    "id": "Q43021697",
+    "name": "Q43021697",
+    "description": "",
+    "parent": "cognac",
+    "aliases": []
+  },
+  {
+    "id": "Q43267462",
+    "name": "Q43267462",
+    "description": "",
+    "parent": "cider spirit",
+    "aliases": []
+  },
+  {
+    "id": "Q50362089",
+    "name": "Q50362089",
+    "description": "",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q509042",
+    "name": "Q509042",
+    "description": "",
+    "parent": "Pálinka",
+    "aliases": []
+  },
+  {
+    "id": "Q55664209",
+    "name": "Q55664209",
+    "description": "",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q55832393",
+    "name": "Q55832393",
+    "description": "",
+    "parent": "anise drink",
+    "aliases": []
+  },
+  {
+    "id": "Q56324866",
+    "name": "Q56324866",
+    "description": "",
+    "parent": "pomace brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q6041371",
+    "name": "Q6041371",
+    "description": "",
+    "parent": "ouzo",
+    "aliases": []
+  },
+  {
+    "id": "Q6053642",
+    "name": "Q6053642",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q61218547",
+    "name": "Q61218547",
+    "description": "",
+    "parent": "brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q63522245",
+    "name": "Q63522245",
+    "description": "",
+    "parent": "fruit brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q65172082",
+    "name": "Q65172082",
+    "description": "",
+    "parent": "brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q65172509",
+    "name": "Q65172509",
+    "description": "",
+    "parent": "brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q65172958",
+    "name": "Q65172958",
+    "description": "",
+    "parent": "brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q65173068",
+    "name": "Q65173068",
+    "description": "",
+    "parent": "brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q65173302",
+    "name": "Q65173302",
+    "description": "",
+    "parent": "brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q65174459",
+    "name": "Q65174459",
+    "description": "",
+    "parent": "brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q65295379",
+    "name": "Q65295379",
+    "description": "",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q6586862",
+    "name": "Q6586862",
+    "description": "",
+    "parent": "Arak",
+    "aliases": []
+  },
+  {
+    "id": "Q681346",
+    "name": "Q681346",
+    "description": "",
+    "parent": "Pálinka",
+    "aliases": []
+  },
+  {
+    "id": "Q731971",
+    "name": "Q731971",
+    "description": "",
+    "parent": "Pálinka",
+    "aliases": []
+  },
+  {
+    "id": "Q8202235",
+    "name": "Q8202235",
+    "description": "",
+    "parent": "anisette",
+    "aliases": []
+  },
+  {
+    "id": "Q85870327",
+    "name": "Q85870327",
+    "description": "",
+    "parent": "aguardiente",
+    "aliases": []
+  },
+  {
+    "id": "Q87738994",
+    "name": "Q87738994",
+    "description": "",
+    "parent": "jenever",
+    "aliases": []
+  },
+  {
+    "id": "Q8964094",
+    "name": "Q8964094",
+    "description": "",
+    "parent": "gin",
+    "aliases": []
+  },
+  {
+    "id": "Q97204279",
+    "name": "Q97204279",
+    "description": "",
+    "parent": "sweet potato shōchū",
+    "aliases": []
+  },
+  {
+    "id": "Q97311114",
+    "name": "Q97311114",
+    "description": "",
+    "parent": "shōchū",
+    "aliases": []
+  },
+  {
+    "id": "Q97325303",
+    "name": "Q97325303",
+    "description": "",
+    "parent": "baijiu",
+    "aliases": []
+  },
+  {
+    "id": "Q97695706",
+    "name": "Q97695706",
+    "description": "",
+    "parent": "baijiu",
+    "aliases": []
+  },
+  {
+    "id": "Q1793245",
+    "name": "Rachmaninoff",
+    "description": "Rachmaninoff (vodka)",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q7283706",
+    "name": "Raicilla",
+    "description": "Alcoholic beverage from Jalisco, Mexico.",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q91304643",
+    "name": "raisin spirit",
+    "description": "",
+    "parent": "liquor",
+    "aliases": [
+      "raisin brandy"
+    ]
+  },
+  {
+    "id": "Q931946",
+    "name": "Rakia",
+    "description": "alcoholic beverage from the Balkans",
+    "parent": "fruit brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q638290",
+    "name": "rakı",
+    "description": "unsweetened, anise-flavored alcoholic drink",
+    "parent": "flavored liquor",
+    "aliases": [
+      "raki",
+      "Turkish raki"
+    ]
+  },
+  {
+    "id": "Q3555361",
+    "name": "Rakomelo",
+    "description": "Greek alcoholic drink",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q2530402",
+    "name": "Raksi",
+    "description": "Nepalese liquor",
+    "parent": "grain spirit",
+    "aliases": [
+      "Rakshi"
+    ]
+  },
+  {
+    "id": "Q104857623",
+    "name": "raspberry vodka",
+    "description": "type of vodka flavored with raspberries",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q461308",
+    "name": "Ratzeputz",
+    "description": "trademark",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q7302072",
+    "name": "Rebel Yell",
+    "description": "brand of Kentucky straight bourbon whiskey",
+    "parent": "bourbon whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q266143",
+    "name": "rectified spirit",
+    "description": "concentrated ethanol which has been purified by means of repeated distillation",
+    "parent": "liquor",
+    "aliases": [
+      "ethyl alcohol of agricultural origin",
+      "neutral spirits",
+      "rectified alcohol"
+    ]
+  },
+  {
+    "id": "Q7305495",
+    "name": "Redbreast",
+    "description": "Single Pot Still Irish Whiskey",
+    "parent": "Irish whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q7312560",
+    "name": "Renat",
+    "description": "Swedish vodka",
+    "parent": "vodka",
+    "aliases": [
+      "Renat Brännvin"
+    ]
+  },
+  {
+    "id": "Q3429796",
+    "name": "Rhum Agricole",
+    "description": "",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q1067702",
+    "name": "Rhum Charrette",
+    "description": "",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q3429799",
+    "name": "Rhum from Guadeloupe",
+    "description": "",
+    "parent": "French rum",
+    "aliases": []
+  },
+  {
+    "id": "Q3429803",
+    "name": "rhum from Martinique",
+    "description": "",
+    "parent": "French rum",
+    "aliases": []
+  },
+  {
+    "id": "Q21070991",
+    "name": "Rhum Vieux Labbé",
+    "description": "brand of rum",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q3820339",
+    "name": "Rice baijiu",
+    "description": "variety of Chinese baijiu",
+    "parent": "baijiu",
+    "aliases": [
+      "rice fragrance"
+    ]
+  },
+  {
+    "id": "Q7354467",
+    "name": "Rock Hill Farms Single-Barrel",
+    "description": "Whiskey produced in Frankfort, Kentucky",
+    "parent": "single barrel whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q111937800",
+    "name": "ROCK'N Vodka",
+    "description": "sugarcane vodka beverage",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q2214938",
+    "name": "Ron miel",
+    "description": "type of rum",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q83376",
+    "name": "rum",
+    "description": "distilled alcoholic beverage made from sugarcane",
+    "parent": "liquor",
+    "aliases": [
+      "rums"
+    ]
+  },
+  {
+    "id": "Q3429801",
+    "name": "Rum from La Réunion",
+    "description": "",
+    "parent": "French rum",
+    "aliases": []
+  },
+  {
+    "id": "Q3429800",
+    "name": "Rum of French Guiana",
+    "description": "Rum from French Guiana (Guyane), France",
+    "parent": "French rum",
+    "aliases": []
+  },
+  {
+    "id": "Q17046338",
+    "name": "Rum-Bar Rum",
+    "description": "Jamaican rum brand",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q7386961",
+    "name": "Rượu đế",
+    "description": "distilled liquor from Vietnam",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q251740",
+    "name": "Russian Standard",
+    "description": "Russian premium vodka brand",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q2535077",
+    "name": "rye whiskey",
+    "description": "an alcoholic product",
+    "parent": "grain whisky",
+    "aliases": [
+      "rye"
+    ]
+  },
+  {
+    "id": "Q20730593",
+    "name": "Saint-James rum",
+    "description": "rhum agricole from Sainte-Marie, Martinique",
+    "parent": "Rhum Agricole",
+    "aliases": []
+  },
+  {
+    "id": "Q723464",
+    "name": "Sambuca",
+    "description": "Italian anise-flavored liqueur",
+    "parent": "anise drink",
+    "aliases": []
+  },
+  {
+    "id": "Q3473831",
+    "name": "Sassolino",
+    "description": "Italian anise-flavored liqueur",
+    "parent": "anise liqueur",
+    "aliases": []
+  },
+  {
+    "id": "Q5474519",
+    "name": "Saunalahden Viina",
+    "description": "liquor manufactured by Pernod Ricard",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q1551539",
+    "name": "Sawdust brandy",
+    "description": "distilled beverage",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q382947",
+    "name": "Scotch whisky",
+    "description": "malt or grain whisky (or a blend of the two), made in Scotland in a manner specified by law",
+    "parent": "whisky",
+    "aliases": [
+      "Scotch",
+      "Scotch whiskey",
+      "Scotch Whisky"
+    ]
+  },
+  {
+    "id": "Q10665376",
+    "name": "Seleta",
+    "description": "Sugar cane spirit",
+    "parent": "cachaça",
+    "aliases": []
+  },
+  {
+    "id": "Q53997866",
+    "name": "shaojiu",
+    "description": "group of traditional distilled beverages in East Asia produced by distillation of grains",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q1165352",
+    "name": "shōchū",
+    "description": "Japanese distilled beverage",
+    "parent": "soju & shōchū",
+    "aliases": []
+  },
+  {
+    "id": "Q7521483",
+    "name": "SinFire Cinnamon Whisky",
+    "description": "brand of blended whisky",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q7523918",
+    "name": "single barrel whiskey",
+    "description": "whisky in which each bottle comes from an individual aging barrel, instead of being created by blending together the contents of various barrels to provide uniformity of color and taste",
+    "parent": "whisky",
+    "aliases": [
+      "single cask whiskey"
+    ]
+  },
+  {
+    "id": "Q10668296",
+    "name": "single malt Scotch",
+    "description": "whisky that has been distilled at a single Scottish distillery using a pot still",
+    "parent": "single malt whisky",
+    "aliases": [
+      "Single Malt Scotch Whisky"
+    ]
+  },
+  {
+    "id": "Q1940734",
+    "name": "single malt whisky",
+    "description": "malt whisky from a single distillery and made with malted barley",
+    "parent": "malt whisky",
+    "aliases": [
+      "single malt"
+    ]
+  },
+  {
+    "id": "Q3410941",
+    "name": "single pot still whiskey",
+    "description": "Irish whiskey made by a single distillery from a mixed mash of malted and unmalted barley distilled in a pot still",
+    "parent": "Irish whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q1999569",
+    "name": "Siwucha vodka",
+    "description": "Brand of Vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q1798985",
+    "name": "Skyy Vodka",
+    "description": "brand of vodka",
+    "parent": "vodka",
+    "aliases": [
+      "SKYY Vodka"
+    ]
+  },
+  {
+    "id": "Q368610",
+    "name": "slivovitz",
+    "description": "fruit brandy made from damson plums, produced in Central and Eastern Europe",
+    "parent": "fruit brandy",
+    "aliases": [
+      "Šljivovica",
+      "plum brandy",
+      "Schlivowitz",
+      "șliboviță",
+      "slivovica",
+      "slivovice",
+      "slivovitsa",
+      "slivovitza",
+      "slivovka",
+      "śliwowica",
+      "šljivovica",
+      "traditional plum spirit"
+    ]
+  },
+  {
+    "id": "Q3486851",
+    "name": "Small batch whiskey",
+    "description": "product label",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q777721",
+    "name": "Smirnoff",
+    "description": "Vodka brand founded in Russia",
+    "parent": "vodka",
+    "aliases": [
+      "Smirnoff Vodka",
+      "Smirnov vodka"
+    ]
+  },
+  {
+    "id": "Q7550050",
+    "name": "Sobieski Vodka",
+    "description": "Polish vodka brand",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q696105",
+    "name": "soju",
+    "description": "distilled beverage",
+    "parent": "soju & shōchū",
+    "aliases": []
+  },
+  {
+    "id": "Q115607485",
+    "name": "soju & shōchū",
+    "description": "an alcohol beverage either from Korea (soju) or Japan (shōchū)",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q20031443",
+    "name": "Something Special",
+    "description": "blended Scotch whisky",
+    "parent": "blended whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q932877",
+    "name": "Sotol",
+    "description": "distilled spirit originally from Coahuila, Durango y Chihuaha",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q615310",
+    "name": "Spanish anise-flavored liqueur",
+    "description": "Anís del Mono (\"the monkey's anisette\")",
+    "parent": "anise liqueur",
+    "aliases": []
+  },
+  {
+    "id": "Q255055",
+    "name": "Speyside single malt whisky",
+    "description": "official region of Scotch whisky production",
+    "parent": "single malt Scotch",
+    "aliases": [
+      "Speyside Scotch",
+      "Speyside single malt Scotch",
+      "Speyside single malts",
+      "Speyside whisky"
+    ]
+  },
+  {
+    "id": "Q104858320",
+    "name": "spiced rum",
+    "description": "type of rum prepared with spices",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q24887947",
+    "name": "Spirytus",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q376929",
+    "name": "Starka",
+    "description": "distilled alcoholic beverage",
+    "parent": "grain spirit",
+    "aliases": []
+  },
+  {
+    "id": "Q18757616",
+    "name": "Staroplzenecký",
+    "description": "Czech alcoholic drink",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q174112",
+    "name": "Steinhäger",
+    "description": "trademark",
+    "parent": "gin",
+    "aliases": []
+  },
+  {
+    "id": "Q1539525",
+    "name": "Stolichnaya",
+    "description": "vodka brand",
+    "parent": "vodka",
+    "aliases": [
+      "Stoli"
+    ]
+  },
+  {
+    "id": "Q9347621",
+    "name": "Stön",
+    "description": "Estonian vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q17020507",
+    "name": "straight whiskey",
+    "description": "term defined by US law; whiskey created by distilling fermented cereal grain mash to create a spirit of ≤80% ABV, then aged for ≥2 years at ≤62.5% ABV at the start of aging",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q134705508",
+    "name": "Sugar beet spirit",
+    "description": "beet-derived spirit",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q17146413",
+    "name": "Sulai",
+    "description": "rectified spirit brewed in the Northeast Indian state of Assam",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q17210117",
+    "name": "Suntory Kakubin",
+    "description": "",
+    "parent": "Japanese whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q11305839",
+    "name": "Suntory Royal",
+    "description": "",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q11305834",
+    "name": "Suntory White",
+    "description": "",
+    "parent": "blended whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q18690997",
+    "name": "Suomi Viina",
+    "description": "alcohol brand by Pernod Ricard",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q18337128",
+    "name": "Super Nikka",
+    "description": "type of Japanese whisky",
+    "parent": "blended whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q7651819",
+    "name": "Svedka",
+    "description": "Swedish brand of vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q94328264",
+    "name": "sweet potato shōchū",
+    "description": "liquor made from sweet potato",
+    "parent": "liquor",
+    "aliases": [
+      "imojōchū"
+    ]
+  },
+  {
+    "id": "Q2387583",
+    "name": "Taffia",
+    "description": "type of a liquor",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q4299620",
+    "name": "Tafia",
+    "description": "alcoholic beverage",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q30637828",
+    "name": "Takamaka Rum",
+    "description": "brand of rum",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q140042291",
+    "name": "Tannenblut",
+    "description": "German limited-edition Black Forest gin, kosher-certified under Chabad-Lubavitch supervision",
+    "parent": "gin",
+    "aliases": [
+      "Tannenblut Bereshit Series",
+      "Tannenblut Black Forest Gin",
+      "JFN Bereshit"
+    ]
+  },
+  {
+    "id": "Q187155",
+    "name": "Tanqueray",
+    "description": "trademark",
+    "parent": "gin",
+    "aliases": []
+  },
+  {
+    "id": "Q11896442",
+    "name": "Tapio",
+    "description": "liquor manufactured by Pernod Ricard",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q7862187",
+    "name": "Té Bheag",
+    "description": "brand of whisky made in Isleornsay, Highland, Scotland,UK",
+    "parent": "whisky",
+    "aliases": [
+      "Te Bheag"
+    ]
+  },
+  {
+    "id": "Q1088701",
+    "name": "Tennessee whiskey",
+    "description": "whiskey made in Tennessee",
+    "parent": "bourbon whiskey",
+    "aliases": [
+      "Tennessee whisky"
+    ]
+  },
+  {
+    "id": "Q122195",
+    "name": "tequila",
+    "description": "alcoholic beverage originating from Mexico",
+    "parent": "mezcal",
+    "aliases": []
+  },
+  {
+    "id": "Q105955472",
+    "name": "Tharra",
+    "description": "type of Desi daru",
+    "parent": "Desi daru",
+    "aliases": []
+  },
+  {
+    "id": "Q22126336",
+    "name": "The Blend of Nikka",
+    "description": "",
+    "parent": "blended whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q7719471",
+    "name": "The Botanist",
+    "description": "The Botanist Islay Dry Gin",
+    "parent": "dry gin",
+    "aliases": [
+      "The Botanist Gin"
+    ]
+  },
+  {
+    "id": "Q2168523",
+    "name": "The Famous Grouse",
+    "description": "brand of Scotch whisky",
+    "parent": "blended whiskey",
+    "aliases": [
+      "Famous Grouse"
+    ]
+  },
+  {
+    "id": "Q50087292",
+    "name": "The Irishman",
+    "description": "Irish whisky brand",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q55377972",
+    "name": "The Irishman Founder’s Reserve",
+    "description": "brand of blended Irish whisky",
+    "parent": "whisky",
+    "aliases": [
+      "Irishman Founder's Reserve",
+      "Irishman Founders Reserve",
+      "The Founder's Reserve"
+    ]
+  },
+  {
+    "id": "Q7797675",
+    "name": "Three Olives Vodka",
+    "description": "brand of vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q31836601",
+    "name": "Three Sixty Vodka",
+    "description": "German brand of vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q108935974",
+    "name": "Timah",
+    "description": "Malaysian blended whiskey",
+    "parent": "blended whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q107542782",
+    "name": "Tito's Handmade Vodka",
+    "description": "vodka",
+    "parent": "vodka",
+    "aliases": [
+      "Tito's",
+      "Titos",
+      "Titos Handmade Vodka",
+      "Titos Vodka"
+    ]
+  },
+  {
+    "id": "Q746028",
+    "name": "Tobermory Single Malt",
+    "description": "Scottish single malt whisky brand",
+    "parent": "single malt Scotch",
+    "aliases": []
+  },
+  {
+    "id": "Q1327753",
+    "name": "törkölypálinka",
+    "description": "Hungarian alcoholic beverage",
+    "parent": "pomace brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q11321957",
+    "name": "Torys Whisky",
+    "description": "",
+    "parent": "Japanese whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q30674376",
+    "name": "Trail's End Kentucky Straight Bourbon Whiskey",
+    "description": "",
+    "parent": "Kentucky Straight Bourbon Whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q7838713",
+    "name": "Tres Generaciones",
+    "description": "A type of alcohol drink",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q1193912",
+    "name": "Trois Rivières",
+    "description": "rhum produced in Martinique",
+    "parent": "rhum from Martinique",
+    "aliases": [
+      "Trois Rivieres"
+    ]
+  },
+  {
+    "id": "Q7846247",
+    "name": "Tropinovec",
+    "description": "",
+    "parent": "pomace brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q26236698",
+    "name": "Trump Vodka",
+    "description": "American brand of vodka produced by The Trump Organization",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q1607962",
+    "name": "Tsikoudia",
+    "description": "alcoholic beverage from Crete",
+    "parent": "pomace brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q1930269",
+    "name": "Tsipouro",
+    "description": "alcoholic beverage from Greece",
+    "parent": "pomace brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q423425",
+    "name": "Ţuică",
+    "description": "distilled beverage",
+    "parent": "fruit brandy",
+    "aliases": [
+      "tsuica",
+      "tsuika",
+      "tuica",
+      "tzuica",
+      "tzuika"
+    ]
+  },
+  {
+    "id": "Q735484",
+    "name": "Tullamore Dew",
+    "description": "brand of Irish whiskey",
+    "parent": "Irish whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q7853042",
+    "name": "Tungi Spirit",
+    "description": "Distilled drink from Saint Helena",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q12643992",
+    "name": "Türi Vodka",
+    "description": "Estonian vodka brand",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q5878437",
+    "name": "Tutone",
+    "description": "anise drink from Sicily, Italy",
+    "parent": "anise drink",
+    "aliases": []
+  },
+  {
+    "id": "Q685382",
+    "name": "tuzemák",
+    "description": "distilled liquor, rum substitute made from alcohol flavoured with rum essences",
+    "parent": "liquor",
+    "aliases": [
+      "Čajni",
+      "Domači",
+      "Inländer-Rum",
+      "rum tuzemský",
+      "tuzemský rum"
+    ]
+  },
+  {
+    "id": "Q7880109",
+    "name": "Ultimat Vodka",
+    "description": "Polish vodka brand",
+    "parent": "drink",
+    "aliases": []
+  },
+  {
+    "id": "Q12008549",
+    "name": "Upper Ten",
+    "description": "",
+    "parent": "blended whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q2401798",
+    "name": "Ursus",
+    "description": "Icelandic-Dutch vodka",
+    "parent": "vodka",
+    "aliases": [
+      "Ursus Vodka"
+    ]
+  },
+  {
+    "id": "Q7913356",
+    "name": "Van Gogh Vodka",
+    "description": "",
+    "parent": "vodka",
+    "aliases": [
+      "Van Gogh Βότκα"
+    ]
+  },
+  {
+    "id": "Q1518444",
+    "name": "Vat 69",
+    "description": "Scottish trademark whiskey",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q25382412",
+    "name": "Vecchia Romagna",
+    "description": "",
+    "parent": "Italian brandy",
+    "aliases": []
+  },
+  {
+    "id": "Q6111639",
+    "name": "Venezuelan rum",
+    "description": "Venezuelan rum",
+    "parent": "rum",
+    "aliases": []
+  },
+  {
+    "id": "Q12644576",
+    "name": "Vertical",
+    "description": "Vodka brand",
+    "parent": "vodka",
+    "aliases": [
+      "Vertical vodka"
+    ]
+  },
+  {
+    "id": "Q12644643",
+    "name": "Vigor",
+    "description": "alcoholic beverage",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q4353923",
+    "name": "Vikingfjord",
+    "description": "Norwegian vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q48799234",
+    "name": "Virginia Black Whiskey",
+    "description": "super-premium brand of American Bourbon whiskey",
+    "parent": "whisky",
+    "aliases": [
+      "Virginia Black",
+      "Virginia Black Whisky"
+    ]
+  },
+  {
+    "id": "Q3269196",
+    "name": "Viru Valge",
+    "description": "Estonia's national vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q374",
+    "name": "vodka",
+    "description": "Distilled alcoholic beverage",
+    "parent": "liquor",
+    "aliases": [
+      "Vodka"
+    ]
+  },
+  {
+    "id": "Q26878961",
+    "name": "vodka citron",
+    "description": "lemon-flavored vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q138119896",
+    "name": "Vodka Legend of Kremlin",
+    "description": "",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q3504911",
+    "name": "Vodka Villa Lobos",
+    "description": "Mexican vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q486760",
+    "name": "Waragi",
+    "description": "distilled beverage",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q3566490",
+    "name": "Washback",
+    "description": "",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q7991845",
+    "name": "wheat whiskey",
+    "description": "whiskey made from wheat",
+    "parent": "grain whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q281",
+    "name": "whisky",
+    "description": "type of distilled alcoholic beverage made from fermented grain mash",
+    "parent": "grain spirit",
+    "aliases": [
+      "whiskey"
+    ]
+  },
+  {
+    "id": "Q22130144",
+    "name": "White Oak distillery",
+    "description": "",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q3942613",
+    "name": "white rum",
+    "description": "",
+    "parent": "rum",
+    "aliases": [
+      "light rum",
+      "silver rum"
+    ]
+  },
+  {
+    "id": "Q7996571",
+    "name": "Whitley Neill Gin",
+    "description": "London Dry gin",
+    "parent": "dry gin",
+    "aliases": []
+  },
+  {
+    "id": "Q2061707",
+    "name": "Wild Turkey",
+    "description": "brand of Kentucky straight bourbon whiskey",
+    "parent": "Kentucky Straight Bourbon Whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q16531882",
+    "name": "William Lawson's",
+    "description": "scotch whisky brand",
+    "parent": "blended Scotch whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q3569050",
+    "name": "Williamine",
+    "description": "brand of Poire Williams",
+    "parent": "Eau-de-vie de poire du Valais",
+    "aliases": []
+  },
+  {
+    "id": "Q50091090",
+    "name": "wine spirit",
+    "description": "",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q1628822",
+    "name": "Wódka Żołądkowa Gorzka",
+    "description": "Polish vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q8032660",
+    "name": "Woodford Reserve",
+    "description": "premium small batch Kentucky Straight Bourbon Whiskey produced by the Brown-Forman Corporation",
+    "parent": "bourbon whiskey",
+    "aliases": []
+  },
+  {
+    "id": "Q2700924",
+    "name": "Wortegemsen",
+    "description": "",
+    "parent": "Lemon Genever",
+    "aliases": []
+  },
+  {
+    "id": "Q48206059",
+    "name": "Writer's Tears",
+    "description": "Irish Whiskeybrand",
+    "parent": "whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q27966695",
+    "name": "Wuliangye",
+    "description": "distilled beverage",
+    "parent": "baijiu",
+    "aliases": []
+  },
+  {
+    "id": "Q2297786",
+    "name": "Wyborowa",
+    "description": "Polish vodka brand",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q4021706",
+    "name": "Xan",
+    "description": "Vodka from Goygol",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q18458047",
+    "name": "Yamazaki",
+    "description": "whiskey",
+    "parent": "Japanese whisky",
+    "aliases": []
+  },
+  {
+    "id": "Q8050608",
+    "name": "Yazi Ginger Vodka",
+    "description": "brand of vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q55378860",
+    "name": "Yellow Spot Whiskey",
+    "description": "Irish pot still whiskey",
+    "parent": "whisky",
+    "aliases": [
+      "Yellow Spot"
+    ]
+  },
+  {
+    "id": "Q6092569",
+    "name": "Yeni Rakı",
+    "description": "",
+    "parent": "rakı",
+    "aliases": []
+  },
+  {
+    "id": "Q8071237",
+    "name": "Zhumir",
+    "description": "Ecuadorian spirit brand",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q199360",
+    "name": "Zigarrenbrand",
+    "description": "German term: alcohol distillates stored in barrels",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q205044",
+    "name": "Zinnaer Klosterbruder",
+    "description": "trademark",
+    "parent": "liquor",
+    "aliases": []
+  },
+  {
+    "id": "Q206757",
+    "name": "zivania",
+    "description": "Cypriot alcoholic beverage",
+    "parent": "pomace brandy",
+    "aliases": [
+      "zivana"
+    ]
+  },
+  {
+    "id": "Q393188",
+    "name": "Żubrówka",
+    "description": "vodka",
+    "parent": "vodka",
+    "aliases": []
+  },
+  {
+    "id": "Q15711725",
+    "name": "Zuger Kirsch",
+    "description": "Swiss cherry brandy",
+    "parent": "kirsch",
+    "aliases": [
+      "Zug Kirsch",
+      "Zuger Kirschwasser"
+    ]
+  },
+  {
+    "id": "Q244493",
+    "name": "Zwetschgenwasser",
+    "description": "Prune brandy",
+    "parent": "eau-de-vie",
+    "aliases": []
+  }
+]

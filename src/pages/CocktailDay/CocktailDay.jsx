@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import Layout from "../../components/Layout/Layout";
 import CocktailCard from "../../components/CocktailCard/CocktailCard";
 import { getRandomCocktail } from "../../services/cocktailService";
-import mapCocktail from "../../utils/mapCocktail";
 
 function CocktailDay() {
 
@@ -32,9 +31,7 @@ function CocktailDay() {
 
           if (parsed.date === today) {
 
-            setCocktail(
-              mapCocktail(parsed.cocktail)
-            );
+            setCocktail(parsed.cocktail);
 
             return;
 
@@ -56,9 +53,7 @@ function CocktailDay() {
         );
 
 
-        setCocktail(
-          mapCocktail(drink)
-        );
+        setCocktail(drink);
 
       }
 

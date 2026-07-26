@@ -10,8 +10,32 @@ import {
 
 function CocktailCard({ cocktail }) {
 
+  const id =
+    cocktail.id || cocktail.idDrink;
+
+  const name =
+    cocktail.name || cocktail.strDrink;
+
+  const image =
+    cocktail.image || cocktail.strDrinkThumb;
+
+  const tagline =
+    cocktail.tagline ||
+    cocktail.strCategory ||
+    "";
+
+  const spirit =
+    cocktail.spirit || "";
+
+  const glass =
+    cocktail.glass || "";
+
+  const slug = name
+    .toLowerCase()
+    .replace(/\s+/g, "-");
+
   const [liked, setLiked] = useState(
-    isFavourite(cocktail.id)
+    isFavourite(id)
   );
 
   function handleFavourite(e) {
@@ -19,9 +43,7 @@ function CocktailCard({ cocktail }) {
     e.preventDefault();
     e.stopPropagation();
 
-    setLiked(
-      toggleFavourite(cocktail.id)
-    );
+    setLiked(toggleFavourite(id));
 
   }
 
@@ -29,9 +51,7 @@ function CocktailCard({ cocktail }) {
 
     <Link
       className="cocktail-card"
-      to={`/cocktail/${cocktail.name
-        .toLowerCase()
-        .replace(/\s+/g, "-")}`}
+      to={`/cocktail/${slug}`}
     >
 
       <button
@@ -41,29 +61,39 @@ function CocktailCard({ cocktail }) {
         {liked ? "❤️" : "🤍"}
       </button>
 
-      {cocktail.image && (
+      {image && (
 
         <img
           className="cocktail-image"
-          src={cocktail.image}
-          alt={cocktail.name}
+          src={image}
+          alt={name}
         />
 
       )}
 
       <div className="cocktail-card-content">
 
-        <h3>{cocktail.name}</h3>
+        <h3>{name}</h3>
 
-        <p>{cocktail.tagline}</p>
+        {tagline && (
+          <p>{tagline}</p>
+        )}
 
-        <div className="cocktail-meta">
+        {(spirit || glass) && (
 
-          <span>{cocktail.spirit}</span>
+          <div className="cocktail-meta">
 
-          <span>{cocktail.glass}</span>
+            {spirit && (
+              <span>{spirit}</span>
+            )}
 
-        </div>
+            {glass && (
+              <span>{glass}</span>
+            )}
+
+          </div>
+
+        )}
 
       </div>
 
