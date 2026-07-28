@@ -135,23 +135,17 @@ function SearchBar() {
              FILTER ALCOHOL RESULTS
           =================================== */
 
-          const matchingAlcohol =
-            (
-              response.spirits || []
-            ).filter((item) =>
-              normaliseText(
-                item.name
-              ).includes(
-                normalisedQuery
-              )
-            );
+          const alcoholResults =
+  response.spirits || [];
 
-          const sortedAlcohol =
-            sortByRelevance(
-              matchingAlcohol,
-              normalisedQuery,
-              (item) => item.name
-            );
+const sortedAlcohol =
+  sortByRelevance(
+    alcoholResults,
+    normalisedQuery,
+    (item) =>
+      item.matchedName ||
+      item.name
+  );
 
           const alcoholGroups =
             sortedAlcohol.reduce(
