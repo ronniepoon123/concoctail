@@ -40,6 +40,39 @@ function SearchBar() {
 
         const dropdown = [];
 
+/* ==========================
+           SPIRITS
+        ========================== */
+
+        if (response.spirits.length > 0) {
+
+          dropdown.push({
+
+            type: "header",
+
+            title: "Spirits",
+
+          });
+
+          response.spirits.forEach(
+
+  spirit => {
+
+    dropdown.push({
+
+      type: "spirit",
+
+      name: spirit.name,
+
+    });
+
+  }
+
+);
+
+        }
+
+
         /* ==========================
            COCKTAILS
         ========================== */
@@ -73,38 +106,6 @@ function SearchBar() {
             }
 
           );
-
-        }
-
-        /* ==========================
-           SPIRITS
-        ========================== */
-
-        if (response.spirits.length > 0) {
-
-          dropdown.push({
-
-            type: "header",
-
-            title: "Spirits",
-
-          });
-
-          response.spirits.forEach(
-
-  spirit => {
-
-    dropdown.push({
-
-      type: "spirit",
-
-      name: spirit.name,
-
-    });
-
-  }
-
-);
 
         }
 

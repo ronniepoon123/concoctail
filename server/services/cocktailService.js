@@ -106,16 +106,31 @@ export async function fetchCocktailsBySpirit(
 ) {
 
   const searchTerms =
-    getSearchTerms(spirit);
+    getSearchTerms(spirit)
+      .filter(Boolean);
 
-  const results =
-    await Promise.all(
+  console.log("Spirit:", spirit);
+  console.log("Search terms:", searchTerms);
 
-      searchTerms.map(term =>
-        fetchCocktailsByIngredient(term)
-      )
+  const results = await Promise.all(
 
-    );
+    searchTerms.map(async term => {
+
+      try {
+
+        return await fetchCocktailsByIngredient(term);
+
+      }
+
+      catch {
+
+        return [];
+
+      }
+
+    })
+
+  );
 
   const cocktails =
     results.flat();

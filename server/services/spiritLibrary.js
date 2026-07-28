@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-
+import { parentNormalisation } from "../data/Normalization.js";
 const spirits = JSON.parse(
 
   fs.readFileSync(
@@ -35,7 +35,7 @@ function normalise(text) {
 =========================================== */
 
 const lookup = new Map();
-
+const canonicalLookup = new Map();
 for (const spirit of spirits) {
 
   lookup.set(
@@ -43,11 +43,28 @@ for (const spirit of spirits) {
     spirit
   );
 
+const canonical =
+
+  parentNormalisation[
+    normalise(spirit.parent || "")
+  ] ||
+
+  spirit.name;
+  canonicalLookup.set(
+    normalise(spirit.name),
+    canonical
+  );
+
   for (const alias of spirit.aliases) {
 
     lookup.set(
       normalise(alias),
       spirit
+    );
+
+    canonicalLookup.set(
+      normalise(alias),
+      canonical
     );
 
   }
@@ -84,28 +101,42 @@ export function isSpirit(name) {
 
 export function searchSpirits(query) {
 
-  const search =
-    normalise(query);
+  const search = normalise(query);
 
-  return spirits.filter(spirit => {
+  const canonicalResults = new Set();
 
-    if (
-      normalise(spirit.name)
-        .includes(search)
-    ) {
+  for (const spirit of spirits) {
 
-      return true;
+    const searchable = [
 
-    }
+      spirit.name,
 
-    return spirit.aliases.some(alias =>
+      ...(spirit.aliases || []),
 
-      normalise(alias)
-        .includes(search)
+      ...(spirit.search || [])
+
+    ];
+
+    const matched = searchable.some(item =>
+
+      normalise(item).includes(search)
 
     );
 
-  });
+    if (!matched) continue;
+
+    const canonical =
+      parentNormalisation[
+        normalise(spirit.parent || "")
+      ] || spirit.name;
+
+    canonicalResults.add(canonical);
+
+  }
+
+  return [...canonicalResults].map(name => ({
+    name
+  }));
 
 }
 
@@ -170,32 +201,69 @@ export function getDescendants(parentName) {
 
 }
 
+
 /* ===========================================
-   GET SEARCH TERMS
+   SEARCH TERM NORMALISATION
 =========================================== */
 
-export function getSearchTerms(name) {
+export function getSearchTerms(spiritName) {
 
-  const spirit =
-    findSpirit(name);
+  const spirit = findSpirit(spiritName);
 
   if (!spirit) {
-
-    return [name];
-
+    return [spiritName];
   }
 
-  const descendants =
-    getDescendants(spirit.name);
+  const parent =
+    spirit.parent?.toLowerCase() ?? "";
 
-  return [
+  const mapping = {
 
-    spirit.name,
+    "gin": ["Gin"],
 
-    ...descendants.map(
-      child => child.name
-    )
+    "vodka": ["Vodka"],
 
-  ];
+    "rum": ["Rum"],
+
+    "tequila": ["Tequila"],
+
+    "mezcal": ["Mezcal"],
+
+    "brandy": ["Brandy"],
+
+    "cognac": ["Cognac", "Brandy"],
+
+    "whisky": [
+      "Whisky",
+      "Whiskey",
+      "Scotch",
+      "Bourbon",
+      "Rye Whiskey",
+      "Irish Whiskey"
+    ],
+
+    "blended whiskey": [
+      "Whiskey",
+      "Whisky"
+    ],
+
+    "liqueur": [
+      "Liqueur"
+    ]
+
+  };
+
+  return mapping[parent] ?? [spiritName];
+
+
+}
+
+export function getCanonicalSpirit(name) {
+
+  return (
+    canonicalLookup.get(
+      normalise(name)
+    ) ?? null
+  );
 
 }
