@@ -1,64 +1,72 @@
 const learnTopics = [
   {
-    id: 1,
+    id: "spirits",
     title: "Spirits",
-    description: "Learn the major base spirits.",
+    description:
+      "Learn the major base spirits and how they shape a cocktail.",
     icon: "🥃",
     route: "/learn/spirits",
   },
 
   {
-    id: 2,
+    id: "liqueurs",
     title: "Liqueurs",
-    description: "Sweetened and flavoured spirits.",
+    description:
+      "Understand sweetened, flavoured spirits and how they add complexity.",
     icon: "🍷",
     route: "/learn/liqueurs",
   },
 
   {
-    id: 3,
+    id: "fortified-wines",
     title: "Fortified Wines",
-    description: "Vermouth, sherry and more.",
+    description:
+      "Explore vermouth, sherry, port, and other wine-based modifiers.",
     icon: "🍾",
     route: "/learn/fortified-wines",
   },
 
   {
-    id: 4,
+    id: "mixers",
     title: "Mixers",
-    description: "Juices, soda and syrups.",
+    description:
+      "Learn how juices, soda, tonic, and syrups balance a drink.",
     icon: "🍋",
     route: "/learn/mixers",
   },
 
   {
-    id: 5,
+    id: "glassware",
     title: "Glassware",
-    description: "Choose the right glass.",
+    description:
+      "Choose the right glass for temperature, aroma, and presentation.",
     icon: "🥂",
     route: "/learn/glassware",
   },
 
   {
-    id: 6,
+    id: "garnishes",
     title: "Garnishes",
-    description: "Finishing touches.",
+    description:
+      "Use citrus, herbs, fruit, and other finishing touches properly.",
     icon: "🍊",
     route: "/learn/garnishes",
   },
 
   {
-    id: 7,
+    id: "techniques",
     title: "Techniques",
-    description: "Shake, stir and build.",
+    description:
+      "Learn when to shake, stir, build, muddle, strain, and layer.",
     icon: "🍸",
     route: "/learn/techniques",
   },
 
   {
-    id: 8,
+    id: "measurements",
     title: "Measurements",
-    description: "Understand cocktail ratios.",
+    description:
+      "Understand ratios, ounces, millilitres, dashes, and bar-spoon measures.",
     icon: "📏",
     route: "/learn/measurements",
   },

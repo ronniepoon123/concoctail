@@ -1,4 +1,8 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 import Home from "./pages/Home/Home";
 import MyBar from "./pages/MyBar/MyBar";
@@ -9,7 +13,8 @@ import IngredientPage from "./pages/Ingredient/IngredientPage";
 import SpiritResults from "./pages/SpiritResults/SpiritResults";
 import IngredientResults from "./pages/IngredientResults/IngredientResults";
 
-import Spirits from "./pages/Learn/Spirits";
+import LearnTopic from "./pages/LearnTopic/LearnTopic";
+
 import Collections from "./pages/Collections/Collections";
 import Favourites from "./pages/Favourites/Favourites";
 import CocktailDay from "./pages/CocktailDay/CocktailDay";
@@ -19,13 +24,9 @@ import SpiritOfChoice from "./pages/SpiritOfChoice/SpiritOfChoice";
 import Surprise from "./pages/Surprise/Surprise";
 
 function App() {
-
   return (
-
     <BrowserRouter>
-
       <Routes>
-
         {/* ===========================================
             HOME
         =========================================== */}
@@ -49,9 +50,9 @@ function App() {
         =========================================== */}
 
         <Route
-  path="/cocktail/:id"
-  element={<CocktailPage />}
-/>
+          path="/cocktail/:id"
+          element={<CocktailPage />}
+        />
 
         {/* ===========================================
             INGREDIENT
@@ -90,8 +91,8 @@ function App() {
         =========================================== */}
 
         <Route
-          path="/learn/spirits"
-          element={<Spirits />}
+          path="/learn/:topic"
+          element={<LearnTopic />}
         />
 
         {/* ===========================================
@@ -147,13 +148,9 @@ function App() {
           path="/cocktail-101"
           element={<Cocktail101 />}
         />
-
       </Routes>
-
     </BrowserRouter>
-
   );
-
 }
 
 export default App;

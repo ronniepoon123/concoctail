@@ -112,6 +112,14 @@ const ingredients = [
   },
 
   {
+    id: "demerara-sugar",
+    name: "Demerara Sugar",
+    category: "Sweeteners",
+    abv: "0%",
+    origin: "Guyana",
+  },
+
+  {
     id: "soda-water",
     name: "Soda Water",
     category: "Mixers",

@@ -2,9 +2,7 @@ import "./Home.css";
 
 import Navbar from "../../components/Navbar/Navbar";
 import Hero from "../../components/Hero/Hero";
-import SearchBar from "../../components/Searchbar/SearchBar";
 import FeatureGrid from "../../components/FeatureGrid/FeatureGrid";
-
 import featureCards from "../../data/featureCards";
 
 function Home() {
@@ -14,9 +12,9 @@ function Home() {
 
       <Hero />
 
-      <SearchBar />
-
-      <FeatureGrid cards={featureCards} />
+      <FeatureGrid
+        cards={featureCards}
+      />
     </main>
   );
 }

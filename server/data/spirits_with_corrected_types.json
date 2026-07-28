@@ -4,6 +4,7 @@
     "name": "100 Pipers",
     "description": "blended Scotch whisky",
     "parent": "blended whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "100",
@@ -17,6 +18,7 @@
     "name": "1792 Ridgemont Reserve",
     "description": "Kentucky straight Bourbon whiskey produced by the Barton 1792 Distillery in Bardstown, KY",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "1792",
@@ -32,6 +34,7 @@
     "name": "1800 Tequila",
     "description": "alcoholic drink",
     "parent": "tequila",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "1800",
@@ -44,6 +47,7 @@
     "name": "2 Gingers",
     "description": "blended whiskey",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "2",
@@ -57,6 +61,7 @@
     "name": "2 Rooz",
     "description": "Australian vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "2",
@@ -70,6 +75,7 @@
     "name": "A'bunadh",
     "description": "Scottish malt whisky",
     "parent": "single malt whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "a'bunadh",
@@ -82,9 +88,10 @@
     "name": "Abricotine",
     "description": "apricot brandy",
     "parent": "fruit brandy",
+    "type": "spirit",
     "aliases": [
-      "Cr\u00e8me d'Abricot",
-      "Eau-de-vie d\u2019abricot du Valais"
+      "Crème d'Abricot",
+      "Eau-de-vie d’abricot du Valais"
     ],
     "search": [
       "abricotine",
@@ -98,6 +105,7 @@
     "name": "absinthe",
     "description": "alcoholic drink",
     "parent": "flavored liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "absinthe"
@@ -108,6 +116,7 @@
     "name": "Absolut Citron",
     "description": "",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "absolut",
@@ -121,6 +130,7 @@
     "name": "Absolut Vodka",
     "description": "Swedish brand of vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "absolut",
@@ -133,6 +143,7 @@
     "name": "Absolwent",
     "description": "Polish vodka brand",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "absolwent",
@@ -144,6 +155,7 @@
     "name": "Acerum",
     "description": "maple brandy",
     "parent": "eau-de-vie",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "acerum",
@@ -155,6 +167,7 @@
     "name": "aguardiente",
     "description": "generic term for distilled alcoholic beverages that contain between 29% and 60% alcohol by volume, especially in the context of the Hispanosphere",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
       "firewater",
       "aguardente",
@@ -174,6 +187,7 @@
     "name": "Akpeteshie",
     "description": "national spirit of Ghana",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
       "Ogogoro"
     ],
@@ -186,11 +200,12 @@
     "id": "Q2648121",
     "name": "Allasch",
     "description": "",
-    "parent": "k\u00fcmmel",
+    "parent": "kümmel",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "allasch",
-      "k\u00fcmmel"
+      "kümmel"
     ]
   },
   {
@@ -198,6 +213,7 @@
     "name": "Altore",
     "description": "Scottish whiskey",
     "parent": "blended malt whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "altore",
@@ -206,25 +222,26 @@
   },
   {
     "id": "Q11444867",
-    "name": "Amami kokut\u014d sh\u014dch\u016b",
+    "name": "Amami kokutō shōchū",
     "description": "",
-    "parent": "sh\u014dch\u016b",
+    "parent": "shōchū",
+    "type": "spirit",
     "aliases": [
-      "Amami brown sugar sh\u014dch\u016b",
-      "brown sugar sh\u014dch\u016b",
-      "kokut\u014d sh\u014dch\u016b"
+      "Amami brown sugar shōchū",
+      "brown sugar shōchū",
+      "kokutō shōchū"
     ],
     "search": [
       "amami",
       "amami brown sugar sh ch",
       "amami kokut",
       "amami kokut sh ch",
-      "amami kokut\u014d sh\u014dch\u016b",
+      "amami kokutō shōchū",
       "brown sugar sh ch",
       "kokut",
       "kokut sh ch",
-      "kokut\u014d",
-      "sh\u014dch\u016b"
+      "kokutō",
+      "shōchū"
     ]
   },
   {
@@ -232,6 +249,7 @@
     "name": "American whiskey",
     "description": "Whiskey produced in the United States",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "american",
@@ -245,6 +263,7 @@
     "name": "Amoy Kaoliang wine",
     "description": "",
     "parent": "Kaoliang wine",
+    "type": "spirit",
     "aliases": [
       "Phoenix Kaoliang wine",
       "Xiamen Kaoliang wine"
@@ -265,6 +284,7 @@
     "name": "Ampersand Vodka & Watermelon",
     "description": "Brand of vodka and Watermelon distilled in NSW, Australia.",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "ampersand",
@@ -280,6 +300,7 @@
     "name": "Amundsen",
     "description": "brand of Cognac",
     "parent": "cognac",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "amundsen",
@@ -291,6 +312,7 @@
     "name": "Andong soju",
     "description": "A traditional type of soju from Andong, Korea",
     "parent": "soju",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "andong",
@@ -303,6 +325,7 @@
     "name": "anesone",
     "description": "anise-flavored liqueur",
     "parent": "anise liqueur",
+    "type": "liqueur",
     "aliases": [],
     "search": [
       "anesone",
@@ -314,6 +337,7 @@
     "name": "anise drink",
     "description": "anise flavored alcoholic drink",
     "parent": "flavored liquor",
+    "type": "spirit",
     "aliases": [
       "anise-flavoured spirit",
       "anise-flavoured spirit drink",
@@ -335,6 +359,7 @@
     "name": "anise liqueur",
     "description": "",
     "parent": "herbal liqueur",
+    "type": "liqueur",
     "aliases": [],
     "search": [
       "anise",
@@ -348,6 +373,7 @@
     "name": "Anisetta Meletti",
     "description": "",
     "parent": "anisette",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "anisetta",
@@ -361,6 +387,7 @@
     "name": "anisette",
     "description": "anise-flavored liqueur",
     "parent": "anise liqueur",
+    "type": "liqueur",
     "aliases": [
       "anis"
     ],
@@ -375,6 +402,7 @@
     "name": "Ankara",
     "description": "whisky",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "ankara",
@@ -383,15 +411,16 @@
   },
   {
     "id": "Q8273377",
-    "name": "any\u017c\u00f3wka",
+    "name": "anyżówka",
     "description": "anise-flavoured vodka",
     "parent": "anise drink",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "anise drink",
       "any",
       "any wka",
-      "any\u017c\u00f3wka"
+      "anyżówka"
     ]
   },
   {
@@ -399,6 +428,7 @@
     "name": "apple brandy",
     "description": "Brandy",
     "parent": "brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "apple",
@@ -411,6 +441,7 @@
     "name": "applejack",
     "description": "alcoholic beverage",
     "parent": "cider spirit",
+    "type": "spirit",
     "aliases": [
       "apple brandy"
     ],
@@ -425,6 +456,7 @@
     "name": "apricot liqueur",
     "description": "",
     "parent": "liqueur",
+    "type": "liqueur",
     "aliases": [],
     "search": [
       "apricot",
@@ -437,6 +469,7 @@
     "name": "apricot schnappes",
     "description": "alcoholic Beverage",
     "parent": "fruit brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "apricot",
@@ -450,6 +483,7 @@
     "name": "Aqua vitae",
     "description": "concentrated aqueous solution of ethanol",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "aqua",
@@ -462,6 +496,7 @@
     "name": "Aragh Sagi",
     "description": "Iranian moonshine",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "aragh",
@@ -474,6 +509,7 @@
     "name": "Arak",
     "description": "Middle Eastern distilled spirit",
     "parent": "flavored liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "arak"
@@ -484,6 +520,7 @@
     "name": "Araqi",
     "description": "date-liquor distilled illegally in Sudan",
     "parent": "fruit brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "araqi",
@@ -495,6 +532,7 @@
     "name": "Ararat",
     "description": "Armenian brandy produced by the Yerevan Brandy Company",
     "parent": "brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "ararat",
@@ -506,6 +544,7 @@
     "name": "Arette",
     "description": "brand of tequila",
     "parent": "tequila",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "arette",
@@ -517,6 +556,7 @@
     "name": "Armagnac",
     "description": "style of brandy produced in France",
     "parent": "aguardiente",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "aguardiente",
@@ -528,6 +568,7 @@
     "name": "Armorik",
     "description": "Armorik Single Malt Breton Whisky",
     "parent": "single malt whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "armorik",
@@ -539,6 +580,7 @@
     "name": "Aromas de Montserrat",
     "description": "liquor from Spain",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "aromas",
@@ -553,6 +595,7 @@
     "name": "arrack",
     "description": "distilled alcoholic drink typically produced in South and Southeast Asia",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "arrack"
@@ -563,6 +606,7 @@
     "name": "Avion tequila",
     "description": "Alcohol produced in Mexico",
     "parent": "tequila",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "avion",
@@ -575,6 +619,7 @@
     "name": "Avola rum",
     "description": "type of rum produced in Avola, Italy",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "avola",
@@ -587,6 +632,7 @@
     "name": "Bacanora",
     "description": "liquor",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bacanora"
@@ -597,6 +643,7 @@
     "name": "Bacardi 151",
     "description": "discontinued brand of highly alcoholic rum",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "151",
@@ -610,6 +657,7 @@
     "name": "Bacardi Carta Blanca",
     "description": "",
     "parent": "white rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bacardi",
@@ -625,6 +673,7 @@
     "name": "Bacardi Superior",
     "description": "white rum brand",
     "parent": "white rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bacardi",
@@ -638,6 +687,7 @@
     "name": "bacon vodka",
     "description": "alcoholic Drink",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bacon",
@@ -648,8 +698,9 @@
   {
     "id": "Q629266",
     "name": "baijiu",
-    "description": "Chinese liquor distilled from sorghum, rice, wheat, barley, millet, or Job's tears; name means literally \u201cwhite alcohol\u201d",
+    "description": "Chinese liquor distilled from sorghum, rice, wheat, barley, millet, or Job's tears; name means literally “white alcohol”",
     "parent": "shaojiu",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "baijiu",
@@ -661,6 +712,7 @@
     "name": "Balegemse jenever",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "balegemse",
@@ -673,6 +725,7 @@
     "name": "Ballantine's",
     "description": "brand of blended Scotch whiskey produced by Pernod Ricard in Dumbarton, Scotland, UK",
     "parent": "blended whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "ballantine's",
@@ -685,6 +738,7 @@
     "name": "Barack",
     "description": "Hungarian brandy",
     "parent": "apricot schnappes",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "apricot schnappes",
@@ -696,6 +750,7 @@
     "name": "Basil Hayden's",
     "description": "American Bourbon whiskey",
     "parent": "bourbon whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "basil",
@@ -707,17 +762,18 @@
   },
   {
     "id": "Q406157",
-    "name": "b\u00e4sk",
+    "name": "bäsk",
     "description": "Swedish style spiced liquor",
     "parent": "liqueur",
+    "type": "liqueur",
     "aliases": [
-      "b\u00e4sk br\u00e4nnvin"
+      "bäsk brännvin"
     ],
     "search": [
       "b",
       "b sk",
       "b sk br nnvin",
-      "b\u00e4sk",
+      "bäsk",
       "liqueur"
     ]
   },
@@ -726,6 +782,7 @@
     "name": "Bathtub gin",
     "description": "style of homemade spirit",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bathtub",
@@ -738,6 +795,7 @@
     "name": "Batralzem",
     "description": "vermouth-based liquor from the South Eifel region of Rhineland-Palatinate, Germany",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "batralzem"
@@ -748,6 +806,7 @@
     "name": "Beefeater Gin",
     "description": "brand of gin",
     "parent": "gin",
+    "type": "spirit",
     "aliases": [
       "Beefeater"
     ],
@@ -762,6 +821,7 @@
     "name": "Beenleigh Rum",
     "description": "Rum, distilled beverage",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "beenleigh",
@@ -774,6 +834,7 @@
     "name": "Beers Vlierke",
     "description": "",
     "parent": "berry jenever",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "beers",
@@ -784,17 +845,18 @@
   },
   {
     "id": "Q4881084",
-    "name": "Beija Cacha\u00e7a",
+    "name": "Beija Cachaça",
     "description": "",
-    "parent": "cacha\u00e7a",
+    "parent": "cachaça",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "beija",
       "beija cacha",
       "beija cacha a",
-      "beija cacha\u00e7a",
+      "beija cachaça",
       "cacha",
-      "cacha\u00e7a"
+      "cachaça"
     ]
   },
   {
@@ -802,6 +864,7 @@
     "name": "Belaya Rus",
     "description": "vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "belaya",
@@ -815,6 +878,7 @@
     "name": "Bell's whisky",
     "description": "blended whisky",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bell's whisky",
@@ -828,6 +892,7 @@
     "name": "Bellard",
     "description": "former distillery that produced liquors, wines, cognacs and gins",
     "parent": "cognac",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bellard",
@@ -839,6 +904,7 @@
     "name": "Beluga Vodka",
     "description": "brand of Russian vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [
       "Beluga",
       "Beluga Noble Vodka",
@@ -857,6 +923,7 @@
     "name": "Belvedere",
     "description": "luxury brand of Polish vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "belvedere",
@@ -865,9 +932,10 @@
   },
   {
     "id": "Q498750",
-    "name": "B\u00e9n\u00e9dictine",
+    "name": "Bénédictine",
     "description": "herbal liqueur produced in France",
     "parent": "liquor",
+    "type": "liqueur",
     "aliases": [
       "Benedictine"
     ],
@@ -876,7 +944,7 @@
       "b n",
       "b n dictine",
       "benedictine",
-      "b\u00e9n\u00e9dictine",
+      "bénédictine",
       "dictine"
     ]
   },
@@ -885,6 +953,7 @@
     "name": "Bernheim Original",
     "description": "American whiskey brand",
     "parent": "wheat whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bernheim",
@@ -898,6 +967,7 @@
     "name": "berry jenever",
     "description": "jenever infused with berries",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
       "berry genever"
     ],
@@ -913,8 +983,9 @@
     "name": "Bierbrand",
     "description": "type of liquor",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
-      "eau-de-vie de bi\u00e8re"
+      "eau-de-vie de bière"
     ],
     "search": [
       "bierbrand",
@@ -926,6 +997,7 @@
     "name": "Biska",
     "description": "Spirits made from herbs",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "biska"
@@ -936,6 +1008,7 @@
     "name": "Black & White",
     "description": "Scotch whisky brand",
     "parent": "blended Scotch whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "black",
@@ -950,6 +1023,7 @@
     "name": "Black Bottle",
     "description": "",
     "parent": "blended Scotch whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "black",
@@ -963,6 +1037,7 @@
     "name": "blackberry brandy",
     "description": "",
     "parent": "fruit brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "blackberry",
@@ -976,6 +1051,7 @@
     "name": "blended Irish whiskey",
     "description": "",
     "parent": "Irish whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "blended",
@@ -991,6 +1067,7 @@
     "name": "blended malt whisky",
     "description": "blend of different single malt whiskies from different distilleries",
     "parent": "malt whisky",
+    "type": "spirit",
     "aliases": [
       "blended malt",
       "pure malt",
@@ -1012,6 +1089,7 @@
     "name": "blended Scotch whisky",
     "description": "product of blending different types of Scotch whiskys",
     "parent": "blended whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "blended",
@@ -1027,6 +1105,7 @@
     "name": "blended whiskey",
     "description": "product of blending different types of whiskys",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [
       "blended whisky"
     ],
@@ -1043,6 +1122,7 @@
     "name": "Blue Diamond Vodka",
     "description": "Estonian vodka brand",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "blue",
@@ -1057,6 +1137,7 @@
     "name": "Bohemian-style absinth",
     "description": "Czech style of wormwood bitters related to absinthe",
     "parent": "absinthe",
+    "type": "spirit",
     "aliases": [
       "Czech-style absinth"
     ],
@@ -1076,6 +1157,7 @@
     "name": "Bombay Sapphire",
     "description": "trademark",
     "parent": "gin",
+    "type": "spirit",
     "aliases": [
       "Bombay Gin",
       "Bombay Sapphire gin",
@@ -1083,6 +1165,7 @@
     ],
     "search": [
       "bombay",
+      "bombay blue",
       "bombay gin",
       "bombay sapphire",
       "bombay sapphire gin",
@@ -1096,6 +1179,7 @@
     "name": "Bommerlunder",
     "description": "trademark",
     "parent": "wine spirit",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bommerlunder",
@@ -1107,6 +1191,7 @@
     "name": "Booth's Gin",
     "description": "brand of London dry gin",
     "parent": "dry gin",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "booth's gin",
@@ -1121,6 +1206,7 @@
     "name": "Borgoe",
     "description": "rum of Suriname",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "borgoe",
@@ -1132,6 +1218,7 @@
     "name": "Bottled in bond",
     "description": "American whiskeys (or other spirits) produced to a set of specifications",
     "parent": "American whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "american whiskey",
@@ -1147,6 +1234,7 @@
     "name": "Boukha",
     "description": "distilled beverage",
     "parent": "fruit brandy",
+    "type": "spirit",
     "aliases": [
       "Tunisia"
     ],
@@ -1161,6 +1249,7 @@
     "name": "bourbon whiskey",
     "description": "type of American whiskey, a barrel-aged distilled spirit made primarily from corn",
     "parent": "American whiskey",
+    "type": "spirit",
     "aliases": [
       "bourbon",
       "whiskey bourbon"
@@ -1178,6 +1267,7 @@
     "name": "brandy",
     "description": "spirit produced by distilling wine",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brandy"
@@ -1188,6 +1278,7 @@
     "name": "Brandy de Jerez",
     "description": "Spanish brandy brand line",
     "parent": "brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brandy",
@@ -1199,23 +1290,25 @@
   },
   {
     "id": "Q510461",
-    "name": "br\u00e4nnvin",
+    "name": "brännvin",
     "description": "distilled beverage",
     "parent": "grain spirit",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "br",
       "br nnvin",
-      "br\u00e4nnvin",
+      "brännvin",
       "grain spirit",
       "nnvin"
     ]
   },
   {
     "id": "Q909415",
-    "name": "Brenniv\u00edn",
+    "name": "Brennivín",
     "description": "Icelandic liquor",
-    "parent": "k\u00fcmmel",
+    "parent": "kümmel",
+    "type": "spirit",
     "aliases": [
       "Brennivin"
     ],
@@ -1223,8 +1316,8 @@
       "brenniv",
       "brenniv n",
       "brennivin",
-      "brenniv\u00edn",
-      "k\u00fcmmel"
+      "brennivín",
+      "kümmel"
     ]
   },
   {
@@ -1232,8 +1325,9 @@
     "name": "Broker's Gin",
     "description": "brand of premium small batch gin",
     "parent": "dry gin",
+    "type": "spirit",
     "aliases": [
-      "Broker\u2019s London Dry Gin"
+      "Broker’s London Dry Gin"
     ],
     "search": [
       "broker's gin",
@@ -1249,6 +1343,7 @@
     "name": "Brombeergeist",
     "description": "German blackberry distilled drink",
     "parent": "Geist",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brombeergeist",
@@ -1260,6 +1355,7 @@
     "name": "Buckwheat whisky",
     "description": "type of distilled alcoholic beverage",
     "parent": "grain whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "buckwheat",
@@ -1273,6 +1369,7 @@
     "name": "bug juice",
     "description": "inferior whiskey or other strong liquor",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bug",
@@ -1285,6 +1382,7 @@
     "name": "Bundaberg Rum",
     "description": "Rum, distilled beverage",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bundaberg",
@@ -1297,6 +1395,7 @@
     "name": "Byejoe",
     "description": "Brand of baijiu",
     "parent": "baijiu",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "baijiu",
@@ -1305,17 +1404,18 @@
   },
   {
     "id": "Q5015222",
-    "name": "Cabana Cacha\u00e7a",
-    "description": "brand of Brazilian-made cacha\u00e7a",
-    "parent": "cacha\u00e7a",
+    "name": "Cabana Cachaça",
+    "description": "brand of Brazilian-made cachaça",
+    "parent": "cachaça",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cabana",
       "cabana cacha",
       "cabana cacha a",
-      "cabana cacha\u00e7a",
+      "cabana cachaça",
       "cacha",
-      "cacha\u00e7a"
+      "cachaça"
     ]
   },
   {
@@ -1323,6 +1423,7 @@
     "name": "Cabin Still",
     "description": "American Bourbon whiskey brand",
     "parent": "bourbon whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bourbon whiskey",
@@ -1333,21 +1434,23 @@
   },
   {
     "id": "Q744729",
-    "name": "cacha\u00e7a",
+    "name": "cachaça",
     "description": "distilled alcoholic beverage",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cacha",
       "cacha a",
-      "cacha\u00e7a"
+      "cachaça"
     ]
   },
   {
     "id": "Q2817428",
-    "name": "Cacha\u00e7a 51",
-    "description": "Brazilian cacha\u00e7a brand",
-    "parent": "cacha\u00e7a",
+    "name": "Cachaça 51",
+    "description": "Brazilian cachaça brand",
+    "parent": "cachaça",
+    "type": "spirit",
     "aliases": [
       "Caninha 51",
       "Pinga 51",
@@ -1358,8 +1461,8 @@
       "cacha",
       "cacha a",
       "cacha a 51",
-      "cacha\u00e7a",
-      "cacha\u00e7a 51",
+      "cachaça",
+      "cachaça 51",
       "caninha 51",
       "pinga 51",
       "pirassununga 51"
@@ -1367,40 +1470,43 @@
   },
   {
     "id": "Q118220895",
-    "name": "Cacha\u00e7a de jambu",
+    "name": "Cachaça de jambu",
     "description": "",
-    "parent": "cacha\u00e7a",
+    "parent": "cachaça",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cacha",
       "cacha a",
       "cacha a de jambu",
-      "cacha\u00e7a",
-      "cacha\u00e7a de jambu",
+      "cachaça",
+      "cachaça de jambu",
       "de",
       "jambu"
     ]
   },
   {
     "id": "Q5015936",
-    "name": "Cacha\u00e7a Sapucaia",
-    "description": "Brazilian Cacha\u00e7a Brand",
-    "parent": "cacha\u00e7a",
+    "name": "Cachaça Sapucaia",
+    "description": "Brazilian Cachaça Brand",
+    "parent": "cachaça",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cacha",
       "cacha a",
       "cacha a sapucaia",
-      "cacha\u00e7a",
-      "cacha\u00e7a sapucaia",
+      "cachaça",
+      "cachaça sapucaia",
       "sapucaia"
     ]
   },
   {
     "id": "Q113143770",
-    "name": "Cacha\u00e7a Yaguara",
+    "name": "Cachaça Yaguara",
     "description": "Brazilian-produced cachaca brand",
-    "parent": "cacha\u00e7a",
+    "parent": "cachaça",
+    "type": "spirit",
     "aliases": [
       "Yaguara Cachaca"
     ],
@@ -1408,8 +1514,8 @@
       "cacha",
       "cacha a",
       "cacha a yaguara",
-      "cacha\u00e7a",
-      "cacha\u00e7a yaguara",
+      "cachaça",
+      "cachaça yaguara",
       "yaguara",
       "yaguara cachaca"
     ]
@@ -1419,6 +1525,7 @@
     "name": "Cacique",
     "description": "Costa Rican traditional liqueur trademark",
     "parent": "aguardiente",
+    "type": "liqueur",
     "aliases": [
       "Cacique Guaro"
     ],
@@ -1433,6 +1540,7 @@
     "name": "California brandy",
     "description": "brandy from California",
     "parent": "brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brandy",
@@ -1445,6 +1553,7 @@
     "name": "Calvados",
     "description": "French apple brandy",
     "parent": "eau-de-vie",
+    "type": "spirit",
     "aliases": [
       "Calvados (drink)"
     ],
@@ -1459,6 +1568,7 @@
     "name": "Campbeltown single malt whisky",
     "description": "single malt Scotch whiskies distilled in the burgh of Campbeltown",
     "parent": "single malt Scotch",
+    "type": "spirit",
     "aliases": [
       "Campbeltown",
       "Campbeltown Scotch",
@@ -1485,6 +1595,7 @@
     "name": "Canadian Club",
     "description": "brand of whisky from Canada",
     "parent": "rye whiskey",
+    "type": "spirit",
     "aliases": [
       "CC"
     ],
@@ -1501,6 +1612,7 @@
     "name": "Canadian whisky",
     "description": "type of whisky produced in Canada",
     "parent": "grain whisky",
+    "type": "spirit",
     "aliases": [
       "Canadian Whisky"
     ],
@@ -1516,9 +1628,10 @@
     "name": "Caol Ila Distillery",
     "description": "Scotch whisky distillery on Islay, Argyll and Bute, Scotland, United Kingdom",
     "parent": "Scotch whisky",
+    "type": "spirit",
     "aliases": [
       "Caol Ila",
-      "Caol \u00ccle",
+      "Caol Ìle",
       "Ruadhphort"
     ],
     "search": [
@@ -1537,6 +1650,7 @@
     "name": "Captain Morgan",
     "description": "brand of rum",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "captain",
@@ -1550,6 +1664,7 @@
     "name": "Category:Suntory Gin Sui",
     "description": "",
     "parent": "gin",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "category",
@@ -1567,6 +1682,7 @@
     "name": "Cazalla",
     "description": "alcoholic beverage derived from aniseed distillation",
     "parent": "anise drink",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "anise drink",
@@ -1578,6 +1694,7 @@
     "name": "chacha",
     "description": "type of alcoholic beverage",
     "parent": "pomace brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "chacha",
@@ -1589,6 +1706,7 @@
     "name": "Chamisul",
     "description": "South Korean soju brand",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
       "Chamiseul"
     ],
@@ -1602,6 +1720,7 @@
     "name": "Chang'aa",
     "description": "alcoholic beverage",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "chang'aa",
@@ -1613,6 +1732,7 @@
     "name": "Changaa",
     "description": "distilled alcoholic beverage",
     "parent": "moonshine",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "changaa",
@@ -1624,6 +1744,7 @@
     "name": "cherry eau de vie",
     "description": "beverage",
     "parent": "eau-de-vie",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cherry",
@@ -1640,6 +1761,7 @@
     "name": "Chilean pisco",
     "description": "grape brandy produced in Chile",
     "parent": "pisco",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "chilean",
@@ -1649,18 +1771,19 @@
   },
   {
     "id": "Q5766574",
-    "name": "Chinch\u00f3n",
+    "name": "Chinchón",
     "description": "anise-based spirit",
     "parent": "anise drink",
+    "type": "spirit",
     "aliases": [
-      "An\u00eds de Chinch\u00f3n"
+      "Anís de Chinchón"
     ],
     "search": [
       "an s de chinch n",
       "anise drink",
       "chinch",
       "chinch n",
-      "chinch\u00f3n"
+      "chinchón"
     ]
   },
   {
@@ -1668,6 +1791,7 @@
     "name": "Chinggis vodka",
     "description": "brand of vodka from Mongolia",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "chinggis",
@@ -1680,6 +1804,7 @@
     "name": "Chita",
     "description": "whiskey",
     "parent": "Japanese whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "chita",
@@ -1691,6 +1816,7 @@
     "name": "Chopin Vodka",
     "description": "single-ingredient vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "chopin",
@@ -1703,6 +1829,7 @@
     "name": "Chu Yeh Ching Chiew",
     "description": "alcoholic beverage originated from Shanxi, China",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
       "Zhuyeqing"
     ],
@@ -1721,6 +1848,7 @@
     "name": "Chumchurum",
     "description": "Brand of soju products produced by Lotte Chilsung Beverage",
     "parent": "soju",
+    "type": "spirit",
     "aliases": [
       "Cheoeumcheoleom"
     ],
@@ -1735,6 +1863,7 @@
     "name": "cider spirit",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cider",
@@ -1744,19 +1873,20 @@
   },
   {
     "id": "Q1150860",
-    "name": "C\u00eeroc",
+    "name": "Cîroc",
     "description": "brand of French alcoholic beverages",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [
       "Ciroc",
-      "C\u00eeroc Vodka"
+      "Cîroc Vodka"
     ],
     "search": [
       "c",
       "c roc",
       "c roc vodka",
       "ciroc",
-      "c\u00eeroc",
+      "cîroc",
       "vodka"
     ]
   },
@@ -1765,6 +1895,7 @@
     "name": "Clairin",
     "description": "Distilled spirit made from cane sugar produced in Haiti",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
       "Kleren",
       "Klerin"
@@ -1780,6 +1911,7 @@
     "name": "Clan MacGregor",
     "description": "scotch whisky",
     "parent": "blended whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "blended whiskey",
@@ -1793,6 +1925,7 @@
     "name": "Coconut brandy",
     "description": "distilled spirit",
     "parent": "fruit brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brandy",
@@ -1803,23 +1936,25 @@
   },
   {
     "id": "Q2981378",
-    "name": "Cocoroco(Boutr\u00f3n)",
+    "name": "Cocoroco(Boutrón)",
     "description": "alcoholic beverage from Bolivia",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "boutr",
       "cocoroco",
       "cocoroco boutr",
       "cocoroco boutr n",
-      "cocoroco(boutr\u00f3n)"
+      "cocoroco(boutrón)"
     ]
   },
   {
     "id": "Q4227483",
     "name": "cocuy",
-    "description": "liquor distilled from the fermented juices of the head, body or leaves of Agave cocui produced artisanally in the Venezuelan regions of Falc\u00f3n and Lara",
+    "description": "liquor distilled from the fermented juices of the head, body or leaves of Agave cocui produced artisanally in the Venezuelan regions of Falcón and Lara",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cocuy"
@@ -1830,6 +1965,7 @@
     "name": "cognac",
     "description": "alcoholic beverage; variety of brandy",
     "parent": "eau-de-vie",
+    "type": "spirit",
     "aliases": [
       "french brandy"
     ],
@@ -1844,6 +1980,7 @@
     "name": "Connemara",
     "description": "peated single malt whiskey",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "connemara",
@@ -1855,6 +1992,7 @@
     "name": "Cork Dry Gin",
     "description": "Irish gin",
     "parent": "dry gin",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cork",
@@ -1870,8 +2008,9 @@
     "name": "corn whiskey",
     "description": "American liquor",
     "parent": "grain whisky",
+    "type": "spirit",
     "aliases": [
-      "Corn Squeezin\u2019s"
+      "Corn Squeezin’s"
     ],
     "search": [
       "corn",
@@ -1886,6 +2025,7 @@
     "name": "Corzo",
     "description": "brand of tequila",
     "parent": "tequila",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "corzo",
@@ -1897,6 +2037,7 @@
     "name": "Couprie",
     "description": "",
     "parent": "cognac",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cognac",
@@ -1908,6 +2049,7 @@
     "name": "Cracovia vodka",
     "description": "brand of Polish vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cracovia",
@@ -1920,6 +2062,7 @@
     "name": "Cream Genever",
     "description": "",
     "parent": "jenever",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cream",
@@ -1933,6 +2076,7 @@
     "name": "Cristal",
     "description": "distilled beverage",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cristal"
@@ -1940,15 +2084,16 @@
   },
   {
     "id": "Q113799362",
-    "name": "Croithl\u00ed",
+    "name": "Croithlí",
     "description": "single distillery Irish whiskey",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [
       "Crolly"
     ],
     "search": [
       "croithl",
-      "croithl\u00ed",
+      "croithlí",
       "crolly",
       "whisky"
     ]
@@ -1958,6 +2103,7 @@
     "name": "Crystal Head Vodka",
     "description": "Vodka packaged in a skull-shaped glass bottle",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "crystal",
@@ -1972,6 +2118,7 @@
     "name": "Cuban rum",
     "description": "Cuban rums",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cuban",
@@ -1984,6 +2131,7 @@
     "name": "currant jenever",
     "description": "jenever infused with blackcurrants",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
       "currant genever",
       "red genever",
@@ -2003,6 +2151,7 @@
     "name": "cut brandy",
     "description": "liquor made of brandy, neutral grain spirit and water",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brandy",
@@ -2015,6 +2164,7 @@
     "name": "Cutty Sark",
     "description": "whisky",
     "parent": "blended Scotch whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "blended scotch whisky",
@@ -2028,6 +2178,7 @@
     "name": "Dalwhinnie single malt whisky",
     "description": "",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [
       "dalwhinnie"
     ],
@@ -2045,6 +2196,7 @@
     "name": "damassine",
     "description": "eau de vie produced in the Swiss Jura from Damascus prunes",
     "parent": "fruit brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "damassine",
@@ -2056,6 +2208,7 @@
     "name": "dark rum",
     "description": "",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "dark",
@@ -2068,6 +2221,7 @@
     "name": "Deep Eddy Vodka",
     "description": "",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "deep",
@@ -2082,6 +2236,7 @@
     "name": "Desi daru",
     "description": "liquor made in rural parts of the Indian subcontinent",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "daru",
@@ -2094,6 +2249,7 @@
     "name": "Dewar's",
     "description": "Scotch whisky brand",
     "parent": "blended Scotch whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "blended scotch whisky",
@@ -2106,6 +2262,7 @@
     "name": "Dictador",
     "description": "brand of rum from Colombia",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "dictador",
@@ -2117,6 +2274,7 @@
     "name": "Dimple",
     "description": "Scotch whiskey",
     "parent": "blended Scotch whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "blended scotch whisky",
@@ -2128,6 +2286,7 @@
     "name": "divin",
     "description": "moldavian eau-de-vie",
     "parent": "wine spirit",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "divin",
@@ -2139,6 +2298,7 @@
     "name": "Don Papa Rum",
     "description": "Aged rum",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "don",
@@ -2153,6 +2313,7 @@
     "name": "Dragon Bleu",
     "description": "French brand of vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bleu",
@@ -2166,6 +2327,7 @@
     "name": "dry gin",
     "description": "alcoholic beverage",
     "parent": "gin",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "dry",
@@ -2178,6 +2340,7 @@
     "name": "Dubra",
     "description": "brand of vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "dubra",
@@ -2189,6 +2352,7 @@
     "name": "Dutch brandy",
     "description": "liquor",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
       "vieux"
     ],
@@ -2204,6 +2368,7 @@
     "name": "Early Times",
     "description": "Kentucky whiskey produced by the Brown-Forman Corporation",
     "parent": "American whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "american whiskey",
@@ -2217,6 +2382,7 @@
     "name": "eau-de-vie",
     "description": "french for \"water of life\": fruit brandy obtained by distillation",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "de",
@@ -2232,6 +2398,7 @@
     "name": "Eau-de-vie de poire du Valais",
     "description": "",
     "parent": "eau-de-vie",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "de",
@@ -2251,6 +2418,7 @@
     "name": "El Dorado Rum",
     "description": "",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "dorado",
@@ -2265,6 +2433,7 @@
     "name": "El Jimador Reposado Tequila",
     "description": "",
     "parent": "tequila",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "el",
@@ -2280,6 +2449,7 @@
     "name": "El-Bart",
     "description": "brand of London dry gin",
     "parent": "dry gin",
+    "type": "spirit",
     "aliases": [
       "El-Bart Dry Gin",
       "El-Bart Gin"
@@ -2299,6 +2469,7 @@
     "name": "Elijah Craig",
     "description": "bourbon whiskey",
     "parent": "bourbon whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bourbon whiskey",
@@ -2312,6 +2483,7 @@
     "name": "Empress 1908 Gin",
     "description": "gin",
     "parent": "gin",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "1908",
@@ -2326,6 +2498,7 @@
     "name": "English single malt",
     "description": "single malt whisky produced in England",
     "parent": "single malt whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "english",
@@ -2341,6 +2514,7 @@
     "name": "English whisky",
     "description": "English whisky is a liquor made from cereal grains, malt and water.This includes malt whisky and grain whisky that is distilled in England",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "english",
@@ -2353,6 +2527,7 @@
     "name": "Erguotou",
     "description": "Chinese liquor generated from second distillation",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "erguotou"
@@ -2363,6 +2538,7 @@
     "name": "Eristoff",
     "description": "brand of Vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "eristoff",
@@ -2374,6 +2550,7 @@
     "name": "Espolon",
     "description": "Tequila brand",
     "parent": "tequila",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "espolon",
@@ -2385,6 +2562,7 @@
     "name": "Evan Williams",
     "description": "Kentucky straight bourbon whiskey",
     "parent": "bourbon whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bourbon whiskey",
@@ -2398,6 +2576,7 @@
     "name": "Fen Chiew",
     "description": "baijiu produced by Fenjiu Group, Fenyang, Shanxi",
     "parent": "baijiu",
+    "type": "spirit",
     "aliases": [
       "Fen Jiu"
     ],
@@ -2414,6 +2593,7 @@
     "name": "Fenny",
     "description": "distilled beverage",
     "parent": "fruit brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "fenny",
@@ -2425,6 +2605,7 @@
     "name": "Fighting Cock bourbon",
     "description": "brand of Kentucky straight bourbon whiskey",
     "parent": "bourbon whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bourbon",
@@ -2440,6 +2621,7 @@
     "name": "Fine",
     "description": "Type of brandy",
     "parent": "wine spirit",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "fine",
@@ -2451,6 +2633,7 @@
     "name": "Fine et marc du Bugey",
     "description": "",
     "parent": "Fine",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bugey",
@@ -2467,6 +2650,7 @@
     "name": "Finlandia Vodka",
     "description": "Finnish brand of vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "finlandia",
@@ -2479,6 +2663,7 @@
     "name": "Finnish whisky",
     "description": "",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "finnish",
@@ -2491,6 +2676,7 @@
     "name": "Fireball Cinnamon Whisky",
     "description": "cinnamon-flavoured whisky-based liqueur",
     "parent": "whisky",
+    "type": "liqueur",
     "aliases": [
       "Fireball Whisky"
     ],
@@ -2508,6 +2694,7 @@
     "name": "firewater",
     "description": "type of alcohol",
     "parent": "moonshine",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "firewater",
@@ -2519,6 +2706,7 @@
     "name": "flavored liquor",
     "description": "liquor with added flavoring and, in some cases, a small amount of added sugar",
     "parent": "flavored alcoholic beverage",
+    "type": "spirit",
     "aliases": [
       "infused liquor"
     ],
@@ -2535,6 +2723,7 @@
     "name": "Fleischmann's vodka",
     "description": "gin, and whiskey",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "fleischmann's vodka",
@@ -2546,8 +2735,9 @@
   {
     "id": "Q782215",
     "name": "Floc de Gascogne",
-    "description": "sweet ap\u00e9ritif made from a blend of grape juice and Armagnac",
+    "description": "sweet apéritif made from a blend of grape juice and Armagnac",
     "parent": "Armagnac",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "armagnac",
@@ -2560,17 +2750,18 @@
   },
   {
     "id": "Q1429240",
-    "name": "Flor de Ca\u00f1a",
+    "name": "Flor de Caña",
     "description": "Nicaraguan brand of rum",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
-      "ca\u00f1a",
+      "caña",
       "de",
       "flor",
       "flor de",
       "flor de ca a",
-      "flor de ca\u00f1a",
+      "flor de caña",
       "rum"
     ]
   },
@@ -2579,6 +2770,7 @@
     "name": "Four Roses",
     "description": "trademark",
     "parent": "Kentucky Straight Bourbon Whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "four",
@@ -2592,6 +2784,7 @@
     "name": "Frapin",
     "description": "cognac producer",
     "parent": "cognac",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cognac",
@@ -2603,6 +2796,7 @@
     "name": "French rum",
     "description": "French rums",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "french",
@@ -2615,6 +2809,7 @@
     "name": "fruit brandy",
     "description": "distilled beverage",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
       "fruit spirit"
     ],
@@ -2630,6 +2825,7 @@
     "name": "Fruit Genever",
     "description": "",
     "parent": "grain spirit",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "fruit",
@@ -2643,6 +2839,7 @@
     "name": "Frysk Hynder",
     "description": "Dutch single malt whiskey",
     "parent": "single malt whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "frysk",
@@ -2656,6 +2853,7 @@
     "name": "Gaesoju",
     "description": "Korean rice tonic made of dog meat",
     "parent": "dog meat",
+    "type": "spirit",
     "aliases": [
       "Gae-soju",
       "Musulju"
@@ -2672,6 +2870,7 @@
     "name": "Galliano",
     "description": "Italian sweet herbal liqueur produced since 1896",
     "parent": "anise liqueur",
+    "type": "liqueur",
     "aliases": [],
     "search": [
       "anise liqueur",
@@ -2683,6 +2882,7 @@
     "name": "Geist",
     "description": "maceration of unfermented fruit or other raw materials in neutral spirits, followed by distillation",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
       "geist"
     ],
@@ -2695,6 +2895,7 @@
     "name": "gentian",
     "description": "distilled alcoholic beverage made with the gentian flower",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
       "Gentian schnapps",
       "Gentian spirit"
@@ -2710,6 +2911,7 @@
     "name": "Gentleman Jack",
     "description": "brand of Jack Daniel's whiskey",
     "parent": "Tennessee whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "gentleman",
@@ -2726,6 +2928,7 @@
     "name": "George T. Stagg",
     "description": "bourbon whiskey distributed by Buffalo Trace Distillery",
     "parent": "bourbon whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bourbon whiskey",
@@ -2742,6 +2945,7 @@
     "name": "Gilpin's Westmorland Extra Dry Gin",
     "description": "",
     "parent": "dry gin",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "dry",
@@ -2760,6 +2964,7 @@
     "name": "gin",
     "description": "distilled alcoholic drink",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "gin"
@@ -2770,6 +2975,7 @@
     "name": "Gin Xoriguer",
     "description": "",
     "parent": "gin",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "gin",
@@ -2782,6 +2988,7 @@
     "name": "Glen Talloch",
     "description": "whiskey brand",
     "parent": "blended Scotch whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "blended scotch whisky",
@@ -2795,6 +3002,7 @@
     "name": "gocce imperiale",
     "description": "",
     "parent": "anise drink",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "anise drink",
@@ -2808,6 +3016,7 @@
     "name": "Gold Baku",
     "description": "alcoholic cognac or brandy drink produced in Azerbaijan",
     "parent": "cognac",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "baku",
@@ -2821,6 +3030,7 @@
     "name": "gold rum",
     "description": "",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [
       "amber rum"
     ],
@@ -2836,6 +3046,7 @@
     "name": "Gold Symphony Vodka",
     "description": "Brand of Russian vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "gold",
@@ -2850,6 +3061,7 @@
     "name": "Gold tequila",
     "description": "",
     "parent": "liqueur",
+    "type": "liqueur",
     "aliases": [],
     "search": [
       "gold",
@@ -2860,19 +3072,20 @@
   },
   {
     "id": "Q1031545",
-    "name": "G\u00f6nc Apricot P\u00e1linka",
+    "name": "Gönc Apricot Pálinka",
     "description": "alcoholic drink",
-    "parent": "P\u00e1linka",
+    "parent": "Pálinka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "apricot",
       "g",
       "g nc",
       "g nc apricot p linka",
-      "g\u00f6nc",
-      "g\u00f6nc apricot p\u00e1linka",
+      "gönc",
+      "gönc apricot pálinka",
       "linka",
-      "p\u00e1linka"
+      "pálinka"
     ]
   },
   {
@@ -2880,6 +3093,7 @@
     "name": "Gorbatschow",
     "description": "German vodka brand",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [
       "Wodka Gorbatschow"
     ],
@@ -2894,6 +3108,7 @@
     "name": "Gordon's London Dry Gin",
     "description": "alcohol brand",
     "parent": "dry gin",
+    "type": "spirit",
     "aliases": [
       "Alexander Gordon & Co.",
       "Gordon's Gin"
@@ -2916,6 +3131,7 @@
     "name": "gosori liquor",
     "description": "Korean liquor",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
       "Gosori Sul"
     ],
@@ -2931,6 +3147,7 @@
     "name": "grain spirit",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "grain",
@@ -2943,6 +3160,7 @@
     "name": "grain whisky",
     "description": "type of alcoholic beverage",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "grain",
@@ -2955,6 +3173,7 @@
     "name": "Grand Old Parr",
     "description": "blended Scotch Whisky",
     "parent": "blended whiskey",
+    "type": "spirit",
     "aliases": [
       "Old Parr"
     ],
@@ -2973,6 +3192,7 @@
     "name": "Grant's",
     "description": "scotch whisky",
     "parent": "Scotch whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "grant's",
@@ -2985,6 +3205,7 @@
     "name": "grape brandy",
     "description": "",
     "parent": "fruit brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brandy",
@@ -2998,6 +3219,7 @@
     "name": "grappa",
     "description": "Italian alcoholic beverage",
     "parent": "pomace brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "grappa",
@@ -3009,6 +3231,7 @@
     "name": "Green Spot",
     "description": "single pot still Irish whiskey",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "green",
@@ -3022,9 +3245,10 @@
     "name": "Greenall's Gin",
     "description": "Gin brand and distillery",
     "parent": "gin",
+    "type": "spirit",
     "aliases": [
       "G&J Distillers",
-      "G&J Greenall\u2019s"
+      "G&J Greenall’s"
     ],
     "search": [
       "g j distillers",
@@ -3040,6 +3264,7 @@
     "name": "Greenore",
     "description": "ingle grain whiskey",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "greenore",
@@ -3051,6 +3276,7 @@
     "name": "Grey Goose",
     "description": "brand of vodka distilled in Cognac, France from French wheat",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "goose",
@@ -3064,6 +3290,7 @@
     "name": "Grogue",
     "description": "Cape Verdean alcoholic beverage",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
       "grogo"
     ],
@@ -3077,6 +3304,7 @@
     "name": "Grozdova",
     "description": "Type of fruit brandy",
     "parent": "brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brandy",
@@ -3088,6 +3316,7 @@
     "name": "guaro",
     "description": "liquor made in many places in Latin America",
     "parent": "aguardiente",
+    "type": "spirit",
     "aliases": [
       "soft vodka"
     ],
@@ -3102,6 +3331,7 @@
     "name": "Guilin Sanhua Jiu",
     "description": "liquor",
     "parent": "baijiu",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "baijiu",
@@ -3117,6 +3347,7 @@
     "name": "Guizhou Xijiu",
     "description": "baijiu",
     "parent": "jiangxiang",
+    "type": "spirit",
     "aliases": [
       "Xijiu"
     ],
@@ -3132,6 +3363,7 @@
     "name": "Haig",
     "description": "brand of whisky",
     "parent": "Scotch whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "haig",
@@ -3143,6 +3375,7 @@
     "name": "Hakushu",
     "description": "whiskey",
     "parent": "Japanese whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "hakushu",
@@ -3154,6 +3387,7 @@
     "name": "Hancock's President's Reserve",
     "description": "",
     "parent": "bourbon whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bourbon whiskey",
@@ -3170,6 +3404,7 @@
     "name": "Hankey Bannister",
     "description": "scotch whisky",
     "parent": "blended Scotch whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bannister",
@@ -3183,6 +3418,7 @@
     "name": "Hasseltse jenever",
     "description": "",
     "parent": "jenever",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "hasseltse",
@@ -3195,6 +3431,7 @@
     "name": "Havana Club",
     "description": "brand of rum",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "club",
@@ -3208,6 +3445,7 @@
     "name": "Heaven Hill Kentucky Whiskey",
     "description": "",
     "parent": "blended whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "blended whiskey",
@@ -3221,16 +3459,17 @@
   },
   {
     "id": "Q1601688",
-    "name": "Helbing K\u00fcmmel",
+    "name": "Helbing Kümmel",
     "description": "trademark",
-    "parent": "k\u00fcmmel",
+    "parent": "kümmel",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "helbing",
       "helbing k",
       "helbing k mmel",
-      "helbing k\u00fcmmel",
-      "k\u00fcmmel",
+      "helbing kümmel",
+      "kümmel",
       "mmel"
     ]
   },
@@ -3239,9 +3478,11 @@
     "name": "Hendrick's Gin",
     "description": "Scottish gin brand",
     "parent": "gin",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "gin",
+      "hendrick",
       "hendrick's gin",
       "hendricks",
       "hendricks gin"
@@ -3252,6 +3493,7 @@
     "name": "Hi Nikka",
     "description": "",
     "parent": "blended whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "blended whiskey",
@@ -3265,6 +3507,7 @@
     "name": "Hibiki",
     "description": "Japanese blended whisky",
     "parent": "blended whiskey",
+    "type": "spirit",
     "aliases": [
       "Hibiki Harmony Whisky"
     ],
@@ -3279,6 +3522,7 @@
     "name": "Hierbas",
     "description": "drink",
     "parent": "anise drink",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "anise drink",
@@ -3290,6 +3534,7 @@
     "name": "Hierbas Ibicencas",
     "description": "aniseed-flavoured spirit",
     "parent": "anise drink",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "anise drink",
@@ -3303,6 +3548,7 @@
     "name": "Highland queen",
     "description": "",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "highland",
@@ -3316,6 +3562,7 @@
     "name": "Highland single malt whisky",
     "description": "official region of Scotch whisky production",
     "parent": "single malt Scotch",
+    "type": "spirit",
     "aliases": [
       "Highland Distillers",
       "Highland Scotch",
@@ -3343,6 +3590,7 @@
     "name": "Highland whisky",
     "description": "",
     "parent": "Scotch whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "highland",
@@ -3356,6 +3604,7 @@
     "name": "Hill's Absinth",
     "description": "Czech brand of wormwood bitters related to absinthe",
     "parent": "absinthe",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "absinth",
@@ -3370,6 +3619,7 @@
     "name": "Himbeergeist",
     "description": "distilled beverage",
     "parent": "Geist",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "geist",
@@ -3381,6 +3631,7 @@
     "name": "Horilka",
     "description": "Ukrainian alcoholic beverage",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [
       "Pertsivka"
     ],
@@ -3395,6 +3646,7 @@
     "name": "I.W. Harper",
     "description": "",
     "parent": "bourbon whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bourbon whiskey",
@@ -3411,6 +3663,7 @@
     "name": "Iceberg Vodka",
     "description": "",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "iceberg",
@@ -3423,6 +3676,7 @@
     "name": "Iichiko",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "iichiko"
@@ -3430,16 +3684,17 @@
   },
   {
     "id": "Q11429632",
-    "name": "Iki sh\u014dch\u016b",
+    "name": "Iki shōchū",
     "description": "",
-    "parent": "sh\u014dch\u016b",
+    "parent": "shōchū",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "iki",
       "iki sh",
       "iki sh ch",
-      "iki sh\u014dch\u016b",
-      "sh\u014dch\u016b"
+      "iki shōchū",
+      "shōchū"
     ]
   },
   {
@@ -3447,6 +3702,7 @@
     "name": "IMUGE.",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "imuge",
@@ -3458,6 +3714,7 @@
     "name": "Indri",
     "description": "Indian single malt whisky",
     "parent": "single malt whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "indri",
@@ -3469,6 +3726,7 @@
     "name": "Insamju",
     "description": "alcoholic beverage made of ginseng",
     "parent": "flavored liquor",
+    "type": "spirit",
     "aliases": [
       "ginseng liquor",
       "ginseng wine",
@@ -3486,6 +3744,7 @@
     "name": "Irish whiskey",
     "description": "popular spirit made on the island of Ireland",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "irish",
@@ -3499,6 +3758,7 @@
     "name": "Island single malt whisky",
     "description": "unofficial region of Scotch whisky production",
     "parent": "single malt Scotch",
+    "type": "spirit",
     "aliases": [
       "Island Scotch",
       "Island single malt Scotch",
@@ -3524,6 +3784,7 @@
     "name": "Islay single malt whisky",
     "description": "official region of Scotch whisky production",
     "parent": "single malt Scotch",
+    "type": "spirit",
     "aliases": [
       "Islay Scotch",
       "Islay single malt Scotch",
@@ -3547,6 +3808,7 @@
     "name": "Italian brandy",
     "description": "",
     "parent": "brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brandy",
@@ -3559,6 +3821,7 @@
     "name": "J.T.S. Brown",
     "description": "Kentucky bourbon whiskey",
     "parent": "bourbon whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bourbon whiskey",
@@ -3572,29 +3835,31 @@
   },
   {
     "id": "Q31186302",
-    "name": "Jabukova\u010da",
+    "name": "Jabukovača",
     "description": "alcohol spirit made of apples",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "jabukova",
       "jabukova a",
-      "jabukova\u010da"
+      "jabukovača"
     ]
   },
   {
     "id": "Q10541623",
-    "name": "J\u00e4garbr\u00e4nnvin",
+    "name": "Jägarbrännvin",
     "description": "Swedish brand of brandy",
-    "parent": "br\u00e4nnvin",
+    "parent": "brännvin",
+    "type": "spirit",
     "aliases": [],
     "search": [
-      "br\u00e4nnvin",
+      "brännvin",
       "garbr",
       "j",
       "j garbr",
       "j garbr nnvin",
-      "j\u00e4garbr\u00e4nnvin",
+      "jägarbrännvin",
       "nnvin"
     ]
   },
@@ -3603,6 +3868,7 @@
     "name": "Jaloviina",
     "description": "Finnish brand of cut brandy",
     "parent": "cut brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cut brandy",
@@ -3612,8 +3878,9 @@
   {
     "id": "Q10305048",
     "name": "Jamel",
-    "description": "Brandy of Ind\u00fastria Missiato de Bebidas",
+    "description": "Brandy of Indústria Missiato de Bebidas",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "jamel"
@@ -3624,6 +3891,7 @@
     "name": "Japanese whisky",
     "description": "type of distilled liquor produced in Japan",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [
       "Japanese whiskey"
     ],
@@ -3639,6 +3907,7 @@
     "name": "Jefferson's Bourbon",
     "description": "Brand of Bourbon Whiskey",
     "parent": "bourbon whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bourbon",
@@ -3653,6 +3922,7 @@
     "name": "jenever",
     "description": "French, Dutch and Belgian liquor",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
       "Dutch gin",
       "genever",
@@ -3667,24 +3937,25 @@
   },
   {
     "id": "Q6180454",
-    "name": "Jeppson's Mal\u00f6rt",
-    "description": "brand of b\u00e4sk br\u00e4nnvin liqueur",
-    "parent": "b\u00e4sk",
+    "name": "Jeppson's Malört",
+    "description": "brand of bäsk brännvin liqueur",
+    "parent": "bäsk",
+    "type": "liqueur",
     "aliases": [
       "Jeppson's Malort",
       "Malort",
-      "Mal\u00f6rt"
+      "Malört"
     ],
     "search": [
-      "b\u00e4sk",
-      "jeppson's mal\u00f6rt",
+      "bäsk",
+      "jeppson's malört",
       "jeppsons",
       "jeppsons mal",
       "jeppsons mal rt",
       "jeppsons malort",
       "mal rt",
       "malort",
-      "mal\u00f6rt"
+      "malört"
     ]
   },
   {
@@ -3692,6 +3963,7 @@
     "name": "jiangxiang",
     "description": "type of baijiu",
     "parent": "baijiu",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "baijiu",
@@ -3703,6 +3975,7 @@
     "name": "Jiangxiaobai",
     "description": "Chinese liquor brand",
     "parent": "Kaoliang wine",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "jiangxiaobai",
@@ -3714,15 +3987,18 @@
     "name": "Johnnie Walker",
     "description": "brand of Scotch whisky owned by Diageo that originated in Kilmarnock, Ayrshire, Scotland",
     "parent": "Scotch whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
+      "black label",
+      "blue label",
+      "double black",
+      "gold label",
+      "green label",
       "johnnie",
       "johnnie walker",
-      "black label",
+      "jw",
       "red label",
-      "blue label",
-      "green label",
-      "gold label",
       "scotch whisky",
       "walker"
     ]
@@ -3732,6 +4008,7 @@
     "name": "Johnny Drum Bourbon",
     "description": "",
     "parent": "bourbon whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bourbon",
@@ -3747,6 +4024,7 @@
     "name": "Jose Cuervo",
     "description": "brand of tequila that was founded in 1795 by Don Jose Antonio de Cuervo",
     "parent": "tequila",
+    "type": "spirit",
     "aliases": [
       "Tequila Jose Cuervo"
     ],
@@ -3763,6 +4041,7 @@
     "name": "Kaesong liquor",
     "description": "",
     "parent": "brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brandy",
@@ -3773,16 +4052,17 @@
   },
   {
     "id": "Q1721531",
-    "name": "Kaiser-K\u00fcmmel",
+    "name": "Kaiser-Kümmel",
     "description": "",
-    "parent": "k\u00fcmmel",
+    "parent": "kümmel",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "kaiser",
       "kaiser k",
       "kaiser k mmel",
-      "kaiser-k\u00fcmmel",
-      "k\u00fcmmel",
+      "kaiser-kümmel",
+      "kümmel",
       "mmel"
     ]
   },
@@ -3791,6 +4071,7 @@
     "name": "Kaoliang wine",
     "description": "strong distilled liquor of Chinese origin made from fermented sorghum",
     "parent": "baijiu",
+    "type": "spirit",
     "aliases": [
       "Baijiu",
       "Gaoliang chiew",
@@ -3822,8 +4103,9 @@
   {
     "id": "Q42901501",
     "name": "Karhuviina",
-    "description": "Finnish distilled beverage sold 1933\u20131934",
+    "description": "Finnish distilled beverage sold 1933–1934",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "karhuviina"
@@ -3834,6 +4116,7 @@
     "name": "Karuizawa 1960",
     "description": "",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "1960",
@@ -3847,6 +4130,7 @@
     "name": "Kentucky Straight Bourbon Whiskey",
     "description": "",
     "parent": "bourbon whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bourbon",
@@ -3863,6 +4147,7 @@
     "name": "Khlibnyi Dar",
     "description": "Ukrainian vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [
       "Bread Gift",
       "Hlebny Dar",
@@ -3887,6 +4172,7 @@
     "name": "Killyloch",
     "description": "malt whisky",
     "parent": "malt whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "killyloch",
@@ -3898,6 +4184,7 @@
     "name": "Kinmen Kaoliang liquor",
     "description": "",
     "parent": "Kaoliang wine",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "kaoliang",
@@ -3913,6 +4200,7 @@
     "name": "Kirin Oak Master",
     "description": "",
     "parent": "blended whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "blended whiskey",
@@ -3928,6 +4216,7 @@
     "name": "kirsch",
     "description": "Fruit brandy made of morello cherries",
     "parent": "fruit brandy",
+    "type": "spirit",
     "aliases": [
       "Kirschwasser"
     ],
@@ -3942,6 +4231,7 @@
     "name": "Kizlyarka",
     "description": "Grape vodka made in Kizlyar, Dagestan, Russia",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "kizlyarka",
@@ -3953,6 +4243,7 @@
     "name": "Knob Creek",
     "description": "Kentucky straight bourbon whiskey produced by Beam Suntory at the Jim Beam distillery in Clermont, KY",
     "parent": "Kentucky Straight Bourbon Whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "creek",
@@ -3968,6 +4259,7 @@
     "name": "Komovica",
     "description": "alcoholic beverage, rakia made of grape pomace",
     "parent": "pomace brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "komovica",
@@ -3979,6 +4271,7 @@
     "name": "Korn",
     "description": "German colorless distilled beverage",
     "parent": "grain spirit",
+    "type": "spirit",
     "aliases": [
       "Doppelkorn",
       "Kornbrand"
@@ -3995,6 +4288,7 @@
     "name": "Kors Vodka",
     "description": "Good",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "kors",
@@ -4007,6 +4301,7 @@
     "name": "Koskenkorva Viina",
     "description": "Finnish barley spirit drink",
     "parent": "grain spirit",
+    "type": "spirit",
     "aliases": [
       "Koskenkorva",
       "Koskenkorvan viina",
@@ -4027,6 +4322,7 @@
     "name": "Koutoukou",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "koutoukou"
@@ -4037,6 +4333,7 @@
     "name": "Kraken Rum",
     "description": "black rum",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "kraken",
@@ -4048,24 +4345,26 @@
     "id": "Q10549528",
     "name": "Kronsup",
     "description": "type of liquor",
-    "parent": "br\u00e4nnvin",
+    "parent": "brännvin",
+    "type": "spirit",
     "aliases": [],
     "search": [
-      "br\u00e4nnvin",
+      "brännvin",
       "kronsup"
     ]
   },
   {
     "id": "Q97207647",
-    "name": "kumash\u014dch\u016b",
+    "name": "kumashōchū",
     "description": "",
-    "parent": "sh\u014dch\u016b",
+    "parent": "shōchū",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "kumash",
       "kumash ch",
-      "kumash\u014dch\u016b",
-      "sh\u014dch\u016b"
+      "kumashōchū",
+      "shōchū"
     ]
   },
   {
@@ -4073,6 +4372,7 @@
     "name": "Kumi Kumi",
     "description": "illegal liquor brewed in Kenya",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "kumi",
@@ -4081,9 +4381,10 @@
   },
   {
     "id": "Q1142021",
-    "name": "k\u00fcmmel",
+    "name": "kümmel",
     "description": "sweet liqueur flavored with caraway, cumin, and fennel seeds",
     "parent": "flavored liquor",
+    "type": "liqueur",
     "aliases": [
       "caraway-flavoured spirit drink"
     ],
@@ -4091,15 +4392,16 @@
       "caraway flavoured spirit drink",
       "k",
       "k mmel",
-      "k\u00fcmmel",
+      "kümmel",
       "mmel"
     ]
   },
   {
     "id": "Q25461355",
-    "name": "Kyr\u00f6 Napue Gin",
-    "description": "Finnish rye gin produced by the Kyr\u00f6 Distillery",
+    "name": "Kyrö Napue Gin",
+    "description": "Finnish rye gin produced by the Kyrö Distillery",
     "parent": "gin",
+    "type": "spirit",
     "aliases": [
       "Napue"
     ],
@@ -4108,8 +4410,8 @@
       "kyr",
       "kyr napue",
       "kyr napue gin",
-      "kyr\u00f6",
-      "kyr\u00f6 napue gin",
+      "kyrö",
+      "kyrö napue gin",
       "napue"
     ]
   },
@@ -4118,6 +4420,7 @@
     "name": "La Hechicera",
     "description": "",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "hechicera",
@@ -4131,6 +4434,7 @@
     "name": "Label 5",
     "description": "scotch whisky brand",
     "parent": "blended Scotch whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "blended scotch whisky",
@@ -4143,6 +4447,7 @@
     "name": "Lagavulin 16 years whisky",
     "description": "Lagavulin 16 years single malt scotch whisky",
     "parent": "Islay single malt whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "16",
@@ -4159,6 +4464,7 @@
     "name": "Lambig",
     "description": "Brandy from Breton, France",
     "parent": "eau-de-vie",
+    "type": "spirit",
     "aliases": [
       "Fine Bretagne",
       "gwinardant"
@@ -4175,6 +4481,7 @@
     "name": "Lao baijiu",
     "description": "",
     "parent": "baijiu",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "baijiu",
@@ -4187,6 +4494,7 @@
     "name": "lao khao",
     "description": "Thai distilled spirit",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
       "sura khao"
     ],
@@ -4202,6 +4510,7 @@
     "name": "Lao-Lao",
     "description": "Laotian rice whisky produced in Laos",
     "parent": "grain spirit",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "grain spirit",
@@ -4212,17 +4521,18 @@
   },
   {
     "id": "Q17005920",
-    "name": "Leblon Cacha\u00e7a",
-    "description": "Brazilian cacha\u00e7a brand",
-    "parent": "cacha\u00e7a",
+    "name": "Leblon Cachaça",
+    "description": "Brazilian cachaça brand",
+    "parent": "cachaça",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cacha",
-      "cacha\u00e7a",
+      "cachaça",
       "leblon",
       "leblon cacha",
       "leblon cacha a",
-      "leblon cacha\u00e7a"
+      "leblon cachaça"
     ]
   },
   {
@@ -4230,6 +4540,7 @@
     "name": "lees spirit",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
       "Hefebrand"
     ],
@@ -4245,6 +4556,7 @@
     "name": "Leijona Viina",
     "description": "Finnish distilled beverage",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "leijona",
@@ -4257,6 +4569,7 @@
     "name": "lemon brandy",
     "description": "",
     "parent": "brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brandy",
@@ -4269,6 +4582,7 @@
     "name": "Lemon Genever",
     "description": "",
     "parent": "Fruit Genever",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "fruit genever",
@@ -4282,6 +4596,7 @@
     "name": "Linie Aquavit",
     "description": "",
     "parent": "Norwegian akvavit",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "aquavit",
@@ -4295,6 +4610,7 @@
     "name": "Lotoko",
     "description": "home-distilled alcoholic drink in the Democratic Republic of the Congo",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "lotoko"
@@ -4302,9 +4618,10 @@
   },
   {
     "id": "Q3263322",
-    "name": "Louis XIII de R\u00e9my Martin",
-    "description": "type of cognac made by R\u00e9my Martin",
+    "name": "Louis XIII de Rémy Martin",
+    "description": "type of cognac made by Rémy Martin",
     "parent": "cognac",
+    "type": "spirit",
     "aliases": [
       "Louis XIII de Remy Martin"
     ],
@@ -4315,9 +4632,9 @@
       "louis xiii",
       "louis xiii de r my martin",
       "louis xiii de remy martin",
-      "louis xiii de r\u00e9my martin",
+      "louis xiii de rémy martin",
       "martin",
-      "r\u00e9my",
+      "rémy",
       "xiii"
     ]
   },
@@ -4326,6 +4643,7 @@
     "name": "Lowland single malt whisky",
     "description": "region of Scotch whisky production",
     "parent": "single malt Scotch",
+    "type": "spirit",
     "aliases": [
       "Lowland Scotch",
       "Lowland single malt Scotch",
@@ -4351,6 +4669,7 @@
     "name": "Luksusowa vodka",
     "description": "brand of Vodka from Poland",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "luksusowa",
@@ -4363,6 +4682,7 @@
     "name": "Lunazul",
     "description": "blue agave tequila produced by Tierra de Agaves",
     "parent": "tequila",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "lunazul",
@@ -4374,6 +4694,7 @@
     "name": "Mahia",
     "description": "Moroccan alcoholic beverage distilled from dates or figs",
     "parent": "fruit brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "fruit brandy",
@@ -4385,6 +4706,7 @@
     "name": "Maker's Mark",
     "description": "bourbon whisky",
     "parent": "bourbon whiskey",
+    "type": "spirit",
     "aliases": [
       "Maker's Mark Bourbon Whisky"
     ],
@@ -4400,8 +4722,9 @@
   {
     "id": "Q6744642",
     "name": "malt whisky",
-    "description": "Distilled spirit from Scotland (a/k/a \"Scotch\"\u2014unlike other 'whiskey')",
+    "description": "Distilled spirit from Scotland (a/k/a \"Scotch\"—unlike other 'whiskey')",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "malt",
@@ -4414,6 +4737,7 @@
     "name": "ManX spirit",
     "description": "clear spirit by Kella Distillers",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "manx",
@@ -4426,6 +4750,7 @@
     "name": "Maotai",
     "description": "a style of baijiu",
     "parent": "baijiu",
+    "type": "spirit",
     "aliases": [
       "Moutai"
     ],
@@ -4440,6 +4765,7 @@
     "name": "marc",
     "description": "",
     "parent": "pomace brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "marc",
@@ -4448,27 +4774,29 @@
   },
   {
     "id": "Q71423468",
-    "name": "Marc des C\u00f4tes du Rh\u00f4ne",
+    "name": "Marc des Côtes du Rhône",
     "description": "",
-    "parent": "C\u00f4tes du Rh\u00f4ne AOC",
+    "parent": "Côtes du Rhône AOC",
+    "type": "spirit",
     "aliases": [],
     "search": [
-      "c\u00f4tes",
-      "c\u00f4tes du rh\u00f4ne aoc",
+      "côtes",
+      "côtes du rhône aoc",
       "des",
       "du",
       "marc",
       "marc des",
       "marc des c tes du rh ne",
-      "marc des c\u00f4tes du rh\u00f4ne",
-      "rh\u00f4ne"
+      "marc des côtes du rhône",
+      "rhône"
     ]
   },
   {
     "id": "Q2314099",
-    "name": "Mari\u00ebnburg Rum",
+    "name": "Mariënburg Rum",
     "description": "rum from Suriname",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [
       "Marienburg rum"
     ],
@@ -4477,8 +4805,8 @@
       "mari nburg",
       "mari nburg rum",
       "marienburg rum",
-      "mari\u00ebnburg",
-      "mari\u00ebnburg rum",
+      "mariënburg",
+      "mariënburg rum",
       "nburg",
       "rum"
     ]
@@ -4488,6 +4816,7 @@
     "name": "Mariette",
     "description": "vodka, alcohol",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "mariette",
@@ -4499,6 +4828,7 @@
     "name": "Marillenschnaps",
     "description": "Austrian brandy made from apricots",
     "parent": "fruit brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "fruit brandy",
@@ -4510,6 +4840,7 @@
     "name": "Masons Gin",
     "description": "company based in North Yorkshire, England",
     "parent": "gin",
+    "type": "spirit",
     "aliases": [
       "Masons Of Yorkshire"
     ],
@@ -4525,6 +4856,7 @@
     "name": "Mastika",
     "description": "Liqueur seasoned with mastic",
     "parent": "flavored liquor",
+    "type": "liqueur",
     "aliases": [],
     "search": [
       "mastika"
@@ -4535,6 +4867,7 @@
     "name": "Mayfair Gin",
     "description": "",
     "parent": "dry gin",
+    "type": "spirit",
     "aliases": [
       "Mayfair London Dry Gin"
     ],
@@ -4551,6 +4884,7 @@
     "name": "McDowell's No.1",
     "description": "Brand of Indian Spirits",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "mcdowell's no.1",
@@ -4565,6 +4899,7 @@
     "name": "McDowell's No.1 Celebration",
     "description": "Indian rum brand",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "celebration",
@@ -4581,6 +4916,7 @@
     "name": "Mei Kuei Lu Chiew",
     "description": "Chinese alcoholic beverage with rose aroma",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
       "Mei Kuei Lu Chinese Cooking Wine",
       "Mei Kuei Lu Wine",
@@ -4605,6 +4941,7 @@
     "name": "Mekhong",
     "description": "Thai liquor",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
       "Mekong"
     ],
@@ -4618,6 +4955,7 @@
     "name": "Metaxa",
     "description": "Greek liqueur based on brandy",
     "parent": "brandy",
+    "type": "liqueur",
     "aliases": [],
     "search": [
       "brandy",
@@ -4629,6 +4967,7 @@
     "name": "Meukow",
     "description": "",
     "parent": "cognac",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cognac",
@@ -4640,6 +4979,7 @@
     "name": "Mexican whisky",
     "description": "",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "mexican",
@@ -4652,6 +4992,7 @@
     "name": "mezcal",
     "description": "distilled alcoholic beverage",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
       "mescal"
     ],
@@ -4665,6 +5006,7 @@
     "name": "Milagro Tequila",
     "description": "brand of tequila created in 1997 by Danny Schneeweiss and Moy Guindi",
     "parent": "tequila",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "milagro",
@@ -4677,6 +5019,7 @@
     "name": "Minttu",
     "description": "Finnish peppermint distilled beverage",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "minttu"
@@ -4687,6 +5030,7 @@
     "name": "Mirabelle plum brandy",
     "description": "",
     "parent": "fruit brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brandy",
@@ -4699,14 +5043,15 @@
   },
   {
     "id": "Q3859376",
-    "name": "mistr\u00e0",
+    "name": "mistrà",
     "description": "",
     "parent": "anise drink",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "anise drink",
       "mistr",
-      "mistr\u00e0"
+      "mistrà"
     ]
   },
   {
@@ -4714,6 +5059,7 @@
     "name": "Monkey Shoulder",
     "description": "scotch whisky",
     "parent": "blended malt whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "blended malt whisky",
@@ -4727,6 +5073,7 @@
     "name": "moonshine",
     "description": "high-proof distilled spirit, generally produced illicitly",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
       "mountain dew",
       "Tennessee white whiskey",
@@ -4746,6 +5093,7 @@
     "name": "Moskovskaya vodka",
     "description": "Brand of Russian vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "moskovskaya",
@@ -4758,6 +5106,7 @@
     "name": "Mount Gay Rum",
     "description": "Rum produced by Mount Gay Distilleries Ltd. of Barbados",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
       "Mount Gay"
     ],
@@ -4774,8 +5123,9 @@
     "name": "Munbaeju",
     "description": "Munbaeju liquor",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
-      "\ubb38\ubc30\uc8fc"
+      "문배주"
     ],
     "search": [
       "munbaeju"
@@ -4786,6 +5136,7 @@
     "name": "Myeoncheon Dugyeonju",
     "description": "Dugyeonju liquor of Myeoncheon",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "dugyeonju",
@@ -4795,13 +5146,14 @@
   },
   {
     "id": "Q12666280",
-    "name": "Namin\u0117",
+    "name": "Naminė",
     "description": "type of vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "namin",
-      "namin\u0117",
+      "naminė",
       "vodka"
     ]
   },
@@ -4810,6 +5162,7 @@
     "name": "Nardini",
     "description": "grappa",
     "parent": "grappa",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "grappa",
@@ -4818,16 +5171,17 @@
   },
   {
     "id": "Q139072950",
-    "name": "Nega Ful\u00f4",
-    "description": "Discontinued Brazilian cacha\u00e7a brand",
-    "parent": "cacha\u00e7a",
+    "name": "Nega Fulô",
+    "description": "Discontinued Brazilian cachaça brand",
+    "parent": "cachaça",
+    "type": "spirit",
     "aliases": [],
     "search": [
-      "cacha\u00e7a",
-      "ful\u00f4",
+      "cachaça",
+      "fulô",
       "nega",
       "nega ful",
-      "nega ful\u00f4"
+      "nega fulô"
     ]
   },
   {
@@ -4835,6 +5189,7 @@
     "name": "Negrita",
     "description": "French rum brand",
     "parent": "French rum",
+    "type": "spirit",
     "aliases": [
       "Rhum Negrita"
     ],
@@ -4849,6 +5204,7 @@
     "name": "New world whisky",
     "description": "whisky produced in non-traditional countries",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "new",
@@ -4863,6 +5219,7 @@
     "name": "Nikka All Malt",
     "description": "",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "all",
@@ -4878,6 +5235,7 @@
     "name": "Nikka Black",
     "description": "",
     "parent": "blended whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "black",
@@ -4891,6 +5249,7 @@
     "name": "Nikka Coffey Grain",
     "description": "",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "coffey",
@@ -4906,6 +5265,7 @@
     "name": "Nikka from the Barrel",
     "description": "",
     "parent": "blended whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "barrel",
@@ -4922,6 +5282,7 @@
     "name": "Nikka Miyagikyo",
     "description": "",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "miyagikyo",
@@ -4935,6 +5296,7 @@
     "name": "Nikka Taketsuru",
     "description": "",
     "parent": "blended malt whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "blended malt whisky",
@@ -4948,6 +5310,7 @@
     "name": "Nikka Whiskey",
     "description": "Nikka 12 years pure malt Japanese Whiskey",
     "parent": "blended whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "blended whiskey",
@@ -4961,6 +5324,7 @@
     "name": "Nikka Whisky Gold & Gold",
     "description": "",
     "parent": "blended whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "blended whiskey",
@@ -4977,6 +5341,7 @@
     "name": "Nikka Yoichi",
     "description": "",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "nikka",
@@ -4990,6 +5355,7 @@
     "name": "Nikolai",
     "description": "brand of vodka on the market in the United States",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "nikolai",
@@ -5001,6 +5367,7 @@
     "name": "Noble brandy",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brandy",
@@ -5013,6 +5380,7 @@
     "name": "Noosh Gin",
     "description": "Canadian craft gin brand produced by Noosh Spirits Corporation",
     "parent": "gin",
+    "type": "spirit",
     "aliases": [
       "Noosh"
     ],
@@ -5027,6 +5395,7 @@
     "name": "noray costa brava gin",
     "description": "The first craft gin from Costa Brava, Spain",
     "parent": "gin",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brava",
@@ -5042,6 +5411,7 @@
     "name": "Norwegian akvavit",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
       "Norwegian aquavit"
     ],
@@ -5057,6 +5427,7 @@
     "name": "O'de Flander",
     "description": "",
     "parent": "jenever",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "flander",
@@ -5068,15 +5439,16 @@
   },
   {
     "id": "Q11133630",
-    "name": "oj\u00e9n",
+    "name": "ojén",
     "description": "",
     "parent": "anise drink",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "anise drink",
       "oj",
       "oj n",
-      "oj\u00e9n"
+      "ojén"
     ]
   },
   {
@@ -5084,6 +5456,7 @@
     "name": "Old Fitzgerald",
     "description": "brand of wheated bourbon",
     "parent": "bourbon whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bourbon whiskey",
@@ -5097,6 +5470,7 @@
     "name": "Old Monk",
     "description": "alcoholic drink",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "monk",
@@ -5110,6 +5484,7 @@
     "name": "Old Smuggler",
     "description": "blended scotch whisky",
     "parent": "blended Scotch whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "blended scotch whisky",
@@ -5123,6 +5498,7 @@
     "name": "Old St Andrews",
     "description": "brand of Scotch whisky",
     "parent": "blended Scotch whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "andrews",
@@ -5138,6 +5514,7 @@
     "name": "Old Tom Gin",
     "description": "18th century gin recipe",
     "parent": "gin",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "gin",
@@ -5152,6 +5529,7 @@
     "name": "Orloff",
     "description": "",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "orloff",
@@ -5163,6 +5541,7 @@
     "name": "orujo",
     "description": "liquor obtained from the distillation of marc, the solid remains left after pressing of the grape",
     "parent": "pomace brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "orujo",
@@ -5174,6 +5553,7 @@
     "name": "ouzo",
     "description": "anis drink",
     "parent": "flavored liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "ouzo"
@@ -5184,6 +5564,7 @@
     "name": "Ouzo Barbayanni",
     "description": "Greek brand of ouzo",
     "parent": "ouzo",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "barbayanni",
@@ -5196,6 +5577,7 @@
     "name": "overproof rum",
     "description": "",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "overproof",
@@ -5208,6 +5590,7 @@
     "name": "Padlamanggan",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "padlamanggan"
@@ -5215,23 +5598,25 @@
   },
   {
     "id": "Q7127116",
-    "name": "P\u00e1lenka",
+    "name": "Pálenka",
     "description": "distilled alcohol",
     "parent": "fruit brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "fruit brandy",
       "lenka",
       "p",
       "p lenka",
-      "p\u00e1lenka"
+      "pálenka"
     ]
   },
   {
     "id": "Q782901",
-    "name": "P\u00e1linka",
+    "name": "Pálinka",
     "description": "Hungarian fruit brandy",
     "parent": "fruit brandy",
+    "type": "spirit",
     "aliases": [
       "Palinka"
     ],
@@ -5241,7 +5626,7 @@
       "p",
       "p linka",
       "palinka",
-      "p\u00e1linka"
+      "pálinka"
     ]
   },
   {
@@ -5249,6 +5634,7 @@
     "name": "Pan Tadeusz",
     "description": "brand of vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "pan",
@@ -5262,6 +5648,7 @@
     "name": "pastis",
     "description": "anise-flavored liqueur and aperitif from France",
     "parent": "anise drink",
+    "type": "liqueur",
     "aliases": [
       "pastaga"
     ],
@@ -5276,6 +5663,7 @@
     "name": "Pastis 51",
     "description": "",
     "parent": "pastis",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "51",
@@ -5285,20 +5673,21 @@
   },
   {
     "id": "Q2915604",
-    "name": "Patr\u00f3n",
-    "description": "brand of tequila products by the Patr\u00f3n Spirits Company",
+    "name": "Patrón",
+    "description": "brand of tequila products by the Patrón Spirits Company",
     "parent": "tequila",
+    "type": "spirit",
     "aliases": [
       "Patron",
-      "Patr\u00f3n Tequila",
-      "Tequila Patr\u00f3n"
+      "Patrón Tequila",
+      "Tequila Patrón"
     ],
     "search": [
       "patr",
       "patr n",
       "patr n tequila",
       "patron",
-      "patr\u00f3n",
+      "patrón",
       "tequila",
       "tequila patr n"
     ]
@@ -5308,6 +5697,7 @@
     "name": "Paul Giraud & Fils",
     "description": "French cognac",
     "parent": "cognac",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cognac",
@@ -5324,6 +5714,7 @@
     "name": "Paul John",
     "description": "brand of Indian whisky",
     "parent": "single malt whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "john",
@@ -5337,6 +5728,7 @@
     "name": "peach brandy",
     "description": "type of brandy made from peaches",
     "parent": "fruit brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brandy",
@@ -5350,6 +5742,7 @@
     "name": "Pearl vodka",
     "description": "",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "pearl",
@@ -5362,6 +5755,7 @@
     "name": "Pecaya parish cocuy",
     "description": "type of cocuy",
     "parent": "cocuy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cocuy",
@@ -5376,10 +5770,11 @@
     "name": "Peket",
     "description": "Genever from Wallonia",
     "parent": "jenever",
+    "type": "spirit",
     "aliases": [
-      "P\u00e9k\u00e8t",
-      "P\u00e8k\u00e8t",
-      "P\u00e9quet"
+      "Pékèt",
+      "Pèkèt",
+      "Péquet"
     ],
     "search": [
       "jenever",
@@ -5393,6 +5788,7 @@
     "name": "Pendleton Whisky",
     "description": "brand of blended Canadian whisky",
     "parent": "blended whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "blended whiskey",
@@ -5406,6 +5802,7 @@
     "name": "Pernod",
     "description": "",
     "parent": "anise drink",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "anise drink",
@@ -5417,6 +5814,7 @@
     "name": "perry spirit",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "perry",
@@ -5429,6 +5827,7 @@
     "name": "Peruvian Pisco",
     "description": "grape brandy produced in Peru",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "peruvian",
@@ -5441,6 +5840,7 @@
     "name": "Pillkaller",
     "description": "liquor from Dobrovolsk, Kaliningrad Oblast, Russia",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "pillkaller"
@@ -5451,6 +5851,7 @@
     "name": "Pinky Vodka",
     "description": "Swedish blended vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "pinky",
@@ -5463,6 +5864,7 @@
     "name": "Pinnacle vodka",
     "description": "brand of vodka owned by Beam Suntory",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "pinnacle",
@@ -5475,6 +5877,7 @@
     "name": "pisco",
     "description": "Spirit produced by distilling fermented grape juice",
     "parent": "wine spirit",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "pisco",
@@ -5486,6 +5889,7 @@
     "name": "Playy",
     "description": "alcoholic beverage made in Austria",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "playy",
@@ -5497,6 +5901,7 @@
     "name": "Plymouth Gin",
     "description": "type of gin",
     "parent": "gin",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "gin",
@@ -5506,9 +5911,10 @@
   },
   {
     "id": "Q1315113",
-    "name": "poit\u00edn",
+    "name": "poitín",
     "description": "distilled beverage",
     "parent": "grain spirit",
+    "type": "spirit",
     "aliases": [
       "poitin",
       "poteen"
@@ -5518,7 +5924,7 @@
       "poit",
       "poit n",
       "poitin",
-      "poit\u00edn",
+      "poitín",
       "poteen"
     ]
   },
@@ -5527,6 +5933,7 @@
     "name": "Polar Ice",
     "description": "Canadian vodka brand",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "ice",
@@ -5540,6 +5947,7 @@
     "name": "Poliakov",
     "description": "French brand of vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "poliakov",
@@ -5551,6 +5959,7 @@
     "name": "Polonaise",
     "description": "Polish brand of vodka",
     "parent": "drink",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "drink",
@@ -5562,6 +5971,7 @@
     "name": "Polugar",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "polugar"
@@ -5572,6 +5982,7 @@
     "name": "pomace brandy",
     "description": "liquor distilled from pomace that is left over from winemaking",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
       "grape marc",
       "grape marc spirit"
@@ -5589,6 +6000,7 @@
     "name": "Popov",
     "description": "American brand of vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "popov",
@@ -5600,6 +6012,7 @@
     "name": "Pott (rum)",
     "description": "brand of rum spirits",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [
       "H. H. Pott Nfgr. Vertriebsgesellschaft mbH Rumhandelshaus"
     ],
@@ -5617,6 +6030,7 @@
     "name": "Pox",
     "description": "ceremonial drink common among the Maya, especially those in Chamula",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "pox"
@@ -5624,15 +6038,16 @@
   },
   {
     "id": "Q20252669",
-    "name": "P\u00f6yt\u00e4viina",
+    "name": "Pöytäviina",
     "description": "discontinued Finnish liquor",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "p",
       "p yt",
       "p yt viina",
-      "p\u00f6yt\u00e4viina",
+      "pöytäviina",
       "viina"
     ]
   },
@@ -5641,6 +6056,7 @@
     "name": "Proper No. Twelve",
     "description": "Irish whiskey founded by Conor McGregor",
     "parent": "Irish whiskey",
+    "type": "spirit",
     "aliases": [
       "Proper 12",
       "Proper No 12",
@@ -5674,6 +6090,7 @@
     "name": "Puschkin Vodka",
     "description": "",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "puschkin",
@@ -5686,6 +6103,7 @@
     "name": "Putinka",
     "description": "Russian brand of vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "putinka",
@@ -5697,6 +6115,7 @@
     "name": "Q101111211",
     "description": "",
     "parent": "grain spirit",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "grain spirit",
@@ -5708,6 +6127,7 @@
     "name": "Q1014773",
     "description": "",
     "parent": "grape brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "grape brandy",
@@ -5719,6 +6139,7 @@
     "name": "Q10364321",
     "description": "",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q10364321",
@@ -5730,6 +6151,7 @@
     "name": "Q10426599",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q10426599"
@@ -5740,6 +6162,7 @@
     "name": "Q10442569",
     "description": "",
     "parent": "brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brandy",
@@ -5750,10 +6173,11 @@
     "id": "Q10524418",
     "name": "Q10524418",
     "description": "",
-    "parent": "br\u00e4nnvin",
+    "parent": "brännvin",
+    "type": "spirit",
     "aliases": [],
     "search": [
-      "br\u00e4nnvin",
+      "brännvin",
       "q10524418"
     ]
   },
@@ -5762,6 +6186,7 @@
     "name": "Q10542564",
     "description": "",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q10542564",
@@ -5773,6 +6198,7 @@
     "name": "Q10544625",
     "description": "",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q10544625",
@@ -5784,6 +6210,7 @@
     "name": "Q10571697",
     "description": "",
     "parent": "Norwegian akvavit",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "norwegian akvavit",
@@ -5795,6 +6222,7 @@
     "name": "Q10575298",
     "description": "",
     "parent": "brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brandy",
@@ -5806,6 +6234,7 @@
     "name": "Q10600273",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q10600273"
@@ -5816,6 +6245,7 @@
     "name": "Q10670046",
     "description": "",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q10670046",
@@ -5827,6 +6257,7 @@
     "name": "Q10672406",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q10672406"
@@ -5837,6 +6268,7 @@
     "name": "Q10683843",
     "description": "",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q10683843",
@@ -5848,6 +6280,7 @@
     "name": "Q10850220",
     "description": "",
     "parent": "anise drink",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "anise drink",
@@ -5859,6 +6292,7 @@
     "name": "Q109311163",
     "description": "",
     "parent": "cider spirit",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cider spirit",
@@ -5870,6 +6304,7 @@
     "name": "Q109313948",
     "description": "",
     "parent": "pastis",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "pastis",
@@ -5881,6 +6316,7 @@
     "name": "Q110977375",
     "description": "",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q110977375",
@@ -5891,22 +6327,24 @@
     "id": "Q11270523",
     "name": "Q11270523",
     "description": "",
-    "parent": "sh\u014dch\u016b",
+    "parent": "shōchū",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q11270523",
-      "sh\u014dch\u016b"
+      "shōchū"
     ]
   },
   {
     "id": "Q11305846",
     "name": "Q11305846",
     "description": "",
-    "parent": "sh\u014dch\u016b",
+    "parent": "shōchū",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q11305846",
-      "sh\u014dch\u016b"
+      "shōchū"
     ]
   },
   {
@@ -5914,6 +6352,7 @@
     "name": "Q11433019",
     "description": "",
     "parent": "Q114353925",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q11433019",
@@ -5925,6 +6364,7 @@
     "name": "Q114353925",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q114353925"
@@ -5935,6 +6375,7 @@
     "name": "Q11456003",
     "description": "",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q11456003",
@@ -5945,33 +6386,36 @@
     "id": "Q11464483",
     "name": "Q11464483",
     "description": "",
-    "parent": "sweet potato sh\u014dch\u016b",
+    "parent": "sweet potato shōchū",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q11464483",
-      "sweet potato sh\u014dch\u016b"
+      "sweet potato shōchū"
     ]
   },
   {
     "id": "Q11539277",
     "name": "Q11539277",
     "description": "",
-    "parent": "sweet potato sh\u014dch\u016b",
+    "parent": "sweet potato shōchū",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q11539277",
-      "sweet potato sh\u014dch\u016b"
+      "sweet potato shōchū"
     ]
   },
   {
     "id": "Q11564135",
     "name": "Q11564135",
     "description": "",
-    "parent": "sh\u014dch\u016b",
+    "parent": "shōchū",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q11564135",
-      "sh\u014dch\u016b"
+      "shōchū"
     ]
   },
   {
@@ -5979,6 +6423,7 @@
     "name": "Q11580733",
     "description": "",
     "parent": "Q114353925",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q114353925",
@@ -5989,22 +6434,24 @@
     "id": "Q11605387",
     "name": "Q11605387",
     "description": "",
-    "parent": "sh\u014dch\u016b",
+    "parent": "shōchū",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q11605387",
-      "sh\u014dch\u016b"
+      "shōchū"
     ]
   },
   {
     "id": "Q116166049",
     "name": "Q116166049",
     "description": "",
-    "parent": "sweet potato sh\u014dch\u016b",
+    "parent": "sweet potato shōchū",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q116166049",
-      "sweet potato sh\u014dch\u016b"
+      "sweet potato shōchū"
     ]
   },
   {
@@ -6012,6 +6459,7 @@
     "name": "Q11672025",
     "description": "",
     "parent": "moonshine",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "moonshine",
@@ -6022,11 +6470,12 @@
     "id": "Q11673843",
     "name": "Q11673843",
     "description": "",
-    "parent": "sweet potato sh\u014dch\u016b",
+    "parent": "sweet potato shōchū",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q11673843",
-      "sweet potato sh\u014dch\u016b"
+      "sweet potato shōchū"
     ]
   },
   {
@@ -6034,6 +6483,7 @@
     "name": "Q116740893",
     "description": "",
     "parent": "gin",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "gin",
@@ -6045,6 +6495,7 @@
     "name": "Q11775275",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q11775275"
@@ -6055,6 +6506,7 @@
     "name": "Q11855593",
     "description": "",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q11855593",
@@ -6066,6 +6518,7 @@
     "name": "Q11963483",
     "description": "",
     "parent": "cognac",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cognac",
@@ -6077,6 +6530,7 @@
     "name": "Q12022183",
     "description": "",
     "parent": "fruit brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "fruit brandy",
@@ -6088,6 +6542,7 @@
     "name": "Q124883521",
     "description": "",
     "parent": "pastis",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "pastis",
@@ -6099,6 +6554,7 @@
     "name": "Q125562574",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q125562574"
@@ -6109,6 +6565,7 @@
     "name": "Q12625660",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q12625660"
@@ -6119,6 +6576,7 @@
     "name": "Q126435981",
     "description": "",
     "parent": "ouzo",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "ouzo",
@@ -6130,6 +6588,7 @@
     "name": "Q12773163",
     "description": "",
     "parent": "fruit brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "fruit brandy",
@@ -6140,10 +6599,11 @@
     "id": "Q1295179",
     "name": "Q1295179",
     "description": "",
-    "parent": "P\u00e1linka",
+    "parent": "Pálinka",
+    "type": "spirit",
     "aliases": [],
     "search": [
-      "p\u00e1linka",
+      "pálinka",
       "q1295179"
     ]
   },
@@ -6152,6 +6612,7 @@
     "name": "Q130374578",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q130374578"
@@ -6162,6 +6623,7 @@
     "name": "Q131679131",
     "description": "",
     "parent": "Brandy de Jerez",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brandy de jerez",
@@ -6173,6 +6635,7 @@
     "name": "Q134269564",
     "description": "",
     "parent": "wine spirit",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q134269564",
@@ -6184,6 +6647,7 @@
     "name": "Q134452844",
     "description": "",
     "parent": "brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brandy",
@@ -6195,6 +6659,7 @@
     "name": "Q135207479",
     "description": "",
     "parent": "shaojiu",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q135207479",
@@ -6206,6 +6671,7 @@
     "name": "Q135646306",
     "description": "",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q135646306",
@@ -6217,6 +6683,7 @@
     "name": "Q136647933",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q136647933"
@@ -6227,6 +6694,7 @@
     "name": "Q136746258",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q136746258"
@@ -6237,6 +6705,7 @@
     "name": "Q136746355",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q136746355"
@@ -6247,6 +6716,7 @@
     "name": "Q1375289",
     "description": "brandy",
     "parent": "brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brandy",
@@ -6258,6 +6728,7 @@
     "name": "Q138503069",
     "description": "",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q138503069",
@@ -6269,6 +6740,7 @@
     "name": "Q1402554",
     "description": "Brand of Russian vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q1402554",
@@ -6280,6 +6752,7 @@
     "name": "Q1583755",
     "description": "trademark",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q1583755",
@@ -6291,6 +6764,7 @@
     "name": "Q16323140",
     "description": "",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q16323140",
@@ -6302,6 +6776,7 @@
     "name": "Q16388503",
     "description": "",
     "parent": "brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brandy",
@@ -6313,6 +6788,7 @@
     "name": "Q16544917",
     "description": "",
     "parent": "anisette",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "anisette",
@@ -6324,6 +6800,7 @@
     "name": "Q16761200",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q16761200"
@@ -6334,6 +6811,7 @@
     "name": "Q17194918",
     "description": "",
     "parent": "cognac",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cognac",
@@ -6345,6 +6823,7 @@
     "name": "Q1734639",
     "description": "potato vodka",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q1734639"
@@ -6355,6 +6834,7 @@
     "name": "Q17353753",
     "description": "",
     "parent": "Korn",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "korn",
@@ -6366,6 +6846,7 @@
     "name": "Q17776112",
     "description": "",
     "parent": "Norwegian akvavit",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "norwegian akvavit",
@@ -6376,10 +6857,11 @@
     "id": "Q1783407",
     "name": "Q1783407",
     "description": "",
-    "parent": "any\u017c\u00f3wka",
+    "parent": "anyżówka",
+    "type": "spirit",
     "aliases": [],
     "search": [
-      "any\u017c\u00f3wka",
+      "anyżówka",
       "q1783407"
     ]
   },
@@ -6388,6 +6870,7 @@
     "name": "Q1786912",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q1786912"
@@ -6398,6 +6881,7 @@
     "name": "Q18277319",
     "description": "",
     "parent": "aguardiente",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "aguardiente",
@@ -6409,6 +6893,7 @@
     "name": "Q1852701",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q1852701"
@@ -6419,6 +6904,7 @@
     "name": "Q1892862",
     "description": "",
     "parent": "marc",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "marc",
@@ -6430,6 +6916,7 @@
     "name": "Q1933006",
     "description": "",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q1933006",
@@ -6441,6 +6928,7 @@
     "name": "Q19705097",
     "description": "",
     "parent": "Rakia",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q19705097",
@@ -6452,6 +6940,7 @@
     "name": "Q19714644",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q19714644"
@@ -6462,6 +6951,7 @@
     "name": "Q20549588",
     "description": "",
     "parent": "aguardiente",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "aguardiente",
@@ -6473,6 +6963,7 @@
     "name": "Q2119845",
     "description": "",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q2119845",
@@ -6484,6 +6975,7 @@
     "name": "Q21409337",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q21409337"
@@ -6494,6 +6986,7 @@
     "name": "Q21657597",
     "description": "",
     "parent": "brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brandy",
@@ -6505,6 +6998,7 @@
     "name": "Q21710543",
     "description": "",
     "parent": "soju",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q21710543",
@@ -6516,6 +7010,7 @@
     "name": "Q223669",
     "description": "alcoholic beverage",
     "parent": "gin",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "gin",
@@ -6527,6 +7022,7 @@
     "name": "Q22683954",
     "description": "",
     "parent": "fruit brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "fruit brandy",
@@ -6538,6 +7034,7 @@
     "name": "Q2424905",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q2424905"
@@ -6548,6 +7045,7 @@
     "name": "Q24638187",
     "description": "",
     "parent": "soju",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q24638187",
@@ -6559,6 +7057,7 @@
     "name": "Q25416186",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q25416186"
@@ -6569,6 +7068,7 @@
     "name": "Q25631476",
     "description": "",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q25631476",
@@ -6580,6 +7080,7 @@
     "name": "Q28496249",
     "description": "",
     "parent": "marc",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "marc",
@@ -6591,6 +7092,7 @@
     "name": "Q2883999",
     "description": "",
     "parent": "aguardiente",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "aguardiente",
@@ -6602,6 +7104,7 @@
     "name": "Q2984051",
     "description": "",
     "parent": "jenever",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "jenever",
@@ -6613,6 +7116,7 @@
     "name": "Q3249406",
     "description": "",
     "parent": "grain spirit",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "grain spirit",
@@ -6624,6 +7128,7 @@
     "name": "Q3368479",
     "description": "",
     "parent": "pastis",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "pastis",
@@ -6635,6 +7140,7 @@
     "name": "Q3397680",
     "description": "",
     "parent": "anise drink",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "anise drink",
@@ -6646,6 +7152,7 @@
     "name": "Q3429765",
     "description": "",
     "parent": "Rhum Agricole",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q3429765",
@@ -6657,6 +7164,7 @@
     "name": "Q3429770",
     "description": "Rum distillery in Martinique, France",
     "parent": "Rhum Agricole",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q3429770",
@@ -6668,6 +7176,7 @@
     "name": "Q3429772",
     "description": "",
     "parent": "Rhum Agricole",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q3429772",
@@ -6679,6 +7188,7 @@
     "name": "Q3429778",
     "description": "",
     "parent": "Rhum Agricole",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q3429778",
@@ -6690,6 +7200,7 @@
     "name": "Q3429781",
     "description": "",
     "parent": "Rhum Agricole",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q3429781",
@@ -6701,6 +7212,7 @@
     "name": "Q3429783",
     "description": "",
     "parent": "Rhum from Guadeloupe",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q3429783",
@@ -6712,6 +7224,7 @@
     "name": "Q3429784",
     "description": "",
     "parent": "Rhum Agricole",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q3429784",
@@ -6723,6 +7236,7 @@
     "name": "Q3429790",
     "description": "",
     "parent": "Rhum Agricole",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q3429790",
@@ -6734,6 +7248,7 @@
     "name": "Q3429804",
     "description": "",
     "parent": "Rhum Agricole",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q3429804",
@@ -6745,6 +7260,7 @@
     "name": "Q3429806",
     "description": "",
     "parent": "Rhum Agricole",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q3429806",
@@ -6756,6 +7272,7 @@
     "name": "Q3429807",
     "description": "type of rum",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q3429807",
@@ -6767,6 +7284,7 @@
     "name": "Q3745566",
     "description": "",
     "parent": "pomace brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "pomace brandy",
@@ -6778,6 +7296,7 @@
     "name": "Q38276699",
     "description": "",
     "parent": "Q114353925",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q114353925",
@@ -6789,6 +7308,7 @@
     "name": "Q3940538",
     "description": "",
     "parent": "Sambuca",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q3940538",
@@ -6799,10 +7319,11 @@
     "id": "Q4008832",
     "name": "Q4008832",
     "description": "",
-    "parent": "mistr\u00e0",
+    "parent": "mistrà",
+    "type": "spirit",
     "aliases": [],
     "search": [
-      "mistr\u00e0",
+      "mistrà",
       "q4008832"
     ]
   },
@@ -6811,6 +7332,7 @@
     "name": "Q4083104",
     "description": "",
     "parent": "brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brandy",
@@ -6821,10 +7343,11 @@
     "id": "Q428621",
     "name": "Q428621",
     "description": "",
-    "parent": "P\u00e1linka",
+    "parent": "Pálinka",
+    "type": "spirit",
     "aliases": [],
     "search": [
-      "p\u00e1linka",
+      "pálinka",
       "q428621"
     ]
   },
@@ -6833,6 +7356,7 @@
     "name": "Q42867100",
     "description": "",
     "parent": "cider spirit",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cider spirit",
@@ -6844,6 +7368,7 @@
     "name": "Q42867103",
     "description": "",
     "parent": "cider spirit",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cider spirit",
@@ -6855,6 +7380,7 @@
     "name": "Q43013869",
     "description": "AOC",
     "parent": "rhum from Martinique",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q43013869",
@@ -6866,6 +7392,7 @@
     "name": "Q43014351",
     "description": "",
     "parent": "cognac",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cognac",
@@ -6877,6 +7404,7 @@
     "name": "Q43014359",
     "description": "",
     "parent": "cognac",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cognac",
@@ -6888,6 +7416,7 @@
     "name": "Q43021688",
     "description": "",
     "parent": "cognac",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cognac",
@@ -6899,6 +7428,7 @@
     "name": "Q43021692",
     "description": "",
     "parent": "cognac",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cognac",
@@ -6910,6 +7440,7 @@
     "name": "Q43021695",
     "description": "",
     "parent": "cognac",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cognac",
@@ -6921,6 +7452,7 @@
     "name": "Q43021697",
     "description": "",
     "parent": "cognac",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cognac",
@@ -6932,6 +7464,7 @@
     "name": "Q43267462",
     "description": "",
     "parent": "cider spirit",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cider spirit",
@@ -6943,6 +7476,7 @@
     "name": "Q50362089",
     "description": "",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q50362089",
@@ -6953,10 +7487,11 @@
     "id": "Q509042",
     "name": "Q509042",
     "description": "",
-    "parent": "P\u00e1linka",
+    "parent": "Pálinka",
+    "type": "spirit",
     "aliases": [],
     "search": [
-      "p\u00e1linka",
+      "pálinka",
       "q509042"
     ]
   },
@@ -6965,6 +7500,7 @@
     "name": "Q55664209",
     "description": "",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q55664209",
@@ -6976,6 +7512,7 @@
     "name": "Q55832393",
     "description": "",
     "parent": "anise drink",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "anise drink",
@@ -6987,6 +7524,7 @@
     "name": "Q56324866",
     "description": "",
     "parent": "pomace brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "pomace brandy",
@@ -6998,6 +7536,7 @@
     "name": "Q6041371",
     "description": "",
     "parent": "ouzo",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "ouzo",
@@ -7009,6 +7548,7 @@
     "name": "Q6053642",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q6053642"
@@ -7019,6 +7559,7 @@
     "name": "Q61218547",
     "description": "",
     "parent": "brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brandy",
@@ -7030,6 +7571,7 @@
     "name": "Q63522245",
     "description": "",
     "parent": "fruit brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "fruit brandy",
@@ -7041,6 +7583,7 @@
     "name": "Q65172082",
     "description": "",
     "parent": "brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brandy",
@@ -7052,6 +7595,7 @@
     "name": "Q65172509",
     "description": "",
     "parent": "brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brandy",
@@ -7063,6 +7607,7 @@
     "name": "Q65172958",
     "description": "",
     "parent": "brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brandy",
@@ -7074,6 +7619,7 @@
     "name": "Q65173068",
     "description": "",
     "parent": "brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brandy",
@@ -7085,6 +7631,7 @@
     "name": "Q65173302",
     "description": "",
     "parent": "brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brandy",
@@ -7096,6 +7643,7 @@
     "name": "Q65174459",
     "description": "",
     "parent": "brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brandy",
@@ -7107,6 +7655,7 @@
     "name": "Q65295379",
     "description": "",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q65295379",
@@ -7118,6 +7667,7 @@
     "name": "Q6586862",
     "description": "",
     "parent": "Arak",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "arak",
@@ -7128,10 +7678,11 @@
     "id": "Q681346",
     "name": "Q681346",
     "description": "",
-    "parent": "P\u00e1linka",
+    "parent": "Pálinka",
+    "type": "spirit",
     "aliases": [],
     "search": [
-      "p\u00e1linka",
+      "pálinka",
       "q681346"
     ]
   },
@@ -7139,10 +7690,11 @@
     "id": "Q731971",
     "name": "Q731971",
     "description": "",
-    "parent": "P\u00e1linka",
+    "parent": "Pálinka",
+    "type": "spirit",
     "aliases": [],
     "search": [
-      "p\u00e1linka",
+      "pálinka",
       "q731971"
     ]
   },
@@ -7151,6 +7703,7 @@
     "name": "Q8202235",
     "description": "",
     "parent": "anisette",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "anisette",
@@ -7162,6 +7715,7 @@
     "name": "Q85870327",
     "description": "",
     "parent": "aguardiente",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "aguardiente",
@@ -7173,6 +7727,7 @@
     "name": "Q87738994",
     "description": "",
     "parent": "jenever",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "jenever",
@@ -7184,6 +7739,7 @@
     "name": "Q8964094",
     "description": "",
     "parent": "gin",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "gin",
@@ -7194,22 +7750,24 @@
     "id": "Q97204279",
     "name": "Q97204279",
     "description": "",
-    "parent": "sweet potato sh\u014dch\u016b",
+    "parent": "sweet potato shōchū",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q97204279",
-      "sweet potato sh\u014dch\u016b"
+      "sweet potato shōchū"
     ]
   },
   {
     "id": "Q97311114",
     "name": "Q97311114",
     "description": "",
-    "parent": "sh\u014dch\u016b",
+    "parent": "shōchū",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "q97311114",
-      "sh\u014dch\u016b"
+      "shōchū"
     ]
   },
   {
@@ -7217,6 +7775,7 @@
     "name": "Q97325303",
     "description": "",
     "parent": "baijiu",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "baijiu",
@@ -7228,6 +7787,7 @@
     "name": "Q97695706",
     "description": "",
     "parent": "baijiu",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "baijiu",
@@ -7239,6 +7799,7 @@
     "name": "Rachmaninoff",
     "description": "Rachmaninoff (vodka)",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "rachmaninoff",
@@ -7250,6 +7811,7 @@
     "name": "Raicilla",
     "description": "Alcoholic beverage from Jalisco, Mexico.",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "raicilla"
@@ -7260,6 +7822,7 @@
     "name": "raisin spirit",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
       "raisin brandy"
     ],
@@ -7275,6 +7838,7 @@
     "name": "Rakia",
     "description": "alcoholic beverage from the Balkans",
     "parent": "fruit brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "fruit brandy",
@@ -7283,9 +7847,10 @@
   },
   {
     "id": "Q638290",
-    "name": "rak\u0131",
+    "name": "rakı",
     "description": "unsweetened, anise-flavored alcoholic drink",
     "parent": "flavored liquor",
+    "type": "spirit",
     "aliases": [
       "raki",
       "Turkish raki"
@@ -7293,7 +7858,7 @@
     "search": [
       "rak",
       "raki",
-      "rak\u0131",
+      "rakı",
       "turkish raki"
     ]
   },
@@ -7302,6 +7867,7 @@
     "name": "Rakomelo",
     "description": "Greek alcoholic drink",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "rakomelo"
@@ -7312,6 +7878,7 @@
     "name": "Raksi",
     "description": "Nepalese liquor",
     "parent": "grain spirit",
+    "type": "spirit",
     "aliases": [
       "Rakshi"
     ],
@@ -7326,6 +7893,7 @@
     "name": "raspberry vodka",
     "description": "type of vodka flavored with raspberries",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "raspberry",
@@ -7338,6 +7906,7 @@
     "name": "Ratzeputz",
     "description": "trademark",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "ratzeputz"
@@ -7348,6 +7917,7 @@
     "name": "Rebel Yell",
     "description": "brand of Kentucky straight bourbon whiskey",
     "parent": "bourbon whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bourbon whiskey",
@@ -7361,6 +7931,7 @@
     "name": "rectified spirit",
     "description": "concentrated ethanol which has been purified by means of repeated distillation",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
       "ethyl alcohol of agricultural origin",
       "neutral spirits",
@@ -7380,6 +7951,7 @@
     "name": "Redbreast",
     "description": "Single Pot Still Irish Whiskey",
     "parent": "Irish whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "irish whiskey",
@@ -7391,8 +7963,9 @@
     "name": "Renat",
     "description": "Swedish vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [
-      "Renat Br\u00e4nnvin"
+      "Renat Brännvin"
     ],
     "search": [
       "renat",
@@ -7405,6 +7978,7 @@
     "name": "Rhum Agricole",
     "description": "",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "agricole",
@@ -7418,6 +7992,7 @@
     "name": "Rhum Charrette",
     "description": "",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "charrette",
@@ -7431,6 +8006,7 @@
     "name": "Rhum from Guadeloupe",
     "description": "",
     "parent": "French rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "french rum",
@@ -7446,6 +8022,7 @@
     "name": "rhum from Martinique",
     "description": "",
     "parent": "French rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "french rum",
@@ -7458,17 +8035,18 @@
   },
   {
     "id": "Q21070991",
-    "name": "Rhum Vieux Labb\u00e9",
+    "name": "Rhum Vieux Labbé",
     "description": "brand of rum",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "labb",
-      "labb\u00e9",
+      "labbé",
       "rhum",
       "rhum vieux",
       "rhum vieux labb",
-      "rhum vieux labb\u00e9",
+      "rhum vieux labbé",
       "rum",
       "vieux"
     ]
@@ -7478,6 +8056,7 @@
     "name": "Rice baijiu",
     "description": "variety of Chinese baijiu",
     "parent": "baijiu",
+    "type": "spirit",
     "aliases": [
       "rice fragrance"
     ],
@@ -7493,6 +8072,7 @@
     "name": "Rock Hill Farms Single-Barrel",
     "description": "Whiskey produced in Frankfort, Kentucky",
     "parent": "single barrel whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "barrel",
@@ -7511,6 +8091,7 @@
     "name": "ROCK'N Vodka",
     "description": "sugarcane vodka beverage",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "rock'n vodka",
@@ -7524,6 +8105,7 @@
     "name": "Ron miel",
     "description": "type of rum",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "miel",
@@ -7537,6 +8119,7 @@
     "name": "rum",
     "description": "distilled alcoholic beverage made from sugarcane",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
       "rums"
     ],
@@ -7547,9 +8130,10 @@
   },
   {
     "id": "Q3429801",
-    "name": "Rum from La R\u00e9union",
+    "name": "Rum from La Réunion",
     "description": "",
     "parent": "French rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "french rum",
@@ -7558,8 +8142,8 @@
       "rum",
       "rum from",
       "rum from la r union",
-      "rum from la r\u00e9union",
-      "r\u00e9union",
+      "rum from la réunion",
+      "réunion",
       "union"
     ]
   },
@@ -7568,6 +8152,7 @@
     "name": "Rum of French Guiana",
     "description": "Rum from French Guiana (Guyane), France",
     "parent": "French rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "french",
@@ -7584,6 +8169,7 @@
     "name": "Rum-Bar Rum",
     "description": "Jamaican rum brand",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bar",
@@ -7595,16 +8181,17 @@
   },
   {
     "id": "Q7386961",
-    "name": "R\u01b0\u1ee3u \u0111\u1ebf",
+    "name": "Rượu đế",
     "description": "distilled liquor from Vietnam",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "r",
       "r u",
-      "r\u01b0\u1ee3u",
-      "r\u01b0\u1ee3u \u0111\u1ebf",
-      "\u0111\u1ebf"
+      "rượu",
+      "rượu đế",
+      "đế"
     ]
   },
   {
@@ -7612,6 +8199,7 @@
     "name": "Russian Standard",
     "description": "Russian premium vodka brand",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "russian",
@@ -7625,6 +8213,7 @@
     "name": "rye whiskey",
     "description": "an alcoholic product",
     "parent": "grain whisky",
+    "type": "spirit",
     "aliases": [
       "rye"
     ],
@@ -7640,6 +8229,7 @@
     "name": "Saint-James rum",
     "description": "rhum agricole from Sainte-Marie, Martinique",
     "parent": "Rhum Agricole",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "james",
@@ -7656,6 +8246,7 @@
     "name": "Sambuca",
     "description": "Italian anise-flavored liqueur",
     "parent": "anise drink",
+    "type": "liqueur",
     "aliases": [],
     "search": [
       "anise drink",
@@ -7667,6 +8258,7 @@
     "name": "Sassolino",
     "description": "Italian anise-flavored liqueur",
     "parent": "anise liqueur",
+    "type": "liqueur",
     "aliases": [],
     "search": [
       "anise liqueur",
@@ -7678,6 +8270,7 @@
     "name": "Saunalahden Viina",
     "description": "liquor manufactured by Pernod Ricard",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "saunalahden",
@@ -7690,6 +8283,7 @@
     "name": "Sawdust brandy",
     "description": "distilled beverage",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "brandy",
@@ -7702,6 +8296,7 @@
     "name": "Scotch whisky",
     "description": "malt or grain whisky (or a blend of the two), made in Scotland in a manner specified by law",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [
       "Scotch",
       "Scotch whiskey",
@@ -7718,10 +8313,11 @@
     "id": "Q10665376",
     "name": "Seleta",
     "description": "Sugar cane spirit",
-    "parent": "cacha\u00e7a",
+    "parent": "cachaça",
+    "type": "spirit",
     "aliases": [],
     "search": [
-      "cacha\u00e7a",
+      "cachaça",
       "seleta"
     ]
   },
@@ -7730,6 +8326,7 @@
     "name": "shaojiu",
     "description": "group of traditional distilled beverages in East Asia produced by distillation of grains",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "shaojiu"
@@ -7737,15 +8334,16 @@
   },
   {
     "id": "Q1165352",
-    "name": "sh\u014dch\u016b",
+    "name": "shōchū",
     "description": "Japanese distilled beverage",
-    "parent": "soju & sh\u014dch\u016b",
+    "parent": "soju & shōchū",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "sh",
       "sh ch",
-      "sh\u014dch\u016b",
-      "soju & sh\u014dch\u016b"
+      "shōchū",
+      "soju & shōchū"
     ]
   },
   {
@@ -7753,6 +8351,7 @@
     "name": "SinFire Cinnamon Whisky",
     "description": "brand of blended whisky",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "cinnamon",
@@ -7767,6 +8366,7 @@
     "name": "single barrel whiskey",
     "description": "whisky in which each bottle comes from an individual aging barrel, instead of being created by blending together the contents of various barrels to provide uniformity of color and taste",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [
       "single cask whiskey"
     ],
@@ -7785,6 +8385,7 @@
     "name": "single malt Scotch",
     "description": "whisky that has been distilled at a single Scottish distillery using a pot still",
     "parent": "single malt whisky",
+    "type": "spirit",
     "aliases": [
       "Single Malt Scotch Whisky"
     ],
@@ -7803,6 +8404,7 @@
     "name": "single malt whisky",
     "description": "malt whisky from a single distillery and made with malted barley",
     "parent": "malt whisky",
+    "type": "spirit",
     "aliases": [
       "single malt"
     ],
@@ -7820,6 +8422,7 @@
     "name": "single pot still whiskey",
     "description": "Irish whiskey made by a single distillery from a mixed mash of malted and unmalted barley distilled in a pot still",
     "parent": "Irish whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "irish whiskey",
@@ -7836,6 +8439,7 @@
     "name": "Siwucha vodka",
     "description": "Brand of Vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "siwucha",
@@ -7848,6 +8452,7 @@
     "name": "Skyy Vodka",
     "description": "brand of vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [
       "SKYY Vodka"
     ],
@@ -7862,18 +8467,19 @@
     "name": "slivovitz",
     "description": "fruit brandy made from damson plums, produced in Central and Eastern Europe",
     "parent": "fruit brandy",
+    "type": "spirit",
     "aliases": [
-      "\u0160ljivovica",
+      "Šljivovica",
       "plum brandy",
       "Schlivowitz",
-      "\u0219libovi\u021b\u0103",
+      "șliboviță",
       "slivovica",
       "slivovice",
       "slivovitsa",
       "slivovitza",
       "slivovka",
-      "\u015bliwowica",
-      "\u0161ljivovica",
+      "śliwowica",
+      "šljivovica",
       "traditional plum spirit"
     ],
     "search": [
@@ -7897,6 +8503,7 @@
     "name": "Small batch whiskey",
     "description": "product label",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "batch",
@@ -7912,6 +8519,7 @@
     "name": "Smirnoff",
     "description": "Vodka brand founded in Russia",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [
       "Smirnoff Vodka",
       "Smirnov vodka"
@@ -7928,6 +8536,7 @@
     "name": "Sobieski Vodka",
     "description": "Polish vodka brand",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "sobieski",
@@ -7939,23 +8548,25 @@
     "id": "Q696105",
     "name": "soju",
     "description": "distilled beverage",
-    "parent": "soju & sh\u014dch\u016b",
+    "parent": "soju & shōchū",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "soju",
-      "soju & sh\u014dch\u016b"
+      "soju & shōchū"
     ]
   },
   {
     "id": "Q115607485",
-    "name": "soju & sh\u014dch\u016b",
-    "description": "an alcohol beverage either from Korea (soju) or Japan (sh\u014dch\u016b)",
+    "name": "soju & shōchū",
+    "description": "an alcohol beverage either from Korea (soju) or Japan (shōchū)",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
-      "sh\u014dch\u016b",
+      "shōchū",
       "soju",
-      "soju & sh\u014dch\u016b",
+      "soju & shōchū",
       "soju sh",
       "soju sh ch"
     ]
@@ -7965,6 +8576,7 @@
     "name": "Something Special",
     "description": "blended Scotch whisky",
     "parent": "blended whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "blended whiskey",
@@ -7978,6 +8590,7 @@
     "name": "Sotol",
     "description": "distilled spirit originally from Coahuila, Durango y Chihuaha",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "sotol"
@@ -7986,8 +8599,9 @@
   {
     "id": "Q615310",
     "name": "Spanish anise-flavored liqueur",
-    "description": "An\u00eds del Mono (\"the monkey's anisette\")",
+    "description": "Anís del Mono (\"the monkey's anisette\")",
     "parent": "anise liqueur",
+    "type": "liqueur",
     "aliases": [],
     "search": [
       "anise",
@@ -8005,6 +8619,7 @@
     "name": "Speyside single malt whisky",
     "description": "official region of Scotch whisky production",
     "parent": "single malt Scotch",
+    "type": "spirit",
     "aliases": [
       "Speyside Scotch",
       "Speyside single malt Scotch",
@@ -8030,6 +8645,7 @@
     "name": "spiced rum",
     "description": "type of rum prepared with spices",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "rum",
@@ -8042,6 +8658,7 @@
     "name": "Spirytus",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "spirytus"
@@ -8052,6 +8669,7 @@
     "name": "Starka",
     "description": "distilled alcoholic beverage",
     "parent": "grain spirit",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "grain spirit",
@@ -8060,26 +8678,28 @@
   },
   {
     "id": "Q18757616",
-    "name": "Staroplzeneck\u00fd",
+    "name": "Staroplzenecký",
     "description": "Czech alcoholic drink",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "staroplzeneck",
-      "staroplzeneck\u00fd"
+      "staroplzenecký"
     ]
   },
   {
     "id": "Q174112",
-    "name": "Steinh\u00e4ger",
+    "name": "Steinhäger",
     "description": "trademark",
     "parent": "gin",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "gin",
       "steinh",
       "steinh ger",
-      "steinh\u00e4ger"
+      "steinhäger"
     ]
   },
   {
@@ -8087,6 +8707,7 @@
     "name": "Stolichnaya",
     "description": "vodka brand",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [
       "Stoli"
     ],
@@ -8098,22 +8719,24 @@
   },
   {
     "id": "Q9347621",
-    "name": "St\u00f6n",
+    "name": "Stön",
     "description": "Estonian vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "st",
       "st n",
-      "st\u00f6n",
+      "stön",
       "vodka"
     ]
   },
   {
     "id": "Q17020507",
     "name": "straight whiskey",
-    "description": "term defined by US law; whiskey created by distilling fermented cereal grain mash to create a spirit of \u226480% ABV, then aged for \u22652 years at \u226462.5% ABV at the start of aging",
+    "description": "term defined by US law; whiskey created by distilling fermented cereal grain mash to create a spirit of ≤80% ABV, then aged for ≥2 years at ≤62.5% ABV at the start of aging",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "straight",
@@ -8127,6 +8750,7 @@
     "name": "Sugar beet spirit",
     "description": "beet-derived spirit",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "beet",
@@ -8141,6 +8765,7 @@
     "name": "Sulai",
     "description": "rectified spirit brewed in the Northeast Indian state of Assam",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "sulai"
@@ -8151,6 +8776,7 @@
     "name": "Suntory Kakubin",
     "description": "",
     "parent": "Japanese whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "japanese whisky",
@@ -8164,6 +8790,7 @@
     "name": "Suntory Royal",
     "description": "",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "royal",
@@ -8177,6 +8804,7 @@
     "name": "Suntory White",
     "description": "",
     "parent": "blended whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "blended whiskey",
@@ -8190,6 +8818,7 @@
     "name": "Suomi Viina",
     "description": "alcohol brand by Pernod Ricard",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "suomi",
@@ -8202,6 +8831,7 @@
     "name": "Super Nikka",
     "description": "type of Japanese whisky",
     "parent": "blended whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "blended whiskey",
@@ -8215,6 +8845,7 @@
     "name": "Svedka",
     "description": "Swedish brand of vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "svedka",
@@ -8223,20 +8854,21 @@
   },
   {
     "id": "Q94328264",
-    "name": "sweet potato sh\u014dch\u016b",
+    "name": "sweet potato shōchū",
     "description": "liquor made from sweet potato",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
-      "imoj\u014dch\u016b"
+      "imojōchū"
     ],
     "search": [
       "imoj ch",
       "potato",
-      "sh\u014dch\u016b",
+      "shōchū",
       "sweet",
       "sweet potato",
       "sweet potato sh ch",
-      "sweet potato sh\u014dch\u016b"
+      "sweet potato shōchū"
     ]
   },
   {
@@ -8244,6 +8876,7 @@
     "name": "Taffia",
     "description": "type of a liquor",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "taffia"
@@ -8254,6 +8887,7 @@
     "name": "Tafia",
     "description": "alcoholic beverage",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "rum",
@@ -8265,6 +8899,7 @@
     "name": "Takamaka Rum",
     "description": "brand of rum",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "rum",
@@ -8277,6 +8912,7 @@
     "name": "Tannenblut",
     "description": "German limited-edition Black Forest gin, kosher-certified under Chabad-Lubavitch supervision",
     "parent": "gin",
+    "type": "spirit",
     "aliases": [
       "Tannenblut Bereshit Series",
       "Tannenblut Black Forest Gin",
@@ -8295,6 +8931,7 @@
     "name": "Tanqueray",
     "description": "trademark",
     "parent": "gin",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "gin",
@@ -8306,6 +8943,7 @@
     "name": "Tapio",
     "description": "liquor manufactured by Pernod Ricard",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "tapio"
@@ -8313,9 +8951,10 @@
   },
   {
     "id": "Q7862187",
-    "name": "T\u00e9 Bheag",
+    "name": "Té Bheag",
     "description": "brand of whisky made in Isleornsay, Highland, Scotland,UK",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [
       "Te Bheag"
     ],
@@ -8324,8 +8963,8 @@
       "t",
       "t bheag",
       "te bheag",
-      "t\u00e9",
-      "t\u00e9 bheag",
+      "té",
+      "té bheag",
       "whisky"
     ]
   },
@@ -8334,6 +8973,7 @@
     "name": "Tennessee whiskey",
     "description": "whiskey made in Tennessee",
     "parent": "bourbon whiskey",
+    "type": "spirit",
     "aliases": [
       "Tennessee whisky"
     ],
@@ -8350,6 +8990,7 @@
     "name": "tequila",
     "description": "alcoholic beverage originating from Mexico",
     "parent": "mezcal",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "mezcal",
@@ -8361,6 +9002,7 @@
     "name": "Tharra",
     "description": "type of Desi daru",
     "parent": "Desi daru",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "desi daru",
@@ -8372,6 +9014,7 @@
     "name": "The Blend of Nikka",
     "description": "",
     "parent": "blended whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "blend",
@@ -8388,6 +9031,7 @@
     "name": "The Botanist",
     "description": "The Botanist Islay Dry Gin",
     "parent": "dry gin",
+    "type": "spirit",
     "aliases": [
       "The Botanist Gin"
     ],
@@ -8404,6 +9048,7 @@
     "name": "The Famous Grouse",
     "description": "brand of Scotch whisky",
     "parent": "blended whiskey",
+    "type": "spirit",
     "aliases": [
       "Famous Grouse"
     ],
@@ -8422,6 +9067,7 @@
     "name": "The Irishman",
     "description": "Irish whisky brand",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "irishman",
@@ -8432,9 +9078,10 @@
   },
   {
     "id": "Q55377972",
-    "name": "The Irishman Founder\u2019s Reserve",
+    "name": "The Irishman Founder’s Reserve",
     "description": "brand of blended Irish whisky",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [
       "Irishman Founder's Reserve",
       "Irishman Founders Reserve",
@@ -8442,7 +9089,7 @@
     ],
     "search": [
       "founders",
-      "founder\u2019s",
+      "founder’s",
       "irishman",
       "irishman founders reserve",
       "reserve",
@@ -8450,7 +9097,7 @@
       "the founders reserve",
       "the irishman",
       "the irishman founders reserve",
-      "the irishman founder\u2019s reserve",
+      "the irishman founder’s reserve",
       "whisky"
     ]
   },
@@ -8459,6 +9106,7 @@
     "name": "Three Olives Vodka",
     "description": "brand of vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "olives",
@@ -8473,6 +9121,7 @@
     "name": "Three Sixty Vodka",
     "description": "German brand of vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "sixty",
@@ -8487,6 +9136,7 @@
     "name": "Timah",
     "description": "Malaysian blended whiskey",
     "parent": "blended whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "blended whiskey",
@@ -8498,6 +9148,7 @@
     "name": "Tito's Handmade Vodka",
     "description": "vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [
       "Tito's",
       "Titos",
@@ -8519,6 +9170,7 @@
     "name": "Tobermory Single Malt",
     "description": "Scottish single malt whisky brand",
     "parent": "single malt Scotch",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "malt",
@@ -8531,9 +9183,10 @@
   },
   {
     "id": "Q1327753",
-    "name": "t\u00f6rk\u00f6lyp\u00e1linka",
+    "name": "törkölypálinka",
     "description": "Hungarian alcoholic beverage",
     "parent": "pomace brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "linka",
@@ -8541,7 +9194,7 @@
       "t",
       "t rk",
       "t rk lyp linka",
-      "t\u00f6rk\u00f6lyp\u00e1linka"
+      "törkölypálinka"
     ]
   },
   {
@@ -8549,6 +9202,7 @@
     "name": "Torys Whisky",
     "description": "",
     "parent": "Japanese whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "japanese whisky",
@@ -8562,6 +9216,7 @@
     "name": "Trail's End Kentucky Straight Bourbon Whiskey",
     "description": "",
     "parent": "Kentucky Straight Bourbon Whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bourbon",
@@ -8581,6 +9236,7 @@
     "name": "Tres Generaciones",
     "description": "A type of alcohol drink",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "generaciones",
@@ -8590,21 +9246,22 @@
   },
   {
     "id": "Q1193912",
-    "name": "Trois Rivi\u00e8res",
+    "name": "Trois Rivières",
     "description": "rhum produced in Martinique",
     "parent": "rhum from Martinique",
+    "type": "spirit",
     "aliases": [
       "Trois Rivieres"
     ],
     "search": [
       "rhum from martinique",
       "rivi",
-      "rivi\u00e8res",
+      "rivières",
       "trois",
       "trois rivi",
       "trois rivi res",
       "trois rivieres",
-      "trois rivi\u00e8res"
+      "trois rivières"
     ]
   },
   {
@@ -8612,6 +9269,7 @@
     "name": "Tropinovec",
     "description": "",
     "parent": "pomace brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "pomace brandy",
@@ -8623,6 +9281,7 @@
     "name": "Trump Vodka",
     "description": "American brand of vodka produced by The Trump Organization",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "trump",
@@ -8635,6 +9294,7 @@
     "name": "Tsikoudia",
     "description": "alcoholic beverage from Crete",
     "parent": "pomace brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "pomace brandy",
@@ -8646,6 +9306,7 @@
     "name": "Tsipouro",
     "description": "alcoholic beverage from Greece",
     "parent": "pomace brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "pomace brandy",
@@ -8654,9 +9315,10 @@
   },
   {
     "id": "Q423425",
-    "name": "\u0162uic\u0103",
+    "name": "Ţuică",
     "description": "distilled beverage",
     "parent": "fruit brandy",
+    "type": "spirit",
     "aliases": [
       "tsuica",
       "tsuika",
@@ -8672,7 +9334,7 @@
       "tzuica",
       "tzuika",
       "uic",
-      "\u0163uic\u0103"
+      "ţuică"
     ]
   },
   {
@@ -8680,6 +9342,7 @@
     "name": "Tullamore Dew",
     "description": "brand of Irish whiskey",
     "parent": "Irish whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "dew",
@@ -8693,6 +9356,7 @@
     "name": "Tungi Spirit",
     "description": "Distilled drink from Saint Helena",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "spirit",
@@ -8702,16 +9366,17 @@
   },
   {
     "id": "Q12643992",
-    "name": "T\u00fcri Vodka",
+    "name": "Türi Vodka",
     "description": "Estonian vodka brand",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "t",
       "t ri",
       "t ri vodka",
-      "t\u00fcri",
-      "t\u00fcri vodka",
+      "türi",
+      "türi vodka",
       "vodka"
     ]
   },
@@ -8720,6 +9385,7 @@
     "name": "Tutone",
     "description": "anise drink from Sicily, Italy",
     "parent": "anise drink",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "anise drink",
@@ -8728,15 +9394,16 @@
   },
   {
     "id": "Q685382",
-    "name": "tuzem\u00e1k",
+    "name": "tuzemák",
     "description": "distilled liquor, rum substitute made from alcohol flavoured with rum essences",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
-      "\u010cajni",
-      "Doma\u010di",
-      "Inl\u00e4nder-Rum",
-      "rum tuzemsk\u00fd",
-      "tuzemsk\u00fd rum"
+      "Čajni",
+      "Domači",
+      "Inländer-Rum",
+      "rum tuzemský",
+      "tuzemský rum"
     ],
     "search": [
       "ajni",
@@ -8746,7 +9413,7 @@
       "tuzem",
       "tuzem k",
       "tuzemsk rum",
-      "tuzem\u00e1k"
+      "tuzemák"
     ]
   },
   {
@@ -8754,6 +9421,7 @@
     "name": "Ultimat Vodka",
     "description": "Polish vodka brand",
     "parent": "drink",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "drink",
@@ -8767,6 +9435,7 @@
     "name": "Upper Ten",
     "description": "",
     "parent": "blended whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "blended whiskey",
@@ -8780,6 +9449,7 @@
     "name": "Ursus",
     "description": "Icelandic-Dutch vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [
       "Ursus Vodka"
     ],
@@ -8794,8 +9464,9 @@
     "name": "Van Gogh Vodka",
     "description": "",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [
-      "Van Gogh \u0392\u03cc\u03c4\u03ba\u03b1"
+      "Van Gogh Βότκα"
     ],
     "search": [
       "gogh",
@@ -8810,6 +9481,7 @@
     "name": "Vat 69",
     "description": "Scottish trademark whiskey",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "69",
@@ -8823,6 +9495,7 @@
     "name": "Vecchia Romagna",
     "description": "",
     "parent": "Italian brandy",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "italian brandy",
@@ -8836,6 +9509,7 @@
     "name": "Venezuelan rum",
     "description": "Venezuelan rum",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "rum",
@@ -8848,6 +9522,7 @@
     "name": "Vertical",
     "description": "Vodka brand",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [
       "Vertical vodka"
     ],
@@ -8862,6 +9537,7 @@
     "name": "Vigor",
     "description": "alcoholic beverage",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "vigor",
@@ -8873,6 +9549,7 @@
     "name": "Vikingfjord",
     "description": "Norwegian vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "vikingfjord",
@@ -8884,6 +9561,7 @@
     "name": "Virginia Black Whiskey",
     "description": "super-premium brand of American Bourbon whiskey",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [
       "Virginia Black",
       "Virginia Black Whisky"
@@ -8903,6 +9581,7 @@
     "name": "Viru Valge",
     "description": "Estonia's national vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "valge",
@@ -8916,6 +9595,7 @@
     "name": "vodka",
     "description": "Distilled alcoholic beverage",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [
       "Vodka"
     ],
@@ -8928,6 +9608,7 @@
     "name": "vodka citron",
     "description": "lemon-flavored vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "citron",
@@ -8940,6 +9621,7 @@
     "name": "Vodka Legend of Kremlin",
     "description": "",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "kremlin",
@@ -8955,6 +9637,7 @@
     "name": "Vodka Villa Lobos",
     "description": "Mexican vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "lobos",
@@ -8969,6 +9652,7 @@
     "name": "Waragi",
     "description": "distilled beverage",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "waragi"
@@ -8979,6 +9663,7 @@
     "name": "Washback",
     "description": "",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "washback",
@@ -8990,6 +9675,7 @@
     "name": "wheat whiskey",
     "description": "whiskey made from wheat",
     "parent": "grain whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "grain whisky",
@@ -9003,6 +9689,7 @@
     "name": "whisky",
     "description": "type of distilled alcoholic beverage made from fermented grain mash",
     "parent": "grain spirit",
+    "type": "spirit",
     "aliases": [
       "whiskey"
     ],
@@ -9017,6 +9704,7 @@
     "name": "White Oak distillery",
     "description": "",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "distillery",
@@ -9032,6 +9720,7 @@
     "name": "white rum",
     "description": "",
     "parent": "rum",
+    "type": "spirit",
     "aliases": [
       "light rum",
       "silver rum"
@@ -9049,6 +9738,7 @@
     "name": "Whitley Neill Gin",
     "description": "London Dry gin",
     "parent": "dry gin",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "dry gin",
@@ -9064,6 +9754,7 @@
     "name": "Wild Turkey",
     "description": "brand of Kentucky straight bourbon whiskey",
     "parent": "Kentucky Straight Bourbon Whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "kentucky straight bourbon whiskey",
@@ -9077,6 +9768,7 @@
     "name": "William Lawson's",
     "description": "scotch whisky brand",
     "parent": "blended Scotch whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "blended scotch whisky",
@@ -9091,6 +9783,7 @@
     "name": "Williamine",
     "description": "brand of Poire Williams",
     "parent": "Eau-de-vie de poire du Valais",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "eau-de-vie de poire du valais",
@@ -9102,6 +9795,7 @@
     "name": "wine spirit",
     "description": "",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "spirit",
@@ -9111,9 +9805,10 @@
   },
   {
     "id": "Q1628822",
-    "name": "W\u00f3dka \u017bo\u0142\u0105dkowa Gorzka",
+    "name": "Wódka Żołądkowa Gorzka",
     "description": "Polish vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "dkowa",
@@ -9122,9 +9817,9 @@
       "w",
       "w dka",
       "w dka o dkowa gorzka",
-      "w\u00f3dka",
-      "w\u00f3dka \u017co\u0142\u0105dkowa gorzka",
-      "\u017co\u0142\u0105dkowa"
+      "wódka",
+      "wódka żołądkowa gorzka",
+      "żołądkowa"
     ]
   },
   {
@@ -9132,6 +9827,7 @@
     "name": "Woodford Reserve",
     "description": "premium small batch Kentucky Straight Bourbon Whiskey produced by the Brown-Forman Corporation",
     "parent": "bourbon whiskey",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "bourbon whiskey",
@@ -9145,6 +9841,7 @@
     "name": "Wortegemsen",
     "description": "",
     "parent": "Lemon Genever",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "lemon genever",
@@ -9156,6 +9853,7 @@
     "name": "Writer's Tears",
     "description": "Irish Whiskeybrand",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "tears",
@@ -9170,6 +9868,7 @@
     "name": "Wuliangye",
     "description": "distilled beverage",
     "parent": "baijiu",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "baijiu",
@@ -9181,6 +9880,7 @@
     "name": "Wyborowa",
     "description": "Polish vodka brand",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "vodka",
@@ -9192,6 +9892,7 @@
     "name": "Xan",
     "description": "Vodka from Goygol",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "vodka",
@@ -9203,6 +9904,7 @@
     "name": "Yamazaki",
     "description": "whiskey",
     "parent": "Japanese whisky",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "japanese whisky",
@@ -9214,6 +9916,7 @@
     "name": "Yazi Ginger Vodka",
     "description": "brand of vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "ginger",
@@ -9228,6 +9931,7 @@
     "name": "Yellow Spot Whiskey",
     "description": "Irish pot still whiskey",
     "parent": "whisky",
+    "type": "spirit",
     "aliases": [
       "Yellow Spot"
     ],
@@ -9242,15 +9946,16 @@
   },
   {
     "id": "Q6092569",
-    "name": "Yeni Rak\u0131",
+    "name": "Yeni Rakı",
     "description": "",
-    "parent": "rak\u0131",
+    "parent": "rakı",
+    "type": "spirit",
     "aliases": [],
     "search": [
-      "rak\u0131",
+      "rakı",
       "yeni",
       "yeni rak",
-      "yeni rak\u0131"
+      "yeni rakı"
     ]
   },
   {
@@ -9258,6 +9963,7 @@
     "name": "Zhumir",
     "description": "Ecuadorian spirit brand",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "zhumir"
@@ -9268,6 +9974,7 @@
     "name": "Zigarrenbrand",
     "description": "German term: alcohol distillates stored in barrels",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "zigarrenbrand"
@@ -9278,6 +9985,7 @@
     "name": "Zinnaer Klosterbruder",
     "description": "trademark",
     "parent": "liquor",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "klosterbruder",
@@ -9290,6 +9998,7 @@
     "name": "zivania",
     "description": "Cypriot alcoholic beverage",
     "parent": "pomace brandy",
+    "type": "spirit",
     "aliases": [
       "zivana"
     ],
@@ -9301,15 +10010,16 @@
   },
   {
     "id": "Q393188",
-    "name": "\u017bubr\u00f3wka",
+    "name": "Żubrówka",
     "description": "vodka",
     "parent": "vodka",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "ubr",
       "ubr wka",
       "vodka",
-      "\u017cubr\u00f3wka"
+      "żubrówka"
     ]
   },
   {
@@ -9317,6 +10027,7 @@
     "name": "Zuger Kirsch",
     "description": "Swiss cherry brandy",
     "parent": "kirsch",
+    "type": "spirit",
     "aliases": [
       "Zug Kirsch",
       "Zuger Kirschwasser"
@@ -9334,6 +10045,7 @@
     "name": "Zwetschgenwasser",
     "description": "Prune brandy",
     "parent": "eau-de-vie",
+    "type": "spirit",
     "aliases": [],
     "search": [
       "eau-de-vie",

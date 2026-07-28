@@ -1,4 +1,6 @@
-const API = "http://localhost:3001/api";
+const API = 
+import.meta.env.VITE_API_URL ||
+"http://localhost:3001/api";
 
 /* ===========================================
    RANDOM COCKTAIL
@@ -29,25 +31,23 @@ export async function getRandomCocktail() {
 export async function getCocktailByName(
   name
 ) {
+  const cocktailName = decodeURIComponent(
+    name
+  ).replace(/-/g, " ");
 
   const response = await fetch(
-
     `${API}/cocktail/${encodeURIComponent(
-      name
+      cocktailName
     )}`
-
   );
 
   if (!response.ok) {
-
     throw new Error(
-      "Failed to fetch cocktail"
+      `Failed to fetch cocktail: ${cocktailName}`
     );
-
   }
 
   return await response.json();
-
 }
 
 /* ===========================================
@@ -143,32 +143,30 @@ export async function getCocktailsByIngredient(
 }
 
 /* ===========================================
-   SPIRIT
+   SPIRIT OR ALCOHOL INGREDIENT
 =========================================== */
 
 export async function getCocktailsBySpirit(
   spirit
 ) {
-
   const response = await fetch(
-
     `${API}/base-spirit/${encodeURIComponent(
       spirit
     )}`
-
   );
 
   if (!response.ok) {
-
     throw new Error(
-      "Failed to fetch cocktails"
-
+      `Failed to fetch cocktails for ${spirit}`
     );
-
   }
 
-  return await response.json();
+  const data =
+    await response.json();
 
+  return Array.isArray(data)
+    ? data
+    : [];
 }
 
 /* ===========================================

@@ -74,34 +74,60 @@ gap:10px;
 
 }
 
-.heart{
+.heart {
+  position: absolute;
+  top: 18px;
+  right: 18px;
 
-position:absolute;
+  z-index: 5;
 
-top:18px;
+  width: 44px;
+  height: 44px;
 
-right:18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-background:white;
+  border: 2px solid rgba(215, 164, 71, 0.7);
+  border-radius: 50%;
 
-border:none;
+  background: rgba(17, 17, 20, 0.92);
+  color: #d7a447;
 
-width:42px;
+  font-size: 1.55rem;
+  line-height: 1;
 
-height:42px;
+  cursor: pointer;
 
-border-radius:50%;
+  box-shadow:
+    0 6px 18px rgba(0, 0, 0, 0.35);
 
-cursor:pointer;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease;
+}
 
-font-size:1.2rem;
+.heart:hover {
+  transform: scale(1.08);
 
-display:flex;
+  border-color: #e8b84f;
 
-align-items:center;
+  background: #d7a447;
+  color: #111114;
+}
 
-justify-content:center;
+.heart-active {
+  border-color: #d7a447;
 
+  background: #d7a447;
+  color: #111114;
+}
+
+.heart-active:hover {
+  background: #e8b84f;
+  border-color: #e8b84f;
 }
 
 .cocktail-card{

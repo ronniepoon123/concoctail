@@ -1,11 +1,18 @@
-import hero from "../assets/hero.png";
+import myBarImage from "../assets/feature-cards/my-bar.jpg";
+import spiritImage from "../assets/feature-cards/spirit-of-choice.jpg";
+import collectionsImage from "../assets/feature-cards/collections.jpg";
+import favouritesImage from "../assets/feature-cards/favourites.jpg";
+import cocktailDayImage from "../assets/feature-cards/cocktail-day.jpg";
+import surpriseImage from "../assets/feature-cards/surprise.jpg";
+import cocktail101Image from "../assets/feature-cards/cocktail-101.jpg";
+import shoppingListImage from "../assets/feature-cards/shopping-list.jpg";
 
 const featureCards = [
   {
     id: 1,
     title: "My Bar",
     description: "Manage your ingredients",
-    image: hero,
+    image: myBarImage,
     route: "/my-bar",
   },
 
@@ -13,7 +20,7 @@ const featureCards = [
     id: 2,
     title: "Spirit of Choice",
     description: "Choose your base spirit",
-    image: hero,
+    image: spiritImage,
     route: "/spirit-of-choice",
   },
 
@@ -21,7 +28,7 @@ const featureCards = [
     id: 3,
     title: "Collections",
     description: "Browse curated cocktails",
-    image: hero,
+    image: collectionsImage,
     route: "/collections",
   },
 
@@ -29,15 +36,15 @@ const featureCards = [
     id: 4,
     title: "Favourites",
     description: "Your saved recipes",
-    image: hero,
+    image: favouritesImage,
     route: "/favourites",
   },
 
   {
     id: 5,
-    title: "Cocktail of the Day",
+    title: "Cocktail of the Day (or Night)",
     description: "Today's featured drink",
-    image: hero,
+    image: cocktailDayImage,
     route: "/cocktail-of-the-day",
   },
 
@@ -45,7 +52,7 @@ const featureCards = [
     id: 6,
     title: "Surprise Me",
     description: "Discover a random cocktail",
-    image: hero,
+    image: surpriseImage,
     route: "/surprise",
   },
 
@@ -53,7 +60,7 @@ const featureCards = [
     id: 7,
     title: "Cocktail 101",
     description: "Learn the fundamentals",
-    image: hero,
+    image: cocktail101Image,
     route: "/cocktail-101",
   },
 
@@ -61,7 +68,7 @@ const featureCards = [
     id: 8,
     title: "Shopping List",
     description: "Never forget an ingredient",
-    image: hero,
+    image: shoppingListImage,
     route: "/shopping-list",
   },
 ];

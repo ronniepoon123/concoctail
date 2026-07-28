@@ -153,6 +153,7 @@ const cocktails = [
     tagline: "Italy's Favourite Summer Drink",
     category: "Summer",
     spirit: "Aperol",
+    alcoholType: "aperitif",
     strength: "Light",
     difficulty: "Easy",
     glass: "Wine Glass",
