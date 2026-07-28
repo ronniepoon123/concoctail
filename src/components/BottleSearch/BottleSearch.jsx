@@ -1,19 +1,27 @@
 import "./BottleSearch.css";
-import ingredients from "../../data/ingredients";
 
 function BottleSearch({
   search,
   setSearch,
-  bottles,
+  availableBottles,
+  ownedBottles,
   onAddBottle,
 }) {
-  const filteredIngredients = ingredients.filter((ingredient) => {
-    if (!search.trim()) return false;
+  const normalisedSearch = search
+    .trim()
+    .toLowerCase();
 
-    return ingredient.name
-      .toLowerCase()
-      .includes(search.toLowerCase());
-  });
+  const filteredIngredients = availableBottles.filter(
+    (ingredient) => {
+      if (!normalisedSearch) {
+        return false;
+      }
+
+      return ingredient.name
+        .toLowerCase()
+        .includes(normalisedSearch);
+    }
+  );
 
   return (
     <div className="bottle-search">
@@ -21,13 +29,15 @@ function BottleSearch({
         type="text"
         placeholder="Search spirits, liqueurs or mixers..."
         value={search}
-        onChange={(e) => setSearch(e.target.value)}
+        onChange={(event) =>
+          setSearch(event.target.value)
+        }
       />
 
       {filteredIngredients.length > 0 && (
         <div className="search-results">
           {filteredIngredients.map((ingredient) => {
-            const owned = bottles.some(
+            const owned = ownedBottles.some(
               (bottle) =>
                 bottle.name.toLowerCase() ===
                 ingredient.name.toLowerCase()
@@ -35,28 +45,46 @@ function BottleSearch({
 
             return (
               <button
-                key={ingredient.name}
+                type="button"
+                key={ingredient.id}
                 disabled={owned}
-                onClick={() => onAddBottle(ingredient)}
+                onClick={() =>
+                  onAddBottle(ingredient)
+                }
               >
                 <div className="ingredient-info">
-                  <strong>{ingredient.name}</strong>
+                  <strong>
+                    {ingredient.name}
+                  </strong>
 
                   <small>
                     {ingredient.category}
                   </small>
                 </div>
 
-                {owned && (
-                  <span className="owned-tag">
-                    ✓ Owned
-                  </span>
-                )}
+                <span
+                  className={
+                    owned
+                      ? "owned-tag"
+                      : "add-tag"
+                  }
+                >
+                  {owned
+                    ? "✓ Owned"
+                    : "+ Add"}
+                </span>
               </button>
             );
           })}
         </div>
       )}
+
+      {normalisedSearch &&
+        filteredIngredients.length === 0 && (
+          <div className="no-bottle-results">
+            No matching bottles found.
+          </div>
+        )}
     </div>
   );
 }

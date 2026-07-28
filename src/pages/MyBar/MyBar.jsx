@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./MyBar.css";
-
+import ingredients from "../../data/ingredients";
 import Layout from "../../components/Layout/Layout";
 import BottleSearch from "../../components/BottleSearch/BottleSearch";
 import BottleSection from "../../components/BottleSection/BottleSection";
@@ -107,7 +107,7 @@ function MyBar() {
     setBottles([
       ...bottles,
       {
-        id: Date.now(),
+        id: ingredient.id || Date.now(),
         name: ingredient.name,
         category: ingredient.category,
         owned: true,
@@ -207,7 +207,8 @@ function MyBar() {
       <BottleSearch
         search={search}
         setSearch={setSearch}
-        bottles={bottles}
+        availableBottles={ingredients}
+        ownedBottles={bottles}
         onAddBottle={addBottle}
       />
 
