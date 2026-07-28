@@ -1,6 +1,10 @@
-import { useEffect, useState } from "react";
+import {
+  useEffect,
+  useState,
+} from "react";
+
 import "./MyBar.css";
-import ingredients from "../../data/ingredients";
+
 import Layout from "../../components/Layout/Layout";
 import BottleSearch from "../../components/BottleSearch/BottleSearch";
 import BottleSection from "../../components/BottleSection/BottleSection";
@@ -9,94 +13,203 @@ import CocktailMatch from "../../components/CocktailMatch/CocktailMatch";
 import defaultBottles from "../../data/bottles";
 import cocktails from "../../data/cocktails";
 
-function MyBar() {
-  const [bottles, setBottles] = useState([]);
-  const [search, setSearch] = useState("");
-  const [matches, setMatches] = useState([]);
+function normaliseIngredientName(value = "") {
+  return value
+    .toLowerCase()
+    .trim();
+}
 
-  // Load saved bottles
+function MyBar() {
+  const [bottles, setBottles] =
+    useState([]);
+
+  const [search, setSearch] =
+    useState("");
+
+  const [matches, setMatches] =
+    useState([]);
+
+  const [barLoaded, setBarLoaded] =
+    useState(false);
+
+  /* ===========================================
+     LOAD SAVED BOTTLES
+  =========================================== */
+
   useEffect(() => {
-    const saved = localStorage.getItem("myBar");
+    const saved =
+      localStorage.getItem("myBar");
 
     if (saved) {
-      setBottles(JSON.parse(saved));
+      try {
+        const parsedBottles =
+          JSON.parse(saved);
+
+        setBottles(
+          Array.isArray(parsedBottles)
+            ? parsedBottles
+            : defaultBottles
+        );
+      } catch (error) {
+        console.error(
+          "Failed to load My Bar:",
+          error
+        );
+
+        setBottles(defaultBottles);
+      }
     } else {
       setBottles(defaultBottles);
     }
+
+    setBarLoaded(true);
   }, []);
 
-  // Save bottles and automatically remove owned bottles
-  // from the Shopping List
+  /* ===========================================
+     SAVE BOTTLES
+
+     Also remove owned bottles from the
+     Shopping List.
+  =========================================== */
+
   useEffect(() => {
+    if (!barLoaded) {
+      return;
+    }
+
     localStorage.setItem(
       "myBar",
       JSON.stringify(bottles)
     );
 
-    const owned = bottles
-      .filter((bottle) => bottle.owned)
-      .map((bottle) => bottle.name.toLowerCase());
-
-    const shopping =
-      JSON.parse(
-        localStorage.getItem("shoppingList") || "[]"
+    const ownedNames = bottles
+      .filter(
+        (bottle) => bottle.owned
+      )
+      .map((bottle) =>
+        normaliseIngredientName(
+          bottle.name
+        )
       );
 
-    const updatedShopping = shopping.filter(
-      (item) =>
-        !owned.includes(item.name.toLowerCase())
-    );
+    let shoppingList = [];
+
+    try {
+      const savedShopping =
+        localStorage.getItem(
+          "shoppingList"
+        );
+
+      shoppingList = savedShopping
+        ? JSON.parse(savedShopping)
+        : [];
+    } catch (error) {
+      console.error(
+        "Failed to load Shopping List:",
+        error
+      );
+    }
+
+    const updatedShopping =
+      shoppingList.filter(
+        (item) =>
+          !ownedNames.includes(
+            normaliseIngredientName(
+              item.name
+            )
+          )
+      );
 
     localStorage.setItem(
       "shoppingList",
-      JSON.stringify(updatedShopping)
+      JSON.stringify(
+        updatedShopping
+      )
     );
-  }, [bottles]);
+  }, [bottles, barLoaded]);
 
-  // Automatically build cocktail matches
+  /* ===========================================
+     BUILD COCKTAIL MATCHES
+  =========================================== */
+
   useEffect(() => {
-    const owned = bottles
-      .filter((bottle) => bottle.owned)
-      .map((bottle) => bottle.name);
-
-    const results = cocktails.map((cocktail) => {
-      const missing = cocktail.ingredients.filter(
-        (ingredient) => !owned.includes(ingredient)
+    const ownedNames = bottles
+      .filter(
+        (bottle) => bottle.owned
+      )
+      .map((bottle) =>
+        normaliseIngredientName(
+          bottle.name
+        )
       );
 
-      let status = "missing";
+    const results = cocktails.map(
+      (cocktail) => {
+        const missing =
+          cocktail.ingredients.filter(
+            (ingredient) =>
+              !ownedNames.includes(
+                normaliseIngredientName(
+                  ingredient
+                )
+              )
+          );
 
-      if (missing.length === 0) {
-        status = "can-make";
-      } else if (missing.length === 1) {
-        status = "almost";
+        let status = "missing";
+
+        if (missing.length === 0) {
+          status = "can-make";
+        } else if (
+          missing.length === 1
+        ) {
+          status = "almost";
+        }
+
+        return {
+          cocktail,
+          status,
+          missing,
+        };
       }
+    );
 
-      return {
-        cocktail,
-        status,
-        missing,
-      };
-    });
+    const statusOrder = {
+      "can-make": 0,
+      almost: 1,
+      missing: 2,
+    };
 
     results.sort((a, b) => {
-      const order = {
-        "can-make": 0,
-        almost: 1,
-        missing: 2,
-      };
+      const statusDifference =
+        statusOrder[a.status] -
+        statusOrder[b.status];
 
-      return order[a.status] - order[b.status];
+      if (statusDifference !== 0) {
+        return statusDifference;
+      }
+
+      return (
+        a.missing.length -
+        b.missing.length
+      );
     });
 
     setMatches(results);
   }, [bottles]);
 
+  /* ===========================================
+     ADD BOTTLE
+  =========================================== */
+
   function addBottle(ingredient) {
     const exists = bottles.some(
       (bottle) =>
-        bottle.name.toLowerCase() ===
-        ingredient.name.toLowerCase()
+        normaliseIngredientName(
+          bottle.name
+        ) ===
+        normaliseIngredientName(
+          ingredient.name
+        )
     );
 
     if (exists) {
@@ -104,100 +217,185 @@ function MyBar() {
       return;
     }
 
-    setBottles([
-      ...bottles,
-      {
-        id: ingredient.id || Date.now(),
-        name: ingredient.name,
-        category: ingredient.category,
-        owned: true,
-      },
+    const newBottle = {
+      id:
+        ingredient.id ||
+        `${Date.now()}-${Math.random()}`,
+
+      name: ingredient.name,
+
+      category:
+        ingredient.category ||
+        "Other",
+
+      owned: true,
+    };
+
+    setBottles((currentBottles) => [
+      ...currentBottles,
+      newBottle,
     ]);
 
     setSearch("");
   }
 
+  /* ===========================================
+     TOGGLE OWNED
+  =========================================== */
+
   function toggleOwned(id) {
-    setBottles(
-      bottles.map((bottle) =>
-        bottle.id === id
-          ? {
-              ...bottle,
-              owned: !bottle.owned,
-            }
-          : bottle
+    setBottles((currentBottles) =>
+      currentBottles.map(
+        (bottle) =>
+          bottle.id === id
+            ? {
+                ...bottle,
+                owned:
+                  !bottle.owned,
+              }
+            : bottle
       )
     );
   }
+
+  /* ===========================================
+     REMOVE BOTTLE
+  =========================================== */
 
   function removeBottle(id) {
-    setBottles(
-      bottles.filter(
-        (bottle) => bottle.id !== id
+    setBottles((currentBottles) =>
+      currentBottles.filter(
+        (bottle) =>
+          bottle.id !== id
       )
     );
   }
 
-  // Add missing ingredients directly to Shopping List
-  function addToShoppingList(missingIngredients) {
-    const saved =
-      JSON.parse(
-        localStorage.getItem("shoppingList")
-      ) || [];
+  /* ===========================================
+     ADD MISSING INGREDIENTS TO SHOPPING LIST
+  =========================================== */
 
-    const existing = saved.map((item) =>
-      item.name.toLowerCase()
-    );
+  function addToShoppingList(
+    missingIngredients
+  ) {
+    let savedShopping = [];
 
-    const newItems = missingIngredients
-      .filter(
-        (ingredient) =>
-          !existing.includes(
-            ingredient.toLowerCase()
-          )
-      )
-      .map((ingredient) => ({
-        id: Date.now() + Math.random(),
-        name: ingredient,
-        bought: false,
-      }));
+    try {
+      const storedShopping =
+        localStorage.getItem(
+          "shoppingList"
+        );
+
+      savedShopping = storedShopping
+        ? JSON.parse(storedShopping)
+        : [];
+    } catch (error) {
+      console.error(
+        "Failed to load Shopping List:",
+        error
+      );
+    }
+
+    const existingNames =
+      savedShopping.map((item) =>
+        normaliseIngredientName(
+          item.name
+        )
+      );
+
+    const newItems =
+      missingIngredients
+        .filter(
+          (ingredient) =>
+            !existingNames.includes(
+              normaliseIngredientName(
+                ingredient
+              )
+            )
+        )
+        .map((ingredient) => ({
+          id:
+            `${Date.now()}-${Math.random()}`,
+
+          name: ingredient,
+
+          bought: false,
+        }));
 
     localStorage.setItem(
       "shoppingList",
       JSON.stringify([
-        ...saved,
+        ...savedShopping,
         ...newItems,
       ])
     );
 
-    alert("Added to Shopping List");
+    alert(
+      "Added to Shopping List"
+    );
   }
 
-  // Group bottles
+  /* ===========================================
+     GROUP BOTTLES
+  =========================================== */
+
   const spirits = bottles.filter(
-    (bottle) => bottle.category === "Spirits"
+    (bottle) =>
+      bottle.category ===
+      "Spirits"
   );
 
   const liqueurs = bottles.filter(
-    (bottle) => bottle.category === "Liqueurs"
+    (bottle) =>
+      bottle.category ===
+      "Liqueurs"
+  );
+
+  const aperitifs = bottles.filter(
+    (bottle) =>
+      bottle.category ===
+      "Aperitifs"
   );
 
   const fortified = bottles.filter(
-    (bottle) => bottle.category === "Fortified Wine"
+    (bottle) =>
+      bottle.category ===
+      "Fortified Wine"
   );
 
   const mixers = bottles.filter(
-    (bottle) => bottle.category === "Mixers"
+    (bottle) =>
+      bottle.category ===
+      "Mixers"
   );
 
   const bitters = bottles.filter(
-    (bottle) => bottle.category === "Bitters"
+    (bottle) =>
+      bottle.category ===
+      "Bitters"
   );
 
   const sparkling = bottles.filter(
     (bottle) =>
-      bottle.category === "Sparkling Wine"
+      bottle.category ===
+      "Sparkling Wine"
   );
+
+  const otherBottles =
+    bottles.filter(
+      (bottle) =>
+        ![
+          "Spirits",
+          "Liqueurs",
+          "Aperitifs",
+          "Fortified Wine",
+          "Mixers",
+          "Bitters",
+          "Sparkling Wine",
+        ].includes(
+          bottle.category
+        )
+    );
 
   return (
     <Layout
@@ -207,7 +405,6 @@ function MyBar() {
       <BottleSearch
         search={search}
         setSearch={setSearch}
-        availableBottles={ingredients}
         ownedBottles={bottles}
         onAddBottle={addBottle}
       />
@@ -222,6 +419,13 @@ function MyBar() {
       <BottleSection
         title="🍷 Liqueurs"
         bottles={liqueurs}
+        onToggle={toggleOwned}
+        onDelete={removeBottle}
+      />
+
+      <BottleSection
+        title="🍹 Aperitifs"
+        bottles={aperitifs}
         onToggle={toggleOwned}
         onDelete={removeBottle}
       />
@@ -254,19 +458,40 @@ function MyBar() {
         onDelete={removeBottle}
       />
 
+      <BottleSection
+        title="📦 Other"
+        bottles={otherBottles}
+        onToggle={toggleOwned}
+        onDelete={removeBottle}
+      />
+
       {matches.length > 0 && (
         <section className="matches">
-          <h2>Cocktails You Can Make</h2>
+          <h2>
+            Cocktails You Can Make
+          </h2>
 
-          {matches.map((match) => (
-            <CocktailMatch
-              key={match.cocktail.id}
-              cocktail={match.cocktail}
-              status={match.status}
-              missing={match.missing}
-              onAddMissing={addToShoppingList}
-            />
-          ))}
+          {matches.map(
+            (match) => (
+              <CocktailMatch
+                key={
+                  match.cocktail.id
+                }
+                cocktail={
+                  match.cocktail
+                }
+                status={
+                  match.status
+                }
+                missing={
+                  match.missing
+                }
+                onAddMissing={
+                  addToShoppingList
+                }
+              />
+            )
+          )}
         </section>
       )}
     </Layout>
