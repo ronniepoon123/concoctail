@@ -149,3 +149,28 @@ border-radius:16px 16px 0 0;
 display:block;
 
 }
+
+.cocktail-image {
+  display: block;
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+.cocktail-image-placeholder {
+  display: grid;
+  place-items: center;
+
+  width: 100%;
+  height: 260px;
+
+  color: #8d8d94;
+  background: #111114;
+}
+
+@media (max-width: 650px) {
+  .cocktail-image,
+  .cocktail-image-placeholder {
+    height: 220px;
+  }
+}

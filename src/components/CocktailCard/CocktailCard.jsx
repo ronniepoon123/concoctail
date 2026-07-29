@@ -44,7 +44,7 @@ function CocktailCard({ cocktail }) {
     event.stopPropagation();
 
     const updatedFavouriteState =
-      toggleFavourite(id);
+      toggleFavourite(cocktail);
 
     setLiked(updatedFavouriteState);
   }
@@ -52,7 +52,7 @@ function CocktailCard({ cocktail }) {
   return (
     <Link
       className="cocktail-card"
-      to={`/cocktail/${slug}`}
+      to={`/cocktail/${id || slug}`}
     >
       <button
         type="button"
