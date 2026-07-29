@@ -18,7 +18,14 @@ function Collections() {
       try {
         const categories = await getCategories();
 
-        const firstSix = categories.slice(0, 6);
+        const firstSix = categories
+          .filter(
+            (category) =>
+              category.strCategory
+                ?.trim()
+                .toLowerCase() !== "cocoa"
+          )
+          .slice(0, 6);
 
         const data = await Promise.all(
           firstSix.map(async (category) => {
@@ -67,22 +74,28 @@ function Collections() {
           <h2>{section.title}</h2>
 
           <div className="collection-grid">
-            {section.cocktails.map((cocktail) => (
-              <a
-                key={cocktail.idDrink}
-                className="collection-card"
-                href={`/cocktail/${cocktail.strDrink
-                  .toLowerCase()
-                  .replace(/\s+/g, "-")}`}
-              >
-                <img
-                  src={cocktail.strDrinkThumb}
-                  alt={cocktail.strDrink}
-                />
+            {section.cocktails.map(
+              (cocktail) => (
+                <a
+                  key={cocktail.idDrink}
+                  className="collection-card"
+                  href={`/cocktail/${cocktail.strDrink
+                    .toLowerCase()
+                    .replace(/\s+/g, "-")}`}
+                >
+                  <img
+                    src={
+                      cocktail.strDrinkThumb
+                    }
+                    alt={cocktail.strDrink}
+                  />
 
-                <h3>{cocktail.strDrink}</h3>
-              </a>
-            ))}
+                  <h3>
+                    {cocktail.strDrink}
+                  </h3>
+                </a>
+              )
+            )}
           </div>
         </section>
       ))}

@@ -31,3 +31,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+server/data/spirits (archive).json
+server/data/spirits_merged_with_cocktaildb.json

@@ -1,6 +1,10 @@
 import axios from "axios";
 
 import {
+  isAlcoholicDrink,
+} from "../utils/isAlcoholicDrink.js";
+
+import {
   searchSpirits,
   isSpirit,
   getSearchTerms,
@@ -8,6 +12,26 @@ import {
 
 const API =
   "https://www.thecocktaildb.com/api/json/v1/1";
+
+function isExcludedIngredient(value = "") {
+  const ingredient =
+    normalise(value);
+
+  const excludedIngredients = [
+    "chocolate",
+    "chocolate ice-cream",
+    "chocolate syrup",
+    "hot chocolate",
+    "cocoa",
+    "cacao",
+  ];
+
+  return excludedIngredients.some(
+    (excluded) =>
+      ingredient === excluded ||
+      ingredient.includes(excluded)
+  );
+}
 
 /* ===========================================
    NORMALISE
@@ -130,7 +154,7 @@ function ingredientMatchesTerm(
     Whiskey -> Irish whiskey
 
     Spaces are checked so "rum" does not match
-    some unrelated word containing those letters.
+    an unrelated word containing those letters.
   */
 
   return (
@@ -179,7 +203,7 @@ async function buildCocktailCatalogue() {
 
   /*
     TheCocktailDB's ingredient-filter endpoint
-    is returning only one record in this project.
+    may return limited records.
 
     Load cocktails by first letter instead, then
     filter their ingredients locally.
@@ -225,7 +249,10 @@ async function buildCocktailCatalogue() {
       }
 
       for (const drink of drinks) {
-        if (!drink?.idDrink) {
+        if (
+          !drink?.idDrink ||
+          !isAlcoholicDrink(drink)
+        ) {
           continue;
         }
 
@@ -265,11 +292,28 @@ async function buildCocktailCatalogue() {
 =========================================== */
 
 export async function fetchRandomCocktail() {
-  const { data } = await axios.get(
-    `${API}/random.php`
-  );
+  const maxAttempts = 15;
 
-  return data.drinks?.[0] ?? null;
+  for (
+    let attempt = 0;
+    attempt < maxAttempts;
+    attempt += 1
+  ) {
+    const { data } = await axios.get(
+      `${API}/random.php`
+    );
+
+    const drink =
+      data.drinks?.[0] ?? null;
+
+    if (isAlcoholicDrink(drink)) {
+      return drink;
+    }
+  }
+
+  throw new Error(
+    "Unable to find an alcoholic cocktail."
+  );
 }
 
 /* ===========================================
@@ -285,7 +329,12 @@ export async function fetchCocktailByName(
     )}`
   );
 
-  return data.drinks?.[0] ?? null;
+  const drink =
+    data.drinks?.[0] ?? null;
+
+  return isAlcoholicDrink(drink)
+    ? drink
+    : null;
 }
 
 /* ===========================================
@@ -301,7 +350,12 @@ export async function fetchCocktailById(
     )}`
   );
 
-  return data.drinks?.[0] ?? null;
+  const drink =
+    data.drinks?.[0] ?? null;
+
+  return isAlcoholicDrink(drink)
+    ? drink
+    : null;
 }
 
 /* ===========================================
@@ -318,7 +372,9 @@ export async function fetchCocktailsBySearch(
   );
 
   return Array.isArray(data.drinks)
-    ? data.drinks
+    ? data.drinks.filter(
+        isAlcoholicDrink
+      )
     : [];
 }
 
@@ -329,15 +385,36 @@ export async function fetchCocktailsBySearch(
 export async function fetchCocktailsByIngredient(
   ingredient
 ) {
-  const { data } = await axios.get(
-    `${API}/filter.php?i=${encodeURIComponent(
-      ingredient
-    )}`
-  );
+  const catalogue =
+    await fetchCocktailCatalogue();
 
-  return Array.isArray(data.drinks)
-    ? data.drinks
-    : [];
+  const searchTerms = [
+    ...new Set(
+      getSearchTerms(ingredient)
+        .filter(Boolean)
+        .map((term) =>
+          normalise(term)
+        )
+    ),
+  ];
+
+  return catalogue.filter((cocktail) => {
+    const ingredients =
+      getCocktailIngredients(
+        cocktail
+      );
+
+    return ingredients.some(
+      (cocktailIngredient) =>
+        searchTerms.some(
+          (searchTerm) =>
+            ingredientMatchesTerm(
+              cocktailIngredient,
+              searchTerm
+            )
+        )
+    );
+  });
 }
 
 /* ===========================================
@@ -377,6 +454,7 @@ export async function fetchCocktailsBySpirit(
     );
 
   console.log("Spirit:", spirit);
+
   console.log(
     "Search terms:",
     searchTerms
@@ -436,6 +514,10 @@ export async function fetchCocktailsBySpirit(
   ----------------------------------------- */
 
   for (const cocktail of catalogue) {
+    if (!isAlcoholicDrink(cocktail)) {
+      continue;
+    }
+
     const ingredients =
       getCocktailIngredients(
         cocktail
@@ -483,7 +565,10 @@ export async function fetchCocktailsBySpirit(
     }
 
     for (const cocktail of result.value) {
-      if (!cocktail?.idDrink) {
+      if (
+        !cocktail?.idDrink ||
+        !isAlcoholicDrink(cocktail)
+      ) {
         continue;
       }
 
@@ -586,24 +671,34 @@ export async function fetchGlobalSearch(
 
   /* -----------------------------------------
      ORDINARY INGREDIENT RESULTS
+
+     These are allowed to be non-alcoholic
+     because they can still be used in an
+     alcoholic cocktail.
   ----------------------------------------- */
 
   const seenIngredients =
     new Set();
 
   const ingredients =
-    ingredientList
-      .filter((ingredient) =>
-        normalise(
+  ingredientList
+    .filter((ingredient) =>
+      normalise(
+        ingredient
+      ).includes(
+        normalisedSearch
+      )
+    )
+    .filter(
+      (ingredient) =>
+        !isExcludedIngredient(
           ingredient
-        ).includes(
-          normalisedSearch
         )
-      )
-      .filter(
-        (ingredient) =>
-          !isSpirit(ingredient)
-      )
+    )
+    .filter(
+      (ingredient) =>
+        !isSpirit(ingredient)
+    )
       .filter((ingredient) => {
         const key =
           normalise(ingredient);
@@ -636,15 +731,18 @@ export async function fetchGlobalSearch(
 export async function fetchCocktailsByCategory(
   category
 ) {
-  const { data } = await axios.get(
-    `${API}/filter.php?c=${encodeURIComponent(
-      category
-    )}`
-  );
+  const catalogue =
+    await fetchCocktailCatalogue();
 
-  return Array.isArray(data.drinks)
-    ? data.drinks
-    : [];
+  const normalisedCategory =
+    normalise(category);
+
+  return catalogue.filter(
+    (drink) =>
+      normalise(
+        drink.strCategory
+      ) === normalisedCategory
+  );
 }
 
 /* ===========================================
@@ -685,7 +783,9 @@ export async function fetchLatestCocktails() {
   );
 
   return Array.isArray(data.drinks)
-    ? data.drinks
+    ? data.drinks.filter(
+        isAlcoholicDrink
+      )
     : [];
 }
 

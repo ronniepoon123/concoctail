@@ -1,0 +1,65 @@
+.back-button {
+  position: sticky;
+  top: 16px;
+  z-index: 100;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  width: fit-content;
+  margin-bottom: 28px;
+  padding: 10px 16px;
+
+  color: #f5f5f5;
+  background: rgba(24, 24, 29, 0.92);
+
+  border: 1px solid #34343c;
+  border-radius: 999px;
+
+  font: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.3);
+
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.back-button:hover {
+  background: #24242b;
+  border-color: #d6a448;
+  transform: translateX(-2px);
+}
+
+.back-button:focus-visible {
+  outline: 2px solid #d6a448;
+  outline-offset: 3px;
+}
+
+.back-button-icon {
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+@media (max-width: 650px) {
+  .back-button {
+    top: 12px;
+
+    margin-bottom: 22px;
+
+    padding: 9px 14px;
+
+    font-size: 0.9rem;
+  }
+}
