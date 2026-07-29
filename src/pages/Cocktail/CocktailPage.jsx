@@ -183,12 +183,30 @@ function CocktailPage() {
         originalMeasure: "",
       }));    
 
-  const instructions =
-    Array.isArray(
-      cocktail.instructions
-    )
-      ? cocktail.instructions
-      : [];
+const instructions =
+  Array.isArray(
+    cocktail.instructions
+  )
+    ? cocktail.instructions
+    : [];
+
+const category =
+  cocktail.category || "";
+
+const tagline =
+  cocktail.tagline || "";
+
+const showCategory =
+  category
+    .trim()
+    .toLowerCase() !==
+  "ordinary drink";
+
+const showTagline =
+  tagline
+    .trim()
+    .toLowerCase() !==
+  "ordinary drink";
 
   const missingIngredients =
     ingredients.filter(
@@ -207,20 +225,22 @@ function CocktailPage() {
   }
 
   return (
-    <Layout
-      title={cocktail.name}
-      description={
-        cocktail.tagline
-      }
-    >
+ <Layout
+  title={cocktail.name}
+  description={
+    showTagline
+      ? tagline
+      : ""
+  }
+>
       <section className="cocktail-page">
         <div className="cocktail-hero">
           <div className="cocktail-summary">
-            {cocktail.category && (
-              <span className="pill">
-                {cocktail.category}
-              </span>
-            )}
+          {showCategory && (
+  <span className="pill">
+    {category}
+  </span>
+)}
 
             {cocktail.spirit && (
               <span className="pill">
