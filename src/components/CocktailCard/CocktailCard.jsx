@@ -23,11 +23,6 @@ function CocktailCard({ cocktail }) {
     cocktail.description ||
     "";
 
-  const category =
-  cocktail.category ||
-  cocktail.strCategory ||
-  "";
-
   const spirit =
     cocktail.spirit || "";
 
@@ -90,21 +85,17 @@ function CocktailCard({ cocktail }) {
           <p>{tagline}</p>
         )}
 
- {(spirit || category || glass) && (
-  <div className="cocktail-meta">
-    {spirit && (
-      <span>{spirit}</span>
-    )}
+        {(spirit || glass) && (
+          <div className="cocktail-meta">
+            {spirit && (
+              <span>{spirit}</span>
+            )}
 
-    {category && (
-      <span>{category}</span>
-    )}
-
-    {glass && (
-      <span>{glass}</span>
-    )}
-  </div>
-)}
+            {glass && (
+              <span>{glass}</span>
+            )}
+          </div>
+        )}
       </div>
     </Link>
   );
