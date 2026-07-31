@@ -880,29 +880,6 @@ The external dataset sometimes labels cocktails as `Ordinary Drink`. The UI can 
 
 ---
 
-## Interview Summary
-
-> I built Concoctail as a full-stack cocktail discovery and home-bar web application using React, JavaScript, Express, and Node.js. The frontend includes intelligent search, dynamic cocktail pages, favourites, a shopping list, My Bar inventory management, random and daily cocktail features, and educational content. The Express backend provides REST endpoints, communicates with cocktail data sources, performs search and data mapping, and manages CORS. I used React hooks for state and side effects, React Router for navigation, localStorage for browser persistence, Git and GitHub for version control, Vercel for frontend deployment, and Render for backend deployment.
-
-### Key technical learning
-
-- Component-based React development
-- State management with `useState`
-- Side effects and fetching with `useEffect`
-- Async JavaScript
-- API integration
-- Express routing
-- Data mapping
-- CORS
-- Environment variables
-- Client-side routing
-- Responsive CSS
-- `localStorage`
-- Git and GitHub
-- Frontend and backend deployment
-
----
-
 ## Author
 
 Developed as a full-stack web development project focused on practical React, JavaScript, Express, API integration, responsive design, and deployment experience.
