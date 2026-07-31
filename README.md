@@ -854,32 +854,6 @@ The external dataset sometimes labels cocktails as `Ordinary Drink`. The UI can 
 
 ---
 
-## Future Improvements
-
-- Add a shared ingredient-normalisation utility
-- Support whisky and whiskey aliases consistently
-- Treat equivalent ingredients as matches
-- Expand My Bar matching to the complete backend catalogue
-- Add alcoholic and non-alcoholic filters
-- Improve non-alcoholic ingredient categorisation
-- Add user authentication
-- Add a database
-- Synchronise favourites and inventory across devices
-- Add unit and integration tests
-- Add React Testing Library tests
-- Add backend route tests
-- Improve keyboard accessibility
-- Add ARIA behaviour to search dropdowns
-- Add pagination or lazy loading
-- Improve loading skeletons
-- Add ingredient substitution suggestions
-- Add personal cocktail notes
-- Add custom cocktail creation
-- Add sharing features
-- Add offline-friendly support
-
----
-
 ## Author
 
 Developed as a full-stack web development project focused on practical React, JavaScript, Express, API integration, responsive design, and deployment experience.
